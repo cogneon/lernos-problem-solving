@@ -35,7 +35,7 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
     3. Wie wird der Erfolg gemessen? Wie weisen wir nach, dass die Lösung auch erfolgreich ist?
 7. Stimmt ab: Welche Lösungsideen wollt ihr umsetzen? Zum Beispiel mit einem “Dot-Voting”. Versucht, aus allen Kategorien eine Idee zur Umsetzung zu finden.
     
-    ![Maßnahmenmatrix 2023-04-01.png](/images/Massnahmenmatrix-2023-04-01.png)
+    ![Maßnahmenmatrix 2023-04-01.png](images/Massnahmenmatrix-2023-04-01.png)
     
 
 ### Quellen
