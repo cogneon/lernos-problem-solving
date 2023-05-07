@@ -1,21 +1,19 @@
-# 5 - Korrekturmaßnahmen.
+## 5 - Korrekturmaßnahmen.
 
 In diesem Abschnitt geht es für darum mit deinem Team Korrekturmaßnahmen zu finden. Was muss möglichst schnell “geradegebogen” werden? Womit gewinnt ihr Zeit, eine dauerhafte Lösung zu erarbeiten?
 
-(siehe auch [Das Problem begrenzen - Sofortmaßnahmen (D3)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184))
+## Kata 5.1 - Korrekturmaßnahmen
 
-# Kata 5.1 - Korrekturmaßnahmen
-
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du Sofortmaßnahmen definieren, um die Folgen des Problems zu beseitigen und Zeit für die Problemlösung zu erhalten. 
-(siehe auch [Das Problem begrenzen - Sofortmaßnahmen (D3)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184))
+(siehe auch [Das Problem begrenzen - Sofortmaßnahmen (D3)](1-0-Grundlagen.md#das-problem-begrenzen---sofortma%C3%9Fnahmen-d3))
 
-## Dauer
+### Dauer
 
 30 Minuten für dich und dein Problemlösungsteam
 
-## Ablauf
+### Ablauf
 
 1. Macht euch im Team anhand der Problembeschreibung klar, welche Auswirkungen das Problem hat und beschreibt diese genau.
 2. Definiert Sofortmaßnahmen. Überlegt:
@@ -28,17 +26,17 @@ In dieser Kata wirst du Sofortmaßnahmen definieren, um die Folgen des Problems 
     3. Welches Merkmal lässt sich gut und verlässlich überwachen?
 4. Weist eure Maßnahmen einer Person oder Personengruppe zu und setzt euch ambitionierte aber realistische Termine, an denen die Maßnahmen begonnen werden oder beendet sein sollen.
 
-# Kata 5.2 - Reflektion in der Lerngruppe
+## Kata 5.2 - Reflektion in der Lerngruppe
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du das finden der Korrekturmaßnahmen reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer verstehen.
 
-## Dauer
+### Dauer
 
 30 Minuten in deiner Lerngruppe.
 
-## Ablauf
+### Ablauf
 
 1. Beschreibt reihum, wie es euch beim Finden der Korrekturmaßnahme gegangen ist.
     1. Was war leicht oder gut? Was war schwer oder schlecht?
