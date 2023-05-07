@@ -196,6 +196,8 @@ Es wird mit Rückgriff auf die Problembeschreibung dargestellt, wann das Problem
 - Datenanalyse
 Wenn Maschinen- und Produktdaten vorliegen, ist ein Rückgriff auf diese und deren Entwicklung sinnvoll. Analysen können einfache statistische Folgen sein. Auch komplexe Ansätze mit Hilfe von trainierter Software (”künstliche Intelligenz”) sind möglich.
 
+Mehr Methoden, die für die Automobilindustrie typisch sind, finden sich im [VDA Band 4](https://webshop.vda.de/QMC/de/band-04-bundle-der-abschnitte-1-4-082020).
+
 ### Eine Lösung planen - Abstellmaßnahmen (D5)
 
 Ziel dieses Schrittes ist es wirksame, effiziente und dauerhafte Maßnahmen zu definieren, die das Problem lösen. Ein typisches Beispiel ist die Reparatur des Teils einer Maschine, das für eine Fehlfunktion verantwortlich ist. Die Maßnahmen müssen auf Basis der Ursachenanalyse getroffen werden und es muss erkennbar (besser: nachweisbar) sein, dass die Problemursache damit bekämpft wird.
