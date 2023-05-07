@@ -21,7 +21,7 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
         2. Wenn nein, woher nehmt ihr die Sicherheit, dass die Bewertung des aktuellen Zustands sicher ist?
 2. Verfolgt die Abläufe, bei denen das Problem aufgetreten ist für einige Zeit. Schreibt auf, was ihr beobachtet. Messt oder dokumentiert. Wertet statistisch aus. Vergleicht Soll- und Ist-Zustand.
 (Achtung: das Messen kann sich, je nach Ablauf oder Prozess, in die Länge ziehen und ist nicht sicher in 30 Minuten erledigt!)
-3. Wenn ihr euch dank dieser Beobachtungen begründet sicher seid, das Problem gelöst zu haben, hebt die [Sofort- und Korrekturmaßnahmen](https://www.notion.so/5-Korrekturma-nahmen-293a9489a89046efbd5ddca0da8463d5) gerne wieder auf. Informiert alle betroffenen Personen darüber umgehend.
+3. Wenn ihr euch dank dieser Beobachtungen begründet sicher seid, das Problem gelöst zu haben, hebt die [Sofort- und Korrekturmaßnahmen](2-5-korrekturmassnahmen.md#5---korrekturma%C3%9Fnahmen) gerne wieder auf. Informiert alle betroffenen Personen darüber umgehend.
 
 ## **Kata 9.2 - Reflektion in der Lerngruppe**
 
