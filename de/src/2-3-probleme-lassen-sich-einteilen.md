@@ -2,7 +2,7 @@
 
 In diesem Abschnitt wirst du dein Problem kategorisieren und erkennen, welche Vorgehensweise vermutlich zum besten Ergebnis führt.
 
-Achtung, je nachdem, welches Problem du gewählt hast, kann es sein, dass der Lernpfad zu kompliziert oder zu zielorientiert ist. Kläre die Konsequenzen für dich in der [Kata 3.3 - Deine Kategorisierung des Problems in der Gruppe](https://www.notion.so/Kata-3-3-Deine-Kategorisierung-des-Problems-in-der-Gruppe-2f850ae0ca1f4bfd9ba979c0aa43a04f) 
+Achtung, je nachdem, welches Problem du gewählt hast, kann es sein, dass der Lernpfad zu kompliziert oder zu zielorientiert ist. Kläre die Konsequenzen für dich in der [Kata 3.3 - Deine Kategorisierung des Problems in der Gruppe](#kata-33---deine-kategorisierung-des-problems-in-der-gruppe) 
 
 (siehe auch [Der Cynefin-Ansatz und der 8D-Prozess](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184))
 
