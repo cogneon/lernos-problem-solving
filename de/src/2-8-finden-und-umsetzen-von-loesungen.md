@@ -1,12 +1,12 @@
-# 8 - Finden und Umsetzen von Lösungen
+## 8 - Finden und Umsetzen von Lösungen
 
 In diesem Abschnitt wirst du mit deinem Team eine Lösung oder Lösungen für das Problem finden, auswählen und umsetzen.
 
-(siehe auch [Eine Lösung planen - Abstellmaßnahmen (D5)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184) und [Die Lösung umsetzen - Maßnahmen umsetzen (D6)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184)
+(siehe auch [Eine Lösung planen - Abstellmaßnahmen (D5)](1-0-Grundlagen.md#eine-l%C3%B6sung-planen---abstellma%C3%9Fnahmen-d5) und [Die Lösung umsetzen - Maßnahmen umsetzen (D6)](1-0-Grundlagen.md#die-l%C3%B6sung-umsetzen---ma%C3%9Fnahmen-umsetzen-d6)
 
-# Kata 8.1 - Lösungen entwickeln
+## Kata 8.1 - Lösungen entwickeln
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du Lösungen definieren, kategorisieren und für die Umsetzung vorbereiten. Macht euch im Team vorher klar, dass es viele Wege gibt, ein Problem zu lösen. Meistens ist es sinnvoll, mehrere Aktivitäten zu verfolgen. Wirksame Lösungen sind immer gut, egal welcher Kategorie sie angehören:
 
@@ -18,11 +18,11 @@ Jetzt macht sich eine gute Problembeschreibung und Ursachenbetrachtung bezahlt, 
 
 Hier funktionieren natürlich auch andere Kreativitätstechniken, als der vorgestellte Ablauf. Wenn ihr andere Verfahren kennt oder ausprobieren wollt, tut das…
 
-## Dauer
+### Dauer
 
 Etwa 45 Minuten für dich und dein Problemlösungsteam
 
-## Ablauf
+### Ablauf
 
 1. Nehmt euch im Team Karteikarten zur Hand. Jede und jeder schreibt für sich Lösungsideen auf, die wirksam sein können. Eine Lösungsidee pro Karte. Nehmt euch dafür 5 Minuten Zeit.
 2. Sammelt die Karten und mischt sie. Nehmt aus den unsortierten Karten eine heraus, lest die Ideen und legt sie wieder zurück. Alle gleichzeitig, bis ihr alle Ideen gelesen habt. Das sollte auch etwa 5 Minuten dauern.
@@ -35,24 +35,24 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
     3. Wie wird der Erfolg gemessen? Wie weisen wir nach, dass die Lösung auch erfolgreich ist?
 7. Stimmt ab: Welche Lösungsideen wollt ihr umsetzen? Zum Beispiel mit einem “Dot-Voting”. Versucht, aus allen Kategorien eine Idee zur Umsetzung zu finden.
     
-    ![Maßnahmenmatrix 2023-04-01.png](8%20-%20Finden%20und%20Umsetzen%20von%20Lo%CC%88sungen%2064db59f478834303aee2e7ebb8badb63/Manahmenmatrix_2023-04-01.png)
+    ![Maßnahmenmatrix 2023-04-01.png](/images/Massnahmenmatrix-2023-04-01.png)
     
 
-## Quellen
+### Quellen
 
 - 25/10 Crowdsourcing [https://liberatingstructures.de/liberating-structures-menue/2510-crowdsourcing/](https://liberatingstructures.de/liberating-structures-menue/2510-crowdsourcing/)
 
-# Kata 8.2 - Die Maßnahmen zur Lösung umsetzen
+## Kata 8.2 - Die Maßnahmen zur Lösung umsetzen
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du konkrete Maßnahmen beschreiben, um Lösungsideen umzusetzen. 
 
-## Dauer
+### Dauer
 
 etwa 30 Minuten für dich und dein Problemlösungsteam
 
-## Ablauf
+### Ablauf
 
 1. Nehmt die Lösungsideen aus der vorherigen Kata und beantwortet für jede Idee konkret die folgende Fragen. Schreibt die Antworten, z. B. in einer Liste oder einer Aufgaben-App auf.
     1. Was müssen wir ändern, um die Idee umzusetzen?
@@ -65,17 +65,17 @@ etwa 30 Minuten für dich und dein Problemlösungsteam
 2. Jetzt habt ihr einen Haufen Aufgaben. Eine Person kann immer nur eine Sache gleichzeitig tun.  Deswegen priorisiert die einzelnen Maßnahmen gemeinsam, zum Beispiel mit einem Dot-Voting oder indem jede und jeder für sich Arbeitsreihenfolgen festlegt, die dann “übereinandergelegt” werden.
 3. Vereinbart einen sinnvollen, regelmäßigen Termin, zu dem ihr euch zu den Fortschritten der Arbeiten gegenseitig informiert. Intervall und Dauer der Treffen sollten zu euren Lösungen passen.
 
-# Kata 8.3 - Reflektion in der Lerngruppe
+## Kata 8.3 - Reflektion in der Lerngruppe
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du die Lösungsfindung und -umsetzung reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer verstehen.
 
-## Dauer
+### Dauer
 
 30 Minuten in deiner Lerngruppe.
 
-## Ablauf
+### Ablauf
 
 1. Beschreibt reihum, wie es euch bei der Lösungsfindung und -umsetzung gegangen ist.
     1. Was war leicht oder gut? Was war schwer oder schlecht?
