@@ -11,9 +11,9 @@ Explizit gilt der Dank auch
 
 ## Änderungshistorie
 
-| Version | Bearbeitet von     | Beschreibung Änderung                   | Datum      |
-| ------- | ------------------ | --------------------------------------- | ---------- |
-| 0.1     | Jan Bretschneider  | Erste Version des Template-Repositories | 07.05.2023 |
+| Version | Bearbeitet von     | Beschreibung Änderung                            | Datum      |
+| ------- | ------------------ | ------------------------------------------------ | ---------- |
+| 0.1     | Jan Bretschneider  | Erste Version des "Problem-Solving"-Repositories | 07.05.2023 |
 
 ## Glossar
 
@@ -30,3 +30,16 @@ Lernende Organisation
 
 lernOS
 : lernOS ist ein offenes System für Lebenslanges Lernen und Lernende Organisationen. Es stellt auf den drei Ebenen Individuum, Team und Organisation offene Leitfäden für die kontinuierliche Verbesserung des Lern- und Wissensmanagements bereit.
+
+**P**
+
+Peer
+: Aus dem Englischen "peer" = ebenbürtige, gleichartige Person. Eine Person, die zur gleichen Zeit das gleiche Lernziel wie Du verfolgt. Eine Person, mit der Du zusammen den Lernpfad beschreitest.
+
+Problem
+: Ein Problem zu haben ist ein Zustand, in dem ein zu erreichendes Ziel (noch) nicht erreicht wurde und in dem die Art und Weise der Zielerreichung (noch) nicht klar ist.
+
+**8**
+
+8D-Report
+: Mit dem “8D-Report” wird in der Automobilindustrie üblicherweise gegenüber den Kunden dokumentiert, wie bei der Problemlösung vorgegangen wurde. Es ist eine Berichtsform über den Problemlösungsprozess.
