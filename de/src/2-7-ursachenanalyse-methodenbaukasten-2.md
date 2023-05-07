@@ -19,10 +19,10 @@ Etwa 30 Minuten für dich und dein Problemlösungsteam
 
 ### Ablauf
 
-1. Bereite eine beschreibbare Wand (Metaplan-Wand, Whiteboard, Tafel, Packpapier auf einer Wand, …) vor und skizziere das Ursache-Wirkungs-Diagramm (siehe [Vorlage im Anhang dieses Abschnitts](https://www.notion.so/7-Ursachenanalyse-Methodenbaukasten-2-1ab6fce399fa4ef198ca0b3684945148)).
+1. Bereite eine beschreibbare Wand (Metaplan-Wand, Whiteboard, Tafel, Packpapier auf einer Wand, …) vor und skizziere das Ursache-Wirkungs-Diagramm (siehe [Vorlage im Anhang dieses Abschnitts](#vorlage-f%C3%BCr-ein-ursache-wirkungs-diagramm)).
 2. Alle im Team schreiben für sich auf einem Blatt Papier auf, welche Elemente auf die Entstehung des Problems einen Einfluss gehabt haben können.
 3. Sortiert das, was ihr gefunden habt, den Elementen des Ursache-Wirkungsdiagramm zu. Die Elemente des Diagramms helfen euch auf zwei Arten
-    1. Dadurch, dass ihr zuordnet, wird eine mögliche Ursache besser fassbar. Die Art und Weise des Umgangs damit wird klarer
+    1. Dadurch, dass ihr zuordnet, wird eine mögliche Ursache besser fassbar. Die Art und Weise des Umgangs damit wird klarer.
     2. Wenn ein Element signifikant geringer besetzt ist als die anderen Elemente, überlegt konkret, welche Ursachen es noch geben könnte, die diesem Element zugeordnet werden können.
     3. Für sehr komplizierte Systeme lassen sich zu den Ursachen noch Unterelemente finden. Diese können dann wieder Unterelemente haben und so fort. Das Diagramm wird dann irgendwann wie ein Baum oder ein Flusssystem aussehen.
 4. Tretet zurück und lasst das Diagramm auf euch wirken. Was fällt euch auf? Ergibt sich ein Muster?
