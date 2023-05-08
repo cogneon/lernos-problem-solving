@@ -3,7 +3,7 @@ echo Starting lernOS Guide Generation ...
 
 REM Variables
 set filename="lernOS-Template-Guide-de"
-set chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/1-1-Grundidee.md ./src/1-2-Lebenszyklus.md ./src/1-3-Inhaltsverzeichnis.md ./src/1-4-Inhalt.md ./src/1-5-Produktionskette.md ./src/2-Lernpfad.md ./src/3-Anhang.md"
+set chapters="./src/index.md ./src/1-0-Grundlagen.md ./src/2-0-Lernpfad.md ./src/2-1-was-bringt-dich-hierher.md ./src/2-2-beschreibe-dein-problem-ausfuehrlich.md ./src/2-3-probleme-lassen-sich-einteilen.md ./src/2-4-problemloesung-im-team.md ./src/2-5-korrekturmassnahmen.md ./src/2-6-ursachenanalyse-methodenbaukasten-1.md ./src/2-7-ursachenanalyse-methodenbaukasten-2.md ./src/2-8-finden-und-umsetzen-von-loesungen.md ./src/2-9-woher-erkenne-ich-dass-eine-loesung-erfolgreich-ist.md ./src/2-10-transfer.md ./src/2-11-feiern.md ./src/2-12-retrospektive.md ./src/3-0-Anhang.md"
 
 REM Delete Old Versions
 echo Deleting old versions ...
