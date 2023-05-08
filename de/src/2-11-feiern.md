@@ -1,20 +1,20 @@
-# 11 - Feiern: Wie kann ein Erfolg adäquat gefeiert werden?
+## 11 - Feiern: Wie kann ein Erfolg adäquat gefeiert werden?
 
 In diesem Abschnitt geht es darum, das Team und eure gemeinsame Leistung zu würdigen. Macht euch klar, dass ihr etwas geleistet habt. Erzählt euch davon und verfestigt so diese (meistens) gute Erfahrung.
 
-(vergleich auch [Weitermachen - Das Projekt abschließen und das Team würdigen (D8)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184))
+(vergleich auch [Weitermachen - Das Projekt abschließen und das Team würdigen (D8)](1-0-Grundlagen.md#weitermachen---das-projekt-abschlie%C3%9Fen-und-das-team-w%C3%BCrdigen-d8))
 
-# Kata 11.1 - Die Retrospektive
+## Kata 11.1 - Die Retrospektive
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du im Problemlösungsteam eine Retrospektive abhalten, um das Erreichte gebührend zu feiern. 
 
-## Dauer
+### Dauer
 
 etwa 30 Minuten nur für dich zur Vorbereitung und etwa 30 Minuten für dich und dein Problemlösungsteam
 
-## Ablauf
+### Ablauf
 
 1. Wähle eine für dein Team passende Retrospektive aus. Dazu gibt es im Internet reichlich Quellen. Recherchiere dort gern.
 Wichtig für die Auswahl ist: Wie gut war die Laune im Team? Wie verspielt darf es für Euch sein? Wie offen und persönlich kann und darf es werden? Geht es darum zu feiern (Retrospektive) oder ist vieles schief gegangen und Bedarf noch der Aussprache (”post mortem”)?
@@ -27,17 +27,17 @@ Ein paar mögliche Beispiele für Aktivitäten in einer Retrospektive sind:
 3. Feiert euch als Team. Ihr habt ein wichtiges, kompliziertes Problem gelöst.
 4. Löst das Team offiziell auf und widmet euch in der Folge wieder voll euren eigentlichen Tätigkeiten. 
 
-# Kata 11.2 - Reflektion in der Lerngruppe
+## Kata 11.2 - Reflektion in der Lerngruppe
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du die Team-Retrospektive reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer verstehen.
 
-## Dauer
+### Dauer
 
 30 Minuten in deiner Lerngruppe.
 
-## Ablauf
+### Ablauf
 
 1. Beschreibt reihum, wie es euch bei der Retrospektive gegangen ist.
     1. Welche Retrospektive habt ihr gewählt? Warum?
