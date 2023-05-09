@@ -12,7 +12,7 @@ Es gibt viele Wege, diesen Lernpfad “Probleme strukturiert lösen” gewinnbri
 In einer Gruppe von “Peers” in jeder Woche ein Stück weit in die strukturierte Bearbeitung von Probleme eintauchen. Dieses Format ist in den Formulierungen und den Katas angenommen.
 - Learning-by-doing-Schnelldurchlauf:
 Ihr habt eine harte Nuss zu knacken und wisst nicht wie. Nehmt diesen Leitfaden und arbeitet Euch Schritt für Schritt (und den gegebenenfalls notwendigen Schleifen…) durch den Lernpfad. Vermutlich dann kontinuierlich innerhalb einer kurzen Zeit. Die Kapitel sind dann nicht Wochen, sondern Abschnitte eurer “Workshops”, zwischen denen dann sinnvolle, von euch bestimmte, Pausen liegen (5 Minuten, um die Beine zu bewegen oder länger, wenn Ihr über Ideen nachdenken oder noch Daten sammeln wollt). Vermutlich wollt Ihr dann Katas zur Reflektion des Gelernten weglassen, um schneller zum Ziel zu kommen. Umso wichtiger wird dann die Retrospektive am Ende für Euch.
-- Schmetterling-Methode
+- Schmetterling-Methode:
 Lest den Lernpfad, vertieft was Euch gefällt mit den angebotenen Quellen oder eigenen Recherchen. Wandert von Thema zu Thema, von Kata zu Kata, der Reihe nach oder zufällig. Lasst den Lernpfad liegen, kommt wieder darauf zurück, wenn Ihr Zeit dafür und das Bedürfnis danach habt.
 
 Keine dieser Methoden ist “richtig” oder “besser”. Vermutlich findet Ihr einen ganz anderen, eigenen Zugang. Euer Kontext wird bestimmen, was gut für euch ist und was für Euch möglich sein wird.
