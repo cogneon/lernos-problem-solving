@@ -64,7 +64,7 @@ Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein [Kanban-Board zur
 
 ## Probleme kategorisieren - Das “Cynefin-Framework”
 
-Problem lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win” [oder auch: [kə'nɛvɪn](https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen)])-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch” einteilen. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
+Problem lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win” [oder auch: [CYNEFINREPLACE](https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen)])-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch” einteilen. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
 
 - Einfach: “Pack-an”-Probleme, deren Lösung auf der Hand liegt und die ohne Aufwand gelöst werden können.
 Herangehensweise: beobachten → kategorisieren → reagieren
@@ -121,7 +121,7 @@ Ein Problem ist nicht einfach “da”, sondern wird an eine Organisation, heran
 
 In der Organisation muss es nun eine Funktion geben, die ein Interesse daran oder die Aufgabe hat, das Problem zu lösen und die Macht hat, Ressourcen (Zeit von Personen, Gelder, Maschinenzeit, …) freizustellen, um an der Lösung des Problems zu arbeiten - *der:die Sponsor:in*.
 
-Der:die Sponsor:in kann, sollte oder muss eine Person benennen, die die Problemlösung aktiv vorantreibt. Diese *Teamleitung* sollte Kenntnisse in strukturierter Problemlösung haben (oder gewillt sein, sich diese zu erarbeiten 😉) und fähig sein, ein Team zu leiten. Der:die Sponsor:in kann die Teamleitung auch selbst übernehmen.
+Der:die Sponsor:in kann, sollte oder muss eine Person benennen, die die Problemlösung aktiv vorantreibt. Diese *Teamleitung* sollte Kenntnisse in strukturierter Problemlösung haben (oder gewillt sein, sich diese zu erarbeiten SMILEY) und fähig sein, ein Team zu leiten. Der:die Sponsor:in kann die Teamleitung auch selbst übernehmen.
 
 Je nach Art des Problem kann, sollte oder müssen weitere Personen hinzugezogen werden, die spezifische Kompetenzen oder Sichtweisen mitbringen, die bei der Problemlösung benötigt werden. *Teammitglieder* können dauerhaft oder spontan dazugeholt werden. Ob ein Teammitglied geeignet ist, kann auch intuitiv bestimmt werden. Bei Bedarf und neuen Erkenntnissen darf die Teamleitung sich nicht scheuen, das Team anders zusammenzusetzen. Manche setzen auch auf Teammitglieder, die sich freiwillig melden, um mitzuwirken. Es kann helfen, die Rollen und Aufgaben im Team im Vorfeld zu klären.
 

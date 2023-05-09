@@ -32,4 +32,4 @@ In dieser Kata wirst du den Lernpfad reflektieren, um deinen Lernerfolg für dic
 
 ## Kata 12.2 - Abschluss
 
-Und jetzt: feiert Euch 🕺💃🥂🍿🙌🎉
+Und jetzt: feiert Euch
