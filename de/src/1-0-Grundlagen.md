@@ -135,7 +135,7 @@ Eine gute Beschreibung eines Problems beschreibt zuerst konkret die Abweichung -
 
 Im Anschluss lassen sich, je nach Problem und Umfeld, noch weitere Daten und Fakten rund um das Problem sammeln. Achtet auch darauf, euch anzuschauen, in welchem Kontext das Problem nicht auftrat oder entdeckt wurde (sogenannte “Is/Is-Not”-Analyse). Aber Achtung: Eine hinreichend gute Beschreibung reicht, um weiter zu arbeiten. Andere Daten können meistens später noch mit eingebracht werden.
 
-#### Der Cynefin-Ansatz und der 8D-Prozess
+##### Der Cynefin-Ansatz und der 8D-Prozess
 
 Die hier präsentierte D8-Herangehensweise ist entwickelt und prädestiniert für “komplizierte” Probleme, zum Beispiel in der industriellen Serienfertigung.
 
@@ -156,7 +156,7 @@ Für “komplexe” Probleme ist das D8-Verfahren zu langsam und leitet fehl. �
 
 Als nächstes ist es meistens sinnvoll, die Auswirkung des Problems zu begrenzen oder zu beseitigen. Typische Beispiele sind: Das Beseitigen von ausgetretenen Flüssigkeiten, die Versorgung von Verletzten nach einem Unfall oder das Sortieren von teilweise fehlerhaften Produkten.
 
-Hier handelt es sich um kurzfristige, “einfache” Maßnahmen, die schnell umgesetzt werden können. Diese Maßnahmen sind gekennzeichnet durch einen kurzfristigen starker Kraftakt. Zweck ist es, sich dadurch Zeit für die Ursachenanalyse oder die Stabilisierung des Systems zu verschaffen.
+Hier handelt es sich um kurzfristige, “einfache” Maßnahmen, die schnell umgesetzt werden können. Diese Maßnahmen sind gekennzeichnet durch einen kurzfristigen starken Kraftakt. Zweck ist es, sich dadurch Zeit für die Ursachenanalyse oder die Stabilisierung des Systems zu verschaffen.
 
 Natürlich muss die Maßnahme sinnvoll und wirksam sein. Mit Rückgriff auf die Problembeschreibung ([Das Problem beschreiben (D2)](#das-problem-beschreiben-d2)) sollte eine wirksame Beseitigung der Folgen des Problems möglich sein. Je nach Bedeutung der Folgen, solltet ihr die Wirksamkeit der Maßnahme darlegen oder mit Daten nachweisen können. Die Aufwände für die Sofortmaßnahme kann hoch sein oder andere Funktionen eines System stören. Bedenkt auch das bei der Auswahl der Maßnahmen.
 
