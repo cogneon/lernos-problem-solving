@@ -64,7 +64,7 @@ Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein [Kanban-Board zur
 
 ### Probleme kategorisieren - Das “Cynefin-Framework”
 
-Problem lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win” [oder auch: [CYNEFINREPLACE](https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen)])-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch” einteilen. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
+Problem lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win” [oder auch in diesem Video (https://www.youtube.com/watch?v=N7oz366X0-8)])-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch” einteilen. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
 
 - Einfach: “Pack-an”-Probleme, deren Lösung auf der Hand liegt und die ohne Aufwand gelöst werden können.
 Herangehensweise: beobachten → kategorisieren → reagieren
