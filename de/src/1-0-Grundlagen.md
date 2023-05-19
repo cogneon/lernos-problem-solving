@@ -2,9 +2,9 @@
 
 Das Kapitel “Grundlagen” enthält theoretische Hintergründe und Informationen, die für das Verständnis des Leitfaden-Themas relevant sind. In diesem Kapitel wird auf andere verfügbare Quellen und Literatur verwiesen (Hub- oder Kurationsfunktion).
 
-# Vorbemerkungen
+## Vorbemerkungen
 
-## Wie dieser Lernpfad verwendet werden kann
+### Wie dieser Lernpfad verwendet werden kann
 
 Es gibt viele Wege, diesen Lernpfad “Probleme strukturiert lösen” gewinnbringend zu nutzen. Finde gerne deinen eigenen. Zur Inspiration hier ein paar typische Möglichkeiten:
 
@@ -17,7 +17,7 @@ Lest den Lernpfad, vertieft was Euch gefällt mit den angebotenen Quellen oder e
 
 Keine dieser Methoden ist “richtig” oder “besser”. Vermutlich findet Ihr einen ganz anderen, eigenen Zugang. Euer Kontext wird bestimmen, was gut für euch ist und was für Euch möglich sein wird.
 
-### Wie gehe ich also am besten vor?
+#### Wie gehe ich also am besten vor?
 
 Finde eine Gruppe - in der Beschreibung wird von 4 Personen (mit Dir) ausgegangen. Wenn ihr mehr oder weniger seid, kann vieles verändert werden, so dass es auf eure Gruppe passt.
 
@@ -25,13 +25,13 @@ Ihr könnt in der Gruppe zusammen ein gemeinsames Problem lösen, oder alle Grup
 
 Alleine den Lernpfad zu bearbeiten ist möglich, wird aber nicht empfohlen, da wesentliche Katas darauf beruhen, eigene Ergebnisse im Team vorzustellen, darüber zu reflektieren und so zu vertiefen. Wenn Du keine Gruppe findest, vielleicht hast Du eine:n Coach:in oder Mentor:in (Kolleg:innen, Chef:in, Freund:innen, Dritte, …), mit der oder dem Du reflektieren kannst?
 
-### Wie werde ich hier angesprochen? Welche Sprache wird verwendet?
+#### Wie werde ich hier angesprochen? Welche Sprache wird verwendet?
 
 Du hast es schon gemerkt, hier wird geduzt. Dieser Lernpfad soll ein Angebot auf Augenhöhe sein.
 
 Personen werden neutral bezeichnet oder es wird “gegendert”, wenn sich keine neutrale Formulierung finden lies. Vermutlich finden sich auch Formulierungen, die unbewusst im generischen Maskulinum stehen - bunt, nicht perfekt.
 
-## Begriffsbestimmungen, Definitionen
+### Begriffsbestimmungen, Definitionen
 
 - Problem
     - Ein Problem zu haben ist ein Zustand, in dem ein zu erreichendes Ziel (noch) nicht erreicht wurde und in dem die Art und Weise der Zielerreichung (noch) nicht klar ist. Details siehe auch [https://de.wikipedia.org/wiki/Problem](https://de.wikipedia.org/wiki/Problem).
@@ -39,7 +39,7 @@ Personen werden neutral bezeichnet oder es wird “gegendert”, wenn sich keine
 - 8D-Report
 Mit dem “8D-Report” wird in der Automobilindustrie üblicherweise gegenüber den Kunden dokumentiert, wie bei der Problemlösung vorgegangen wurde. Es ist also eine Berichtsform über den Problemlösungsprozess. Meist verlangen Kunden diese Art der Dokumentation. Je nach Art des Problems und damit der Vorgehensweise bei der Problemlösung kann diese stark formalisierte Art der Dokumentation zu aufwendig oder einschränkend sein. Für eine wirksame und effiziente Problemlösung kann es wichtig sein, darauf zu achten, diese Berichtsform nicht zum “Framing” des Problems zu verwenden. Details siehe unter [https://webshop.vda.de/QMC/de/8d-problemlösung-in-8-disziplinen](https://webshop.vda.de/QMC/de/8d-probleml%C3%B6sung-in-8-disziplinen).
 
-## Fragen zum Lernpfad
+### Fragen zum Lernpfad
 
 - Woran orientiert sich der Lernpfad?
 Der Lernpfad orientiert sich am sogenannten Cynefin-Framework, dem “double diamond”-Ansatz aus dem “Design Thinking” und der 8D-Systematik der Automobilindustrie.
@@ -55,14 +55,14 @@ Der Lernpfad gliedert sich grob in folgende sechs Abschnitte:
 Im Internet und in Unternehmen finden sich diverse Vorlagen zur 8D-Methode (auch A3-Template). Es existieren auch Softwarelösungen, die euch durch den Prozess begleiten. All dies kann dich unterstützen, ist aber nicht zwingend nötig (außer ein Kunde will genau so etwas von euch sehen…).
 Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein [Kanban-Board zur 8D-Methode in Trello](https://trello.com/b/QsUKpdwB/problem-solving-as-kanban-board). Probiere sie gerne aus und melde dich, wenn es gefällt.
 
-## Hinweise
+### Hinweise
 
 - Dieser Lernpfad ist **keine** vollständige Implementierung des 8D-Konzepts nach der VDA. Er ist nicht von der VDA autorisiert. Er kann nicht ohne weiteres als Ersatz für ein formelles Training zur 8D-Methode im Sinne des VDA verwendet werden.
 - Die in diesem Lernpfad dargestellte Methode ist **eine** möglich Methode, Problemlösung strukturiert zu betreiben. Viele Probleme lassen sich auch über andere Methoden lösen, vielleicht sogar besser. Es bleibt dir überlassen, abzuschätzen, ob die hier dargestellte Methode für deine Problemstellung die richtige ist.
 
-# Gedankenrahmen (Frameworks)
+## Gedankenrahmen (Frameworks)
 
-## Probleme kategorisieren - Das “Cynefin-Framework”
+### Probleme kategorisieren - Das “Cynefin-Framework”
 
 Problem lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win” [oder auch: [CYNEFINREPLACE](https://de.wikipedia.org/wiki/Liste_der_IPA-Zeichen)])-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch” einteilen. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
 
@@ -81,7 +81,7 @@ Eine kurze Einführung findet sich auf den Seiten der (Er-)Finder [https://thecy
 
 [The Cynefin Framework](https://www.youtube.com/watch?v=N7oz366X0-8)
 
-## Vom Problem zur Lösung - Die “Double-Diamond”-Methode
+### Vom Problem zur Lösung - Die “Double-Diamond”-Methode
 
 Das britische Design Council hat für Design-Prozesse die “Double-Diamond”-Methode entwickelt. Grundlage der Idee ist es, dass eine Lösung durch eine Folge von vier Schritten gefunden wird:
 
@@ -101,7 +101,7 @@ Wesentliche Prinzipien guter Lösungsprozesse sind laut Design Council
 
 Ein Vorteil dieses Rahmenwerks ist es, dass Kurzschlüsse durch zu frühe Festlegung während der Ideenfindung oder Verzögerungen durch Verzettelung beim Machen vermieden werden. Details beschreibt das Design Council auf seiner Webseite, unter anderem hier: [https://www.designcouncil.org.uk/our-work/skills-learning/tools-frameworks/framework-for-innovation-design-councils-evolved-double-diamond/](https://www.designcouncil.org.uk/our-work/skills-learning/tools-frameworks/framework-for-innovation-design-councils-evolved-double-diamond/)
 
-## Problemlösung in der (Automobil)-Industrie - der 8D-Prozess
+### Problemlösung in der (Automobil)-Industrie - der 8D-Prozess
 
 Die Automobilindustrie verwendet den “8D-Prozess” (auch bekannt als “A3”) um Probleme in der Lieferkette zu adressieren, die Lösungsfindung zu steuern und die Ergebnisse daraus zu dokumentieren.
 
@@ -115,7 +115,7 @@ Die mit dem 8D-Prozess einhergehenden Einschränkungen (besonders im Hinblick au
 
 Im folgenden werden die acht Schritte des 8D-Prozesses kurz beschrieben. Alle Details finden sich in der Veröffentlichung “8D - Problemlösung in 8 Disziplinen**”** des VDA unter [https://webshop.vda.de/QMC/de/8d-problemlösung-in-8-disziplinen](https://webshop.vda.de/QMC/de/8d-probleml%C3%B6sung-in-8-disziplinen).
 
-### Die beteiligten Funktionen und Personen finden (D1)
+#### Die beteiligten Funktionen und Personen finden (D1)
 
 Ein Problem ist nicht einfach “da”, sondern wird an eine Organisation, herangetragen, üblicherweise von “außen”. Wie oben in der Definition beschrieben, gibt es ein Ziel, im besten Fall spezifisch, messbar, erreichbar und terminiert beschrieben (”SMART”, etwa über im Vorfeld vereinbarte Produktspezifikationen und Liefertermine), das nicht erreicht wurde oder nicht erreicht werden wird. Es gibt also *ein:e Entdecker:in* des Problems, die:der eine Lösung nachfragt.
 
@@ -127,7 +127,7 @@ Je nach Art des Problem kann, sollte oder müssen weitere Personen hinzugezogen 
 
 Je nach Größe des Teams und der Zusammensetzung kann es hilfreich sein *ein:e Moderator:in* (auch: *Fazilitator:in)* hinzuzuziehen oder einem Teammitglied diese Rolle zuzuschreiben, ähnlich wie “Agile Coaches” oder “Scrum Master” in Entwicklungsprojekten eingesetzt werden. Diese Person kann helfen, die Arbeit zu strukturieren, besonders, wenn sie über entsprechende Methodenkompetenz verfügen.
 
-### Das Problem beschreiben (D2)
+#### Das Problem beschreiben (D2)
 
 Eine konkrete Beschreibung eines Problems hilft dabei, eine Lösung zu erarbeiten, die wirksam ist und sich im Rahmen der Beschäftigung mit dem Problem sich nicht von anderen Auffälligkeiten ablenken zu lassen.
 
@@ -135,7 +135,7 @@ Eine gute Beschreibung eines Problems beschreibt zuerst konkret die Abweichung -
 
 Im Anschluss lassen sich, je nach Problem und Umfeld, noch weitere Daten und Fakten rund um das Problem sammeln. Achtet auch darauf, euch anzuschauen, in welchem Kontext das Problem nicht auftrat oder entdeckt wurde (sogenannte “Is/Is-Not”-Analyse). Aber Achtung: Eine hinreichend gute Beschreibung reicht, um weiter zu arbeiten. Andere Daten können meistens später noch mit eingebracht werden.
 
-### Der Cynefin-Ansatz und der 8D-Prozess
+#### Der Cynefin-Ansatz und der 8D-Prozess
 
 Die hier präsentierte D8-Herangehensweise ist entwickelt und prädestiniert für “komplizierte” Probleme, zum Beispiel in der industriellen Serienfertigung.
 
@@ -152,7 +152,7 @@ Für “komplexe” Probleme ist das D8-Verfahren zu langsam und leitet fehl. �
 
 “Chaotische” Probleme verlangen eine Feuerwehr, die dafür sorgt, dass das System in einen behandelbaren Zustand gewandelt wird. Hier hilft nur ein trainiertes Team, das gut aufeinander abgestimmt sinnvolle Maßnahmen schnell umsetzt.
 
-### Das Problem begrenzen - Sofortmaßnahmen (D3)
+#### Das Problem begrenzen - Sofortmaßnahmen (D3)
 
 Als nächstes ist es meistens sinnvoll, die Auswirkung des Problems zu begrenzen oder zu beseitigen. Typische Beispiele sind: Das Beseitigen von ausgetretenen Flüssigkeiten, die Versorgung von Verletzten nach einem Unfall oder das Sortieren von teilweise fehlerhaften Produkten.
 
@@ -162,7 +162,7 @@ Natürlich muss die Maßnahme sinnvoll und wirksam sein. Mit Rückgriff auf die 
 
 Gegebenenfalls ist es zusätzlich nötig, ein “problematisches” System dauerhaft zu beobachten. Beispiele sind: 100-Prozent-Kontrolle der Produktion einer zweifelhaften Maschine, Videoüberwachung eines gefährdeten Orts.
 
-### Das Problem verstehen - Ursachenanalyse (D4)
+#### Das Problem verstehen - Ursachenanalyse (D4)
 
 In der Ursachenanalyse geht ihr dem Problem auf den Grund. Sinnvolle Fragen dazu sind
 
@@ -198,7 +198,7 @@ Wenn Maschinen- und Produktdaten vorliegen, ist ein Rückgriff auf diese und der
 
 Mehr Methoden, die für die Automobilindustrie typisch sind, finden sich im [VDA Band 4](https://webshop.vda.de/QMC/de/band-04-bundle-der-abschnitte-1-4-082020).
 
-### Eine Lösung planen - Abstellmaßnahmen (D5)
+#### Eine Lösung planen - Abstellmaßnahmen (D5)
 
 Ziel dieses Schrittes ist es wirksame, effiziente und dauerhafte Maßnahmen zu definieren, die das Problem lösen. Ein typisches Beispiel ist die Reparatur des Teils einer Maschine, das für eine Fehlfunktion verantwortlich ist. Die Maßnahmen müssen auf Basis der Ursachenanalyse getroffen werden und es muss erkennbar (besser: nachweisbar) sein, dass die Problemursache damit bekämpft wird.
 
@@ -208,13 +208,13 @@ Hier ist Kreativität gefragt, um mögliche Maßnahmen zu erkennen. Jede möglic
 
 Am Ende dieses Schritts steht ein Maßnahmenplan, in dem durchführende Personen und Plantermine genannt sind. Außerdem werden die Parameter festgelegt, mit denen die Wirksamkeit festgestellt wird. Im besten Fall sind es messbare Werte (oder “Kennzahlen”), für die festgelegt ist, wann sind gut und wann sie schlecht sind.
 
-### Die Lösung umsetzen - Maßnahmen umsetzen (D6)
+#### Die Lösung umsetzen - Maßnahmen umsetzen (D6)
 
 In diesem Schritt werden die Maßnahmen umgesetzt und das Ergebnis beobachtet. Wenn die beobachteten Parameter oder Kennzahlen im Erwartungsbereich liegen (also “gut” oder “o.k.” sind), können die Sofortmaßnahmen ([Das Problem begrenzen - Sofortmaßnahmen (D3)](#das-problem-begrenzen---sofortma%C3%9Fnahmen-d3)) aufgehoben werden.
 
 Im besten Fall bestätigt Euch Eure:r Sponsor:in oder die:der Entdecker:in, dass das Problem gelöst ist (siehe [Die beteiligten Funktionen und Personen finden (D1)](#die-beteiligten-funktionen-und-personen-finden-d1))
 
-### Sich absichern - Fehler in der Zukunft vermeiden (D7)
+#### Sich absichern - Fehler in der Zukunft vermeiden (D7)
 
 Zweck dieses Schrittes ist es, die Bearbeitung des vorliegenden Problems zu reflektieren. Ihr habt in den Schritten bis hier euer System besser kennengelernt und verstanden. Zum Beispiel habt ihr
 
@@ -227,6 +227,6 @@ Reflektiert das, was ihr gelernt habt und überlegt, ob es andere Orte oder Proz
 
 Dokumentiert und kommuniziert euer Wissen aktiv, so dass es euch und anderen auch in Zukunft zur Verfügung steht.
 
-### Weitermachen - Das Projekt abschließen und das Team würdigen (D8)
+#### Weitermachen - Das Projekt abschließen und das Team würdigen (D8)
 
 In diesem letzten Schritt erkennt ihr eure gemeinsame Leistung als Team an. Die:der Sponsor:in sollte Teamleitung und Teammitglieder aus dem Projekt entlassen und die Leistung adäquat würdigen. Ob das ein wertschätzendes “Danke”, ein gemeinsames Kaffee-und-Kuchen oder ein großes Ereignis ist, hängt von euch und dem Problem ab.
