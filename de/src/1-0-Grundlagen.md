@@ -144,7 +144,7 @@ Bei “einfachen” Problemen helfen Euch erprobte Standardlösungen (auch bekan
 Für “komplexe” Probleme ist das D8-Verfahren zu langsam und leitet fehl. “Komplexe” Zusammenhänge können nicht vollständig begriffen werden und Maßnahmen, die in einem Kontext helfen, können unter veränderten Bedingungen schädlich sein. Solltet ihr “komplexe” Probleme lösen müssen, macht euch klar,
 
 - dass das Problem nicht vollständig verstanden werden kann (→ [Das Problem verstehen - Ursachenanalyse (D4)](#das-problem-verstehen---ursachenanalyse-d4)),
-- dass die Lösung (→ [Eine Lösung planen - Abstellmaßnahmen (D5)]([Eine-L-sung-planen-Abstellma-nahmen-D5](#eine-l%C3%B6sung-planen---abstellma%C3%9Fnahmen-d5))) nur die beste Vermutung sein kann,
+- dass die Lösung (→ [Eine Lösung planen - Abstellmaßnahmen (D5)](#eine-l%C3%B6sung-planen---abstellma%C3%9Fnahmen-d5)) nur die beste Vermutung sein kann,
 - dass auch nach der Umsetzung (→ [Die Lösung umsetzen - Maßnahmen umsetzen (D6)](#die-l%C3%B6sung-umsetzen---ma%C3%9Fnahmen-umsetzen-d6)) das System ständig weiter beobachtet werden muss und
 - dass eine Absicherung für alle Eventualitäten (→ [Sich absichern - Fehler in der Zukunft vermeiden (D7)](#sich-absichern---fehler-in-der-zukunft-vermeiden-d7)) schlicht unmöglich ist.
 
