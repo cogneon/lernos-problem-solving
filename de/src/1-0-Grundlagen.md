@@ -176,11 +176,11 @@ In der Ursachenanalyse geht ihr dem Problem auf den Grund. Sinnvolle Fragen dazu
 
 Typische Methoden für eine strukturierte Ursachenanalyse sind die folgenden:
 
-- Prozessprüfung/Re-enactment
+- Prozessprüfung/Re-enactment:  
 Dort, wo das Problem aufgetreten ist wird Schritt für Schritt nachvollzogen, wie es zu dem Problem kam. Das ist besonders in der Produktion möglich und sinnvoll, kann aber auch für Interaktionen (etwa bei Dienstleistungen) nachvollzogen werden. Wichtig ist es immer, wirklich **vor Ort** zu arbeiten.
-- 5-Why - Frage fünf mal “Warum?”
+- 5-Why - Frage fünf mal “Warum?”:  
 Durch konsequentes, ergebnisoffenes Hinterfragen der spontan genannten Ursache kann ein Problem bis zu seiner Wurzel verfolgt werden. Ihr seid erfolgreich, wenn ihr die Antworten umkehrt und eine plausible “5-Therefor”-Kette aufbaut: “Dieses geschah, deswegen passierte jenes, deswegen passierte… , deswegen kam es zu dem Problem”
-- Ursache-Wirkungs-, Fischgräten- oder Ishikawa-Diagramm
+- Ursache-Wirkungs-, Fischgräten- oder Ishikawa-Diagramm:  
 Die Beiträge von (klassisch) sechs Dimensionen auf das Problem werden mit einer schematischen Fischgrätendarstellung erfasst. Durch die Struktur werden die Haupteinflussparameter erkennbar. Es handelt sich um eine stark formalisierte Mind-Map
 Die üblichen Dimensionen sind (sie werden auch als “6M” bezeichnet)
     - Management/Methoden
@@ -189,11 +189,11 @@ Die üblichen Dimensionen sind (sie werden auch als “6M” bezeichnet)
     - Materialien
     - Menschen
     - Umwelteinflüsse (oder Milieu)
-- Fehlerbaumanalyse
+- Fehlerbaumanalyse:  
 Ein umfangreiches Verfahren, das vor allem bei hochkomplizierten Anlagen sinnvoll verwendet werden kann. Typische Beispiele sind Raketen, Atomkraftwerke oder sicherheitsrelevante Systeme. Details siehe zum Beispiel auf Wikipedia: [https://de.wikipedia.org/wiki/Fehlerbaumanalyse](https://de.wikipedia.org/wiki/Fehlerbaumanalyse) und die Verweise dort.
-- Ist/Ist-Nicht-Analyse
+- Ist/Ist-Nicht-Analyse:  
 Es wird mit Rückgriff auf die Problembeschreibung dargestellt, wann das Problem auftrat und wann nicht und so geklärt, wo relevante Abweichungen zum Soll-Zustand auftraten.
-- Datenanalyse
+- Datenanalyse:  
 Wenn Maschinen- und Produktdaten vorliegen, ist ein Rückgriff auf diese und deren Entwicklung sinnvoll. Analysen können einfache statistische Folgen sein. Auch komplexe Ansätze mit Hilfe von trainierter Software (”künstliche Intelligenz”) sind möglich.
 
 Mehr Methoden, die für die Automobilindustrie typisch sind, finden sich im [VDA Band 4](https://webshop.vda.de/QMC/de/band-04-bundle-der-abschnitte-1-4-082020).
