@@ -1,20 +1,20 @@
-# 2 - Beschreibe Dein Problem ausführlich
+## 2 - Beschreibe Dein Problem ausführlich
 
 In diesem Abschnitt wirst du dein Problem in einer Vielzahl von Aspekten beschreiben. Je besser die Beschreibung des Problems, desto tiefer kannst du bei der Lösung vordringen und desto höher die Chance, ein Problem dauerhaft zu lösen.
 
 (siehe auch [Das Problem beschreiben (D2)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184))
 
-# Kata 2.1 - Das Problem beleuchten
+## Kata 2.1 - Das Problem beleuchten
 
-## Beschreibung
+### Beschreibung
 
 In dieser Kata wirst du das Problem von vielen Seiten aus beleuchten.
 
-## Dauer
+### Dauer
 
 25 Minuten nur für Dich, 35 Minuten in deiner Lerngruppe (bei 4 Personen in der Gruppe).
 
-## Ablauf
+### Ablauf
 
 1. Stelle dir folgende Fragen
     1. **Was** ist das Problem?
