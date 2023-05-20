@@ -54,6 +54,6 @@ Absolvierst du diesen Lernpfad ohne Lernzirkel? Plane dir einen Termin zur Refle
     1. 45 Minuten solltet Ihr je Abschnitt mindestens einplanen, mehr als 90 Minuten dürfte nicht sinnvoll sein.
     2. Ob ihr euch wöchentlich, täglich oder in einem Workshop zusammenfindet, entscheidet ihr!
 3. Wo und wie wollt ihr euch treffen? An einem Ort oder Online? In welchem Raum oder mit welcher Software-Ausstattung?
-4. Was benötigt ihr? Braucht ihr ein Getränke und Snacks, Whiteboard, Flipcharts, Post-Its, Stifte, eine gemeinsame Datenablage oder andere Kollaborationswerkzeuge? Wenn ja, wer besorgt das jeweils?
+4. Was benötigt ihr? Braucht ihr Getränke und Snacks, Whiteboard, Flipcharts, Post-Its, Stifte, eine gemeinsame Datenablage oder andere Kollaborationswerkzeuge? Wenn ja, wer besorgt das jeweils?
 5. Wer führt oder leitet die Treffen? Bestimmt jemanden, die oder der die Treffen leitet und auf Dinge wie Zeit, Ausstattung (siehe oben), Dokumentation und Disziplin achtet. Ihr könnt die “Leitung” abwechselnd wahrnehmen, Aufgaben gleichmäßig verteilen, eine dritte Person als “Coach” haben, …
 6. Schreibt Eure Ergebnisse auf und verteilt Sie untereinander.
