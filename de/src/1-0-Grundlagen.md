@@ -200,13 +200,13 @@ Mehr Methoden, die für die Automobilindustrie typisch sind, finden sich im [VDA
 
 #### Eine Lösung planen - Abstellmaßnahmen (D5)
 
-Ziel dieses Schrittes ist es wirksame, effiziente und dauerhafte Maßnahmen zu definieren, die das Problem lösen. Ein typisches Beispiel ist die Reparatur des Teils einer Maschine, das für eine Fehlfunktion verantwortlich ist. Die Maßnahmen müssen auf Basis der Ursachenanalyse getroffen werden und es muss erkennbar (besser: nachweisbar) sein, dass die Problemursache damit bekämpft wird.
+Ziel dieses Schrittes ist es, wirksame, effiziente und dauerhafte Maßnahmen zu definieren, die das Problem lösen. Ein typisches Beispiel ist die Reparatur des Teils einer Maschine, das für eine Fehlfunktion verantwortlich ist. Die Maßnahmen müssen auf Basis der Ursachenanalyse getroffen werden und es muss erkennbar (besser: nachweisbar) sein, dass die Problemursache damit bekämpft wird.
 
 Hier ist Kreativität gefragt, um mögliche Maßnahmen zu erkennen. Jede mögliche Maßnahme muss anhand der Ursachenanalyse auf ihre Wirksamkeit geprüft werden. Nur wirksame Maßnahmen sollen umgesetzt werden.
 
 “Technische” und “Systemische” Fehlerursachen werden meistens mit jeweils unterschiedlichen Maßnahmen angegangen.
 
-Am Ende dieses Schritts steht ein Maßnahmenplan, in dem durchführende Personen und Plantermine genannt sind. Außerdem werden die Parameter festgelegt, mit denen die Wirksamkeit festgestellt wird. Im besten Fall sind es messbare Werte (oder “Kennzahlen”), für die festgelegt ist, wann sind gut und wann sie schlecht sind.
+Am Ende dieses Schritts steht ein Maßnahmenplan, in dem durchführende Personen und Plantermine genannt sind. Außerdem werden die Parameter festgelegt, mit denen die Wirksamkeit festgestellt wird. Im besten Fall sind es messbare Werte (oder “Kennzahlen”), für die festgelegt ist, wann sie gut, und wann sie schlecht sind.
 
 #### Die Lösung umsetzen - Maßnahmen umsetzen (D6)
 
