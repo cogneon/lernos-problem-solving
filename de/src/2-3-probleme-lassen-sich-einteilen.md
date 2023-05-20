@@ -71,7 +71,7 @@ ca. 45 Minuten in deiner Lerngruppe.
 
 ### Ablauf
 
-1. Tauscht Euch in der Lerngruppe darüber aus, welchen Domänen ihr die Probleme jeweils zugeordnet habt. Stimmen die anderen deiner Einschätzung zu? Gibt es Kontroversen? Diskutiert wie folgt (achtet auf die Zeit, nutz):
+1. Tauscht Euch in der Lerngruppe darüber aus, welchen Domänen ihr die Probleme jeweils zugeordnet habt. Stimmen die anderen deiner Einschätzung zu? Gibt es Kontroversen? Diskutiert wie folgt (achtet auf die Zeit, nutzt gerne einen Gegenstand, der als *talking stick* von Person zu Person wandert und so anzeigt, wer gearde spricht):
     1. Alle erklären nacheinander jeweils in einer Minute, in welcher Domäne das Problem liegt (und warum).
     2. Alle teilen nacheinander jeweils in einer Minute mit, was sie denken und fühlen nachdem sie alle Beiträge gehört haben.
     3. Eine offene Diskussion, fragt nach, erklärt Details, erkundet gegebenenfalls Dissens. Nehmt euch 10 bis 15 Minuten dafür Zeit
