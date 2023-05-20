@@ -16,8 +16,8 @@ In dieser Kata wirst du dein Team zusammenstellen, um die Grundlage für eure Zu
 
 ### Ablauf
 
-1. Wähle aus deiner Organisation oder anderen verfügbaren Ressourcen echte “Könner” aus, die du die helfen können, das Problem zu lösen.
-Stelle Dir folgende Fragen:
+1. Wähle aus deiner Organisation oder anderen verfügbaren Ressourcen echte “Könner” aus, die dir helfen können, das Problem zu lösen.
+Stelle dir folgende Fragen:
     1. Wer in der Organisation hat die Macht, um Raum für die Problemlösung zu machen?
     2. Wer führt die Problemlösung methodisch (Moderation/Fazilitation)?
     3. Wer bringt die Interessen der betroffenen Parteien ein?
