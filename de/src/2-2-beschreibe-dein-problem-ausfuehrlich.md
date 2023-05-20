@@ -2,7 +2,7 @@
 
 In diesem Abschnitt wirst du dein Problem in einer Vielzahl von Aspekten beschreiben. Je besser die Beschreibung des Problems, desto tiefer kannst du bei der Lösung vordringen und desto höher die Chance, ein Problem dauerhaft zu lösen.
 
-(siehe auch [Das Problem beschreiben (D2)](https://www.notion.so/Grundlagen-dbe2b0e895d24901b2321dc4390d6184))
+(siehe auch [Das Problem beschreiben (D2)](1-0-Grundlagen.md#das-problem-beschreiben-d2))
 
 ## Kata 2.1 - Das Problem beleuchten
 
