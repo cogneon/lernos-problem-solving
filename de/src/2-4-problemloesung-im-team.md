@@ -2,7 +2,7 @@
 
 In diesem Abschnitt geht es für dich darum, dein Team zur Problemlösung zu finden. Wer ist dabei? Wen brauchst du? Was brauchst du von den Teammitgliedern?
 
-(siehe auch [Die beteiligten Funktionen und Personen finden (D1)](1-0-Grundlagen.md#grundlagen))
+(siehe auch [Die beteiligten Funktionen und Personen finden (D1)](1-0-Grundlagen.md##die-beteiligten-funktionen-und-personen-finden-d1))
 
 ## Kata 4.1 - Mein Team und Ich
 
@@ -16,7 +16,7 @@ In dieser Kata wirst du dein Team zusammenstellen, um die Grundlage für eure Zu
 
 ### Ablauf
 
-1. Wähle aus deiner Organisation oder anderen verfügbaren Ressourcen echte “Könner” aus, die dir helfen können, das Problem zu lösen.
+1. Wähle aus deiner Organisation oder anderen verfügbaren Ressourcen echte “Könner” aus, die helfen können, das Problem zu lösen.
 Stelle dir folgende Fragen:
     1. Wer in der Organisation hat die Macht, um Raum für die Problemlösung zu machen?
     2. Wer führt die Problemlösung methodisch (Moderation/Fazilitation)?
