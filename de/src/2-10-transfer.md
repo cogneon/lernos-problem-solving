@@ -4,17 +4,17 @@ In diesem Abschnitt beschäftigst du dich damit, ob das Problem auch in anderen,
 
 (vergleiche auch [Sich absichern - Fehler in der Zukunft vermeiden (D7)](1-0-Grundlagen.md#sich-absichern---fehler-in-der-zukunft-vermeiden-d7))
 
-## Kata 10.1 - Gleiches und ähnliches erkennen
+### Kata 10.1 - Gleiches und ähnliches erkennen
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata werdet gedanklich ihr über das Problem hinausgehen, um andere Bereiche zu entdecken, die von eurer Lösung ebenso profitieren können. 
 
-### Dauer
+#### Dauer
 
-Etwa 45 Minuten für dich und dein Problemlösungsteam
+Etwa 45 Minuten für dich und dein Problemlösungsteam.
 
-### Ablauf
+#### Ablauf
 
 1. Vervollständigt nacheinander die folgenden vier Satzanfänge, um die Kraft eurer Lösung in Worte zu fassen. Zuerst jede:r für sich allein, am besten auf einem Papier schreibend. Dann tragt ihr eure Sätze nacheinander vor. Was beobachtet ihr? Was empfindet ihr? Was schließt ihr daraus? 
     1. “Ja, es ist wahr, dass …”
@@ -28,21 +28,21 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
     4. Wer kann uns helfen, unsere Lösung breiter anzuwenden?
     5. Wen sonst müssen wir involvieren?
 
-### Quellen
+#### Quellen
 
 - [https://liberatingstructures.de/liberating-structures-menue/discovery-action-dialogue-dad/](https://liberatingstructures.de/liberating-structures-menue/discovery-action-dialogue-dad/)
 
-## Kata 10.2 - Reflektion in der Lerngruppe
+### Kata 10.2 - Reflektion in der Lerngruppe
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du die Transferarbeit in deiner Lerngruppe reflektieren.
 
-### Dauer
+#### Dauer
 
-30 Minuten in deiner Lerngruppe.
+Etwa 30 Minuten in deiner Lerngruppe.
 
-### Ablauf
+#### Ablauf
 
 1. Beschreibt reihum, wie es euch bei der Transferarbeit gegangen ist.
 2. War der Transfer offensichtlich? Oder fühlte es sich “weit hergeholt” an? Wann ist es sinnvoll, einen Transfer der “Lösung” zu unternehmen, und wann nicht?
