@@ -3,7 +3,7 @@
 ## Danksagungen
 
 Ein großer Dank an die vielen Projekte und Vorarbeiten, die die Erstellung und Verwaltung von lernOS Leitfäden ermöglichen.
-Explizit gilt der Dank auch
+Explizit gilt der Dank auch  
 - Gabriele Petrat für das Interesse und die Ermutigung
 - Simon Dückert für lernOS
 - Marianne Windelband, Marcel Kirchner und Ralph Bleckmann für die Anregungen und Kommentare
@@ -14,6 +14,7 @@ Explizit gilt der Dank auch
 | Version | Bearbeitet von     | Beschreibung Änderung                            | Datum      |
 | ------- | ------------------ | ------------------------------------------------ | ---------- |
 | 0.1     | Jan Bretschneider  | Erste Version des "Problem-Solving"-Repositories | 07.05.2023 |
+| 0.2     | Jan Bretschneider  | Zweite Version mit ersten Fehlerkorrekturen      | 07.06.2023 |
 
 ## Glossar
 
