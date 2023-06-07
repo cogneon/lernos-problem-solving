@@ -5,17 +5,17 @@
 
 Im “Abschnitt 0” geht es darum, dass du dir und dein Lernzirkel sich darüber klar werden, wie ihr in der nächsten Zeit mit diesem “Lernpfad” arbeiten werdet.
 
-## Kata 0.1 - Deine persönliche Lernvoraussetzung
+### Kata 0.1 - Deine persönliche Lernvoraussetzung
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du in dich gehen, um deine persönliche Lernumgebung und -voraussetzung zu beschreiben.
 
-### Dauer
+#### Dauer
 
 25 Minuten nur für dich
 
-### Ablauf
+#### Ablauf
 
 1. Besorge dir den [lernOS-Canvas](https://cogneon.github.io/lernos-for-you/de/1-2-lernOS-Canvas/).
 (Du kannst das png in ein pdf konvertieren oder ausdrucken. Es gibt auch [diese Umsetzung in Notion](https://www.notion.so/lernOS-Canvas-79aea800a86a449cbacf99ffcf2398ac). Oder übertrage den Canvas in das Medium deiner Wahl…)
@@ -35,19 +35,19 @@ In dieser Kata wirst du in dich gehen, um deine persönliche Lernumgebung und -v
 4. Was fällt dir auf? Was hat dich überrascht?
 5. Überlege dir, wie du deine Ergebnisse notierst. Ein Poster an der Wand mit Post-Its? Eine elektronische Mappe oder Datei? Eine Kladde oder ein Notizbuch? Eine Vorlage für einen 8D-Report?
 
-## Kata 0.2 - Du und Dein Lernzirkel
+### Kata 0.2 - Du und Dein Lernzirkel
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du festlegen, mit wem du wie und wann deine Ergebnisse zusammenträgst und diskutierst.
 
 Absolvierst du diesen Lernpfad ohne Lernzirkel? Plane dir einen Termin zur Reflektion “nur für dich” in jeder Woche ein. Nutze dazu die Fragen dieser Kata.
 
-### Dauer
+#### Dauer
 
 45 Minuten in deiner Lerngruppe
 
-### Ablauf
+#### Ablauf
 
 1. Wer befindet sich im Lernzirkel? Stellt euch gegenseitig vor und tauscht Kontaktdaten aus. Gründet eine Mailing-Liste oder Chat-Gruppe im Medium Eurer Wahl.
 2. Wann wird gearbeitet? Legt fest, an welchen Tagen und zu welcher Zeit Ihr euch wie lange treffen wollt, um eure Ergebnisse zu diskutieren oder gemeinsam zu entwickeln.
