@@ -13,7 +13,7 @@ In dieser Kata wirst du in dich gehen, um deine persönliche Lernumgebung und -v
 
 #### Dauer
 
-25 Minuten nur für dich
+Etwa 25 Minuten nur für dich.
 
 #### Ablauf
 
@@ -45,7 +45,7 @@ Absolvierst du diesen Lernpfad ohne Lernzirkel? Plane dir einen Termin zur Refle
 
 #### Dauer
 
-45 Minuten in deiner Lerngruppe
+Etwa 45 Minuten in deiner Lerngruppe.
 
 #### Ablauf
 
