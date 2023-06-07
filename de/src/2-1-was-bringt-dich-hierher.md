@@ -16,12 +16,12 @@ In dieser Kata wirst du um und in dich blicken, um deinen Startpunkt für diesen
 
 1. Wähle ein Problem, das du in den nächsten Wochen bearbeiten möchtest.
 Ein gutes Problem sollte…
-    1. … schwierig genug sein.
+    1. … schwierig genug sein.  
     Der Aufwand, den du betreiben wirst, sollte sich lohnen und sich nicht künstlich aufgeblasen anfühlen.
-    2. … nicht zu komplex sein.
+    2. … nicht zu komplex sein.  
     Probleme, die sich über mehrere Organisationseinheiten erstrecken, oder an den Grundpfeilern der Organisation rütteln, gehen über das hinaus, was in diesem Lernpfad vernünftig abbildbar ist. Auch zwischenmenschliche Probleme stehen nicht im Fokus dieses Lernpfads.
-    3. … bedeutsam sein.
-    Wenn das Problem nicht bedeutsam genug ist, wird sich die Zeit, die du während des Lernpfads damit verbringst wie Verschwendung anfühlen. Also, nimm etwas, bei dem es darum geht Probleme für die Kund:innen (oder “externe Partner”) zu lösen, das wesentliche Abläufe betrifft oder das dir besonders am Herzen liegt.
+    3. … bedeutsam sein.  
+    Wenn das Problem nicht bedeutsam genug ist, wird sich die Zeit, die du während des Lernpfads damit verbringst, wie Verschwendung anfühlen. Also, nimm etwas, bei dem es darum geht, Probleme für die Kund:innen (oder “externe Partner”) zu lösen, das wesentliche Abläufe betrifft, oder das dir besonders am Herzen liegt.
 2. Beantworte die folgenden Fragen und mache dir dazu Notizen:
     1. Welche/-s Problem/-e beschäftigt/-en dich gerade, das/die du lösen möchtest?
     2. Wann weißt du, dass du eine Lösung gefunden hast?
