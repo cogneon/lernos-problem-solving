@@ -79,6 +79,4 @@ In dieser Kata wirst du die ersten Ursachenanalysen reflektieren und durch Rück
 
 für [Kata 7.1 Ursache-Wirkungs-Diagramm](#kata-71---ursache-wirkungs-diagramm)
 
-![Ishikawa-2023-02-19-2222.png](images/Ishikawa-2023-02-19.png)
-
-Vorlage für ein Ursache-Wirkungs-Diagramm
+![Vorlage für ein Ursache-Wirkungs-Diagramm](images/Ishikawa-2023-02-19.png)
