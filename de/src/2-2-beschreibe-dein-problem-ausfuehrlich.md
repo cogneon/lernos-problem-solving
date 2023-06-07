@@ -4,17 +4,17 @@ In diesem Abschnitt wirst du dein Problem in einer Vielzahl von Aspekten beschre
 
 (siehe auch [Das Problem beschreiben (D2)](1-0-Grundlagen.md#das-problem-beschreiben-d2))
 
-## Kata 2.1 - Das Problem beleuchten
+### Kata 2.1 - Das Problem beleuchten
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du das Problem von vielen Seiten aus beleuchten.
 
-### Dauer
+#### Dauer
 
-25 Minuten nur für Dich, 35 Minuten in deiner Lerngruppe (bei 4 Personen in der Gruppe).
+Etwa 25 Minuten nur für Dich, 35 Minuten in deiner Lerngruppe (bei 4 Personen in der Gruppe).
 
-### Ablauf
+#### Ablauf
 
 1. Stelle dir folgende Fragen
     1. **Was** ist das Problem?
