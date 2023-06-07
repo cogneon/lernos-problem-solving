@@ -8,7 +8,7 @@ In diesem Abschnitt beschäftigst du dich damit, ob das Problem auch in anderen,
 
 ### Beschreibung
 
-In dieser Kata werdet gedanklich über das Problem hinausgehen, um andere Bereiche zu entdecken, die von eurer Lösung ebenso profitieren können. 
+In dieser Kata werdet gedanklich ihr über das Problem hinausgehen, um andere Bereiche zu entdecken, die von eurer Lösung ebenso profitieren können. 
 
 ### Dauer
 
@@ -16,7 +16,7 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
 
 ### Ablauf
 
-1. Vervollständigt nacheinander die folgenden vier Satzanfänge, um die Kraft eurer Lösung in Worte zu fassen. Zuerst jede*r für sich allein, am besten auf einem Papier schreibend. Dann tragt ihr eure Sätze nacheinander vor. Was beobachtet ihr? Was empfindet ihr? Was schließt ihr daraus? 
+1. Vervollständigt nacheinander die folgenden vier Satzanfänge, um die Kraft eurer Lösung in Worte zu fassen. Zuerst jede:r für sich allein, am besten auf einem Papier schreibend. Dann tragt ihr eure Sätze nacheinander vor. Was beobachtet ihr? Was empfindet ihr? Was schließt ihr daraus? 
     1. “Ja, es ist wahr, dass …”
     2. “Es ist erfolgreich, weil …”
     3. “Ich werde mich immer erinnern und nie vergessen …”
