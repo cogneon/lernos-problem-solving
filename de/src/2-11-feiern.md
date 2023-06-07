@@ -12,7 +12,7 @@ In dieser Kata wirst du im Problemlösungsteam eine Retrospektive abhalten, um d
 
 ### Dauer
 
-etwa 30 Minuten nur für dich zur Vorbereitung und etwa 30 Minuten für dich und dein Problemlösungsteam
+Etwa 30 Minuten nur für dich zur Vorbereitung und etwa 30 Minuten für dich und dein Problemlösungsteam.
 
 ### Ablauf
 
@@ -21,10 +21,10 @@ Wichtig für die Auswahl ist: Wie gut war die Laune im Team? Wie verspielt darf 
 Ein paar mögliche Beispiele für Aktivitäten in einer Retrospektive sind:
     1. Das klassische “Starfish”-Review [https://retromat.org/en/?id=49](https://retromat.org/en/?id=49)
     2. Eine “Oscar-Verleihung” für Dein Team: [https://www.youtube.com/watch?v=Ykyy2XyCuBQ](https://www.youtube.com/watch?v=Ykyy2XyCuBQ)
-    3. Nutzt Bilder um über das Projekt zu sprechen (”Toffifee”, “Segelboot”, “Wassermelone”, zum Beispiel hier: [https://www.claudiathonet.de/was-ist-eine-retrospektive/](https://www.claudiathonet.de/was-ist-eine-retrospektive/))
+    3. Nutzt Bilder, um über das Projekt zu sprechen (”Toffifee”, “Segelboot”, “Wassermelone”, zum Beispiel hier: [https://www.claudiathonet.de/was-ist-eine-retrospektive/](https://www.claudiathonet.de/was-ist-eine-retrospektive/))
     4. Trefft euch an einem sinnbildlichen Lagerfeuer in der Zukunft und erzählt euch, wie eure Erfolge in der Zukunft ihre Wirkung entfalten, und was ihr heute dafür getan habt (”Future Present” unter [https://www.liberatingstructures.com/ls-in-development/](https://www.liberatingstructures.com/ls-in-development/)) 
 2. Führe die Retrospektive mit deinem Team durch.
-3. Feiert euch als Team. Ihr habt ein wichtiges, kompliziertes Problem gelöst.
+3. Feiert euch als Team. Ihr habt ein wichtiges, vermutlich kompliziertes, Problem gelöst.
 4. Löst das Team offiziell auf und widmet euch in der Folge wieder voll euren eigentlichen Tätigkeiten. 
 
 ## Kata 11.2 - Reflektion in der Lerngruppe
