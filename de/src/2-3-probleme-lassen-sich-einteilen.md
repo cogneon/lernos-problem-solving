@@ -6,17 +6,17 @@ Achtung, je nachdem, welches Problem du gewählt hast, kann es sein, dass der Le
 
 (siehe auch [Der Cynefin-Ansatz und der 8D-Prozess](1-0-Grundlagen.md#der-cynefin-ansatz-und-der-8d-prozess))
 
-## Kata 3.1 - Das Problem einfach kategorisieren
+### Kata 3.1 - Das Problem einfach kategorisieren
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du dein Problem schnell kategorisieren, um deine Herangehensweise und Motivation weiter zu klären 
 
-### Dauer
+#### Dauer
 
-10 Minuten nur für dich.
+Etwa 10 Minuten nur für dich.
 
-### Ablauf
+#### Ablauf
 
 1. Schreibe auf, ob das Problem dem Anschein nach technischer, organisationaler oder zwischenmenschlicher Natur ist.
     1. Woran machst du deine Beobachtung fest?
@@ -26,21 +26,21 @@ In dieser Kata wirst du dein Problem schnell kategorisieren, um deine Herangehen
     2. Woran machst du deine Beobachtung fest?
     3. Was bedeutet das für deine Sicht auf das Problem?
 
-### Quellen
+#### Quellen
 
 - Interview mit Gerhard Wohland über externe und interne Referenzen [https://www.youtube.com/watch?v=1YajZkgf7O0](https://www.youtube.com/watch?v=1YajZkgf7O0)
 
-## Kata 3.2 - Dein Problem und das Cynefin-Framework
+### Kata 3.2 - Dein Problem und das Cynefin-Framework
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du das Cynefin-Framework auf Dein Problem anwenden, um das vermutlich beste Vorgehen zur Lösung zu ermitteln.
 
-### Dauer
+#### Dauer
 
-30 Minuten (oder mehr) nur für dich.
+Etwa 30 Minuten (oder mehr) nur für dich.
 
-### Ablauf
+#### Ablauf
 
 1. Recherchiere zum Cynefin-Framework. Empfohlene Quellen:
     1. Leader's Framework for Decision Making, D. J. Snowden, M. E. Boone, *Harvard Business Review* **2007**. [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making)
@@ -53,23 +53,23 @@ In dieser Kata wirst du das Cynefin-Framework auf Dein Problem anwenden, um das 
     4. Chaotisch - Die Zeitspanne, in der sich Impulse von außen und die Reaktionen darauf ändern, ist so klein, dass sich Ursache und Wirkung nicht mehr erkennen lassen. Lösungen können nur gefunden werden, wenn es geling durch direktes Handeln das Geschehen mindestens in die “komplexe” Domäne zu “verlagern”.
     5. Unordnung - Du kannst dein Problem nicht einer Domäne zuordnen.
 
-### Quellen
+#### Quellen
 
 - Leader's Framework for Decision Making, D. J. Snowden, M. E. Boone, *Harvard Business Review* **2007**. [https://hbr.org/2007/11/a-leaders-framework-for-decision-making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making)
 - Ein Video von D. J. Snowden zum Cynefin-Framework [https://www.youtube.com/watch?v=N7oz366X0-8](https://www.youtube.com/watch?v=N7oz366X0-8) (ca. 9 Minuten, bei Bedarf Untertitel einschalten [auch automatisch übersetzt])
 - Der Wikipedia-Eintrag zum Cynefin-Framework [https://de.wikipedia.org/wiki/Cynefin-Framework](https://de.wikipedia.org/wiki/Cynefin-Framework)
 
-## Kata 3.3 - Deine Kategorisierung des Problems in der Gruppe
+### Kata 3.3 - Deine Kategorisierung des Problems in der Gruppe
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du mit deiner Lerngruppe deine Kategorisierung besprechen, um mögliche Lösungswege aufzuzeigen.
 
-### Dauer
+#### Dauer
 
 ca. 45 Minuten in deiner Lerngruppe.
 
-### Ablauf
+#### Ablauf
 
 1. Tauscht Euch in der Lerngruppe darüber aus, welchen Domänen ihr die Probleme jeweils zugeordnet habt. Stimmen die anderen deiner Einschätzung zu? Gibt es Kontroversen? Diskutiert wie folgt (achtet auf die Zeit, nutzt gerne einen Gegenstand, der als *talking stick* von Person zu Person wandert und so anzeigt, wer gearde spricht):
     1. Alle erklären nacheinander, jeweils in einer Minute, in welcher Domäne das Problem liegt (und warum).
@@ -80,7 +80,7 @@ ca. 45 Minuten in deiner Lerngruppe.
     1. Habt Ihr ein Problem gewählt, das “kompliziert” oder “komplex” ist? Was bedeutet das jeweils für den weiteren Verlauf bei der Bearbeitung dieses Lernpfads?
     2. Habt ihr ein “einfaches” Problem gewählt? Dann ist die hier präsentierte Herangehensweise nicht zielführend. Findet ihr noch ein “größeres” Problem? Oder ist euer “einfaches” Problem ein Symptom eines “größeren” Problems, wenn ihr eure Sichtweise ändert?
 
-### Quellen
+#### Quellen
 
 - Conversation Cafe zur Diskussion: [https://liberatingstructures.de/liberating-structures-menue/conversation-cafe/](https://liberatingstructures.de/liberating-structures-menue/conversation-cafe/)
 - Buch “[Creative Acts for Curious People](https://dschool.stanford.edu/book-collections/creative-acts-for-curious-people)” von Sarah Stein Greenberg, Abschnitt “The Feeling of Learning”, S. 160 ff.
