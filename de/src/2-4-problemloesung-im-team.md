@@ -4,17 +4,17 @@ In diesem Abschnitt geht es für dich darum, dein Team zur Problemlösung zu fin
 
 (siehe auch [Die beteiligten Funktionen und Personen finden (D1)](1-0-Grundlagen.md##die-beteiligten-funktionen-und-personen-finden-d1))
 
-## Kata 4.1 - Mein Team und Ich
+### Kata 4.1 - Mein Team und Ich
 
-### Beschreibung
+#### Beschreibung
 
-In dieser Kata wirst du dein Team zusammenstellen, um die Grundlage für eure Zusammenarbeit zu legen 
+In dieser Kata wirst du dein Team zusammenstellen, um die Grundlage für eure Zusammenarbeit zu legen.
 
-### Dauer
+#### Dauer
 
-15 Minuten nur für dich, 45 Minuten für dich und dein Problemlösungsteam
+Etwa 15 Minuten nur für dich, etwa 45 Minuten für dich und dein Problemlösungsteam.
 
-### Ablauf
+#### Ablauf
 
 1. Wähle aus deiner Organisation oder anderen verfügbaren Ressourcen echte “Könner” aus, die helfen können, das Problem zu lösen.
 Stelle dir folgende Fragen:
@@ -32,21 +32,21 @@ Stelle dir folgende Fragen:
     3. Welche Aktivität folgt für euch daraus? Was ist der nächste Schritt?
 6. Definiert für das Problemlösungsteam, wie ihr zusammenarbeiten wollt. Schaut auch, welche Aspekte aus der [Kata 0.2 - Du und Dein Lernzirkel](2-0-Lernpfad.md#kata-02---du-und-dein-lernzirkel) ihr verwenden wollt.
 
-### Quellen
+#### Quellen
 
 - “What I Need From You” [https://liberatingstructures.de/liberating-structures-menue/what-i-need-from-you-winfy/](https://liberatingstructures.de/liberating-structures-menue/what-i-need-from-you-winfy/)
 
-## Kata 4.2 - Das Team aufstellen - Reflektion in der Lerngruppe
+### Kata 4.2 - Das Team aufstellen - Reflektion in der Lerngruppe
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du mit deiner Lerngruppe deine Teamzusammensetzung diskutieren, um Erfahrungen und Sichtweisen auszutauschen. 
 
-### Dauer
+#### Dauer
 
-30 Minuten in deiner Lerngruppe.
+Etwa 30 Minuten in deiner Lerngruppe.
 
-### Ablauf
+#### Ablauf
 
 1. Schaut euch die “Folgerungsleiter” unter [https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/](https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/) an.
 2. Beschreibt euch wechselseitig eure Beobachtung bei der Aufstellung des Teams. Leitfragen:
@@ -56,6 +56,6 @@ Warum ist das wichtig? Welche Muster oder Schlussfolgerungen ergeben sich daraus
 4. Beschreibt euch wechselseitig, welche nächsten Schritte bei euch anstehen.
 5. Reflektiert die Übung. Was fällt euch im Vergleich untereinander auf? Wie fühlt ihr euch? Wie kommt ihr jetzt ins tun?
 
-### Quellen
+#### Quellen
 
 - What? So What? Now What? [https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/](https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/)
