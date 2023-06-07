@@ -29,7 +29,7 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
     3. Was ist heute anders als bei der Entstehung des Problems?
     4. Was war bei der Entstehung des Problems anders als vorher?
     5. Was beobachtet ihr? Wenn ihr unterschiedliche Rollen eingenommen habt, was sehen diese Rollen anders als andere?
-5. Wenn ihr experimentierfreudig seid (und noch mehr zeit habt): zeichnet eure Beobachtungen, hängt sie nebeneinander auf und lasst sie auf Euch wirken.
+5. Wenn ihr experimentierfreudig seid (und noch mehr Zeit habt): zeichnet eure Beobachtungen, hängt sie nebeneinander auf und lasst sie auf Euch wirken.
 
 ### Quellen
 
@@ -50,7 +50,7 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
 
 1. Nach der Prozessanalyse - und gerne noch oder wieder vor Ort - sammelt euch.
 2. Beantwortet jede und jeder für sich, die Frage “Warum ist das Problem aufgetreten?”. Formuliert die direkt dafür ursächliche Aktion/Tätigkeit. Schreibt es auf.
-    1. Schreibt als nächstes auf, was genau was das auslösende Ereignis bedingt hat. Und so weiter, bis ihr jeweils fünf mal “Warum?” gefragt habt.
+    1. Schreibt als nächstes auf, was genau das auslösende Ereignis bedingt hat. Und so weiter, bis ihr jeweils fünf mal “Warum?” gefragt habt.
 3. Macht den Rückwärtstest: Ist das fünfte Ereignis ein überzeugender Auslöser für das vierte, und so weiter? Könnt Ihr formulieren “XYZ passiert, deshalb passiert STU, deshalb passiert MNP, …”? Und klingt die Ereignisabfolge logisch?
 4. Stellt Euch gegenseitig eure Ursachenketten vor. Wo seid ihr zu gleichen Ergebnissen gekommen? Wo habt ihr Unterschiede gefunden?
 5. Wenn ihr ganz ausführlich arbeiten wollt (oder in der Automobilindustrie für den Kunden einen 8D-Bericht anfertigen sollt) , erstellt vier Schritte:
