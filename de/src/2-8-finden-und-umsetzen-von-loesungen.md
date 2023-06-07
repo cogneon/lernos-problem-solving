@@ -50,17 +50,17 @@ In dieser Kata wirst du konkrete Maßnahmen beschreiben, um Lösungsideen umzuse
 
 ### Dauer
 
-etwa 30 Minuten für dich und dein Problemlösungsteam
+Etwa 30 Minuten für dich und dein Problemlösungsteam
 
 ### Ablauf
 
-1. Nehmt die Lösungsideen aus der vorherigen Kata und beantwortet für jede Idee konkret die folgende Fragen. Schreibt die Antworten, z. B. in einer Liste oder einer Aufgaben-App auf.
-    1. Was müssen wir ändern, um die Idee umzusetzen?
+1. Nehmt die Lösungsideen aus der vorherigen Kata und beantwortet für jede Idee konkret die folgende Fragen. Schreibt die Antworten, zum Beispiel in einer Liste oder einer Aufgaben-App auf.
+    1. Was müssen wir ändern, um die Idee umzusetzen?  
     Technisch, organisatorisch oder auf zwischenmenschlicher Ebene. Hier können auch mehrere Einzelmaßnahmen notwendig sein!
-    2. Wer ist verantwortlich für diese Umsetzung? Wer kümmert sich darum, dass es passiert?
+    2. Wer ist verantwortlich für diese Umsetzung? Wer kümmert sich darum, dass es passiert?  
     Die Person sollte aus Eurem Team stammen - oder spätestens jetzt ins Team geholt werden.
     ”Sich kümmern” bedeutet nicht, dass diese Person das alleine machen muss!
-    3. Bis wann ist die Idee realistisch und sinnvoll umsetzbar?
+    3. Bis wann ist die Idee realistisch und sinnvoll umsetzbar?  
     Schätzt Zeiträume vernünftig ab. Habt im Kopf, dass eigentlich immer noch Korrekturmaßnahmen laufen, diese können dann bald eingestellt werden. Geht sinnvoll mit Ressourcen um!
 2. Jetzt habt ihr einen Haufen Aufgaben. Eine Person kann immer nur eine Sache gleichzeitig tun.  Deswegen priorisiert die einzelnen Maßnahmen gemeinsam, zum Beispiel mit einem Dot-Voting oder indem jede und jeder für sich Arbeitsreihenfolgen festlegt, die dann “übereinandergelegt” werden.
 3. Vereinbart einen sinnvollen, regelmäßigen Termin, zu dem ihr euch zu den Fortschritten der Arbeiten gegenseitig informiert. Intervall und Dauer der Treffen sollten zu euren Lösungen passen.
