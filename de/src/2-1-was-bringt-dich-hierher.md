@@ -10,7 +10,7 @@ In dieser Kata wirst du um und in dich blicken, um deinen Startpunkt für diesen
 
 #### Dauer
 
-25 Minuten nur für dich, 25 Minuten in deiner Lerngruppe (bei 4 Personen in der Gruppe)
+Etwa 25 Minuten nur für dich, 25 Minuten in deiner Lerngruppe (bei 4 Personen in der Gruppe).
 
 #### Ablauf
 
@@ -54,7 +54,7 @@ In dieser Kata wirst Du reflektieren, um die Ergebnisse der letzten Woche zu ver
 
 #### Dauer
 
-10 Minuten
+Etwa 10 Minuten in deiner Lerngruppe.
 
 #### Ablauf
 
