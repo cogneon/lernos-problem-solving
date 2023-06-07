@@ -1,6 +1,6 @@
 ## 5 - Korrekturmaßnahmen.
 
-In diesem Abschnitt geht es für darum mit deinem Team Korrekturmaßnahmen zu finden. Was muss möglichst schnell “geradegebogen” werden? Womit gewinnt ihr Zeit, eine dauerhafte Lösung zu erarbeiten?
+In diesem Abschnitt geht es darum mit deinem Team Korrekturmaßnahmen zu finden. Was muss möglichst schnell “geradegebogen” werden? Womit gewinnt ihr Zeit, eine dauerhafte Lösung zu erarbeiten?
 
 ## Kata 5.1 - Korrekturmaßnahmen
 
@@ -22,7 +22,7 @@ In dieser Kata wirst du Sofortmaßnahmen definieren, um die Folgen des Problems 
     3. Wie könnt ihr sicher sein, dass die Auswirkungen nach eurer Maßnahme auch entfernt sind?
 3. Definiert Überwachungsmaßnahmen. Überlegt:
     1. Wie erkennen wir schnell, ob das Problem fortbesteht oder wenn das Problem wieder auftritt? Typische Maßnahmen sind “beobachten” oder “messen”.
-    2. Anhand welchem Merkmal ist das Problem besonders früh zu erkennen?
+    2. Anhand welchen Merkmals oder welcher Merkmale ist das Problem besonders früh zu erkennen?
     3. Welches Merkmal lässt sich gut und verlässlich überwachen?
 4. Weist eure Maßnahmen einer Person oder Personengruppe zu und setzt euch ambitionierte aber realistische Termine, an denen die Maßnahmen begonnen werden oder beendet sein sollen.
 
@@ -30,7 +30,7 @@ In dieser Kata wirst du Sofortmaßnahmen definieren, um die Folgen des Problems 
 
 ### Beschreibung
 
-In dieser Kata wirst du das finden der Korrekturmaßnahmen reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer verstehen.
+In dieser Kata wirst du das Finden der Korrekturmaßnahmen reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer verstehen.
 
 ### Dauer
 
