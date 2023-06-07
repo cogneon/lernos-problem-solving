@@ -6,11 +6,11 @@ In diesem Abschnitt beschäftigst du dich noch einmal mit Kennzahlen und Beobach
 
 ### Beschreibung
 
-In dieser Kata werdet ihr Kennzahlen entwickeln, um die Wirksamkeit eurer Maßnahmen zu verfolgen 
+In dieser Kata werdet ihr Kennzahlen entwickeln, um die Wirksamkeit eurer Maßnahmen zu verfolgen-
 
 ### Dauer
 
-Etwa 45 Minuten für dich und dein Problemlösungsteam
+Etwa 45 Minuten für dich und dein Problemlösungsteam.
 
 ### Ablauf
 
