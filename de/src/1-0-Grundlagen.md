@@ -87,6 +87,11 @@ Day Cynefin-Framework ist eine Möglichkeit, Probleme zu kategorisieren. Andere 
 Ist das Problem eines, das nur lokal auftritt und eine klar abgegrenzte Ursache hat? Oder ist es das Problem eines, das aus dem System einer Organisation entspringt, so dass Ursachen schwerer zu fassen sind? Ein Beispiel sei ein Schlagloch auf einem Parkplatz: Ist einem Handwerker etwas schweres heruntergefallen, das den Bodenbelag zerstörte? Oder ist die Besitzerin des Parkplatzes überfordert damit, den Parkplatz adäquat zu warten und instand zu setzen?
 - Entwicklungsstatus eines Produkts oder Regelhaftigkeit der Problemursache  
 Ist Produkt noch in der Entwicklung oder befindet es sich in Serienproduktion? Anders: Entstammt das Problem einem bisher einmaligen Vorgehen oder laufen die Prozesse, in denen das Problem auftrat, immer gleich oder ähnlich ab? Ein Beispiel sei ein Materialfehler bei der Herstellung eines Produkts: In einem Prototyp ist so etwas sogar typisch, in der Serienproduktion sollte es nicht (mehr) vorkommen.
+- Domäne, in der das Problem auftritt  
+Ist das Problem ein technisches, ein organisationales oder ein zwischenmenschliches? Sicher fallen dir noch weitere Kategorisierungen ähnlicher Art ein.
+- Quelle des Problems oder Referenz des Problems  
+Woher kommt der Druck, das Problem zu lösen? Will es jemand von "außerhalb" (externe Referenz) oder ist es ein Problem, das nur im Rahmen einer Organisation von Bedeutung ist (interne Referenz)?  
+Siehe dazu auch das Interview mit Gerhard Wohland über externe und interne Referenzen [https://www.youtube.com/watch?v=1YajZkgf7O0](https://www.youtube.com/watch?v=1YajZkgf7O0)
 
 ### Vom Problem zur Lösung - Die “Double-Diamond”-Methode
 
