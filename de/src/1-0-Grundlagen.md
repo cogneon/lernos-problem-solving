@@ -91,7 +91,7 @@ Ist Produkt noch in der Entwicklung oder befindet es sich in Serienproduktion? A
 Ist das Problem ein technisches, ein organisationales oder ein zwischenmenschliches? Sicher fallen dir noch weitere Kategorisierungen ähnlicher Art ein.
 - Quelle des Problems oder Referenz des Problems  
 Woher kommt der Druck, das Problem zu lösen? Will es jemand von "außerhalb" (externe Referenz) oder ist es ein Problem, das nur im Rahmen einer Organisation von Bedeutung ist (interne Referenz)?  
-Siehe dazu auch das Interview mit Gerhard Wohland über externe und interne Referenzen [https://www.youtube.com/watch?v=1YajZkgf7O0](https://www.youtube.com/watch?v=1YajZkgf7O0)
+Siehe dazu auch das [Interview mit Gerhard Wohland über externe und interne Referenzen](https://www.youtube.com/watch?v=1YajZkgf7O0)
 
 ### Vom Problem zur Lösung - Die “Double-Diamond”-Methode
 
