@@ -125,7 +125,7 @@ Auch wenn die sehr strukturierte Darstellung den Eindruck vermittelt: Auch die I
 
 Die mit dem 8D-Prozess einhergehenden Einschränkungen (besonders im Hinblick auf die oben erwähnten Rahmenwerke) sollen hier nicht beschrieben werden. Sie werden in diesem Lernpfad in den Katas “durchlebt”.
 
-Im folgenden werden die acht Schritte des 8D-Prozesses kurz beschrieben. Alle Details finden sich in der Veröffentlichung “8D - Problemlösung in 8 Disziplinen**”** des VDA unter [https://webshop.vda.de/QMC/de/8d-problemlösung-in-8-disziplinen](https://webshop.vda.de/QMC/de/8d-probleml%C3%B6sung-in-8-disziplinen).
+Im folgenden werden die acht Schritte des 8D-Prozesses kurz beschrieben. Alle Details finden sich in der Veröffentlichung “8D - Problemlösung in 8 Disziplinen” des VDA unter [https://webshop.vda.de/QMC/de/8d-problemlösung-in-8-disziplinen](https://webshop.vda.de/QMC/de/8d-probleml%C3%B6sung-in-8-disziplinen).
 
 #### Die beteiligten Funktionen und Personen finden (D1)
 
