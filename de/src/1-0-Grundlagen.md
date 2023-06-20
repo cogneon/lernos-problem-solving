@@ -49,8 +49,8 @@ Der Lernpfad gliedert sich grob in folgende sechs Abschnitte:
     - Das Problem sinnvoll kategorisieren (Abschnitt 3)
     - Eine für das Problem möglichst adäquate Lösungsstrategie erarbeiten (Abschnitte 4 bis 7)
     - Lösungen aktiv suchen (Abschnitte 8 und 9)
-    - Lösungen überprüfen (Abschnitte 10 und 11)
-    - Erkenntnisse aus der Problemlösung transferieren (Abschnitte 12 und 13)
+    - Lösungen überprüfen (Abschnitt 10)
+    - Erkenntnisse transferieren und zusammenfassen (Abschnitt 12)
 - Brauche ich besondere Tools oder Werkzeuge?  
 Im Internet und in Unternehmen finden sich diverse Vorlagen zur 8D-Methode (auch A3-Template). Es existieren auch Softwarelösungen, die euch durch den Prozess begleiten. All dies kann dich unterstützen, ist aber nicht zwingend nötig (außer ein Kunde will genau so etwas von euch sehen…).
 Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein [Kanban-Board zur 8D-Methode in Trello](https://trello.com/b/QsUKpdwB/problem-solving-as-kanban-board). Probiere sie gerne aus und melde dich, wenn es gefällt.
