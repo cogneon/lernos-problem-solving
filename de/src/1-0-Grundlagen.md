@@ -64,7 +64,7 @@ Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein [Kanban-Board zur
 
 ### Probleme kategorisieren - Das “Cynefin-Framework”
 
-Problem lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win”, siehe und höre auch im Video unten)-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch” einteilen. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
+Probleme lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win”, siehe und höre auch im Video unten)-Frameworks einteilen in die Domänen “einfach”, “kompliziert”, “komplex” und “chaotisch”. Je nachdem, über welche Domäne sich ein Problem beschreiben lässt, ergeben sich spezifische Herangehensweisen:
 
 - Einfach: “Pack-an”-Probleme, deren Lösung auf der Hand liegt und die ohne Aufwand gelöst werden können.
 Herangehensweise: beobachten → kategorisieren → reagieren
@@ -77,9 +77,7 @@ Herangehensweise: agieren → beobachten → reagieren
 
 Eine fünfte Domäne des Modells ist “verwirrt”. In dieser Situation lässt sich eine Lösung nicht finden. Die dringendste Aufgabe ist es dann, sich Klarheit über die Art des Problems (oder besser: der eigenen Sichtweise darauf) zu verschaffen, bevor die “Lösung” angegangen wird.
 
-Eine kurze Einführung findet sich auf den Seiten der (Er-)Finder [https://thecynefin.co/](https://thecynefin.co/) oder in diesem Video:
-
-[The Cynefin Framework](https://www.youtube.com/watch?v=N7oz366X0-8)
+Eine kurze Einführung findet sich auf den Seiten der (Er-)Finder [https://thecynefin.co/](https://thecynefin.co/) oder in diesem Video: [The Cynefin Framework](https://www.youtube.com/watch?v=N7oz366X0-8)
 
 ### Probleme kategorisieren - weitere Unterscheidungen
 
