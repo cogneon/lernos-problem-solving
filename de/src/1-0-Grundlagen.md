@@ -81,6 +81,15 @@ Eine kurze Einführung findet sich auf den Seiten der (Er-)Finder [https://thecy
 
 [The Cynefin Framework](https://www.youtube.com/watch?v=N7oz366X0-8)
 
+### Probleme kategorisieren - weitere Unterscheidungen
+
+Day Cynefin-Framework ist eine Möglichkeit, Probleme zu kategorisieren. Andere nützlich Unterteilungen sind im folgenden aufgeführt. Je nachdem, für welche Sichtweise ihr euch bei der Bearbeitung entscheidet(!), wird die Lösungsfindung eine andere sein:
+
+- Mikro- und Makroebene  
+Ist das Problem eines, das nur lokal auftritt und eine klar abgegrenzte Ursache hat? Oder ist es das Problem eines, das aus dem System einer Organisation entspringt, so dass Ursachen schwerer zu fassen sind? Ein Beispiel sei ein Schlagloch auf einem Parkplatz: Ist einem Handwerker etwas schweres heruntergefallen, das den Bodenbelag zerstörte? Oder ist die Besitzerin des Parkplatzes überfordert damit, den Parkplatz adäquat zu warten und instand zu setzen?
+- Entwicklungsstatus eines Produkts oder Regelhaftigkeit der Problemursache  
+Ist Produkt noch in der Entwicklung oder befindet es sich in Serienproduktion? Anders: Entstammt das Problem einem bisher einmaligen Vorgehen oder laufen die Prozesse, in denen das Problem auftrat, immer gleich oder ähnlich ab? Ein Beispiel sei ein Materialfehler bei der Herstellung eines Produkts: In einem Prototyp ist so etwas sogar typisch, in der Serienproduktion sollte es nicht (mehr) vorkommen.
+
 ### Vom Problem zur Lösung - Die “Double-Diamond”-Methode
 
 Das britische Design Council hat für Design-Prozesse die “Double-Diamond”-Methode entwickelt. Grundlage der Idee ist es, dass eine Lösung durch eine Folge von vier Schritten gefunden wird:
