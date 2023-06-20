@@ -57,7 +57,7 @@ Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein [Kanban-Board zur
 
 ### Hinweise
 
-- Dieser Lernpfad ist **keine** vollständige Implementierung des 8D-Konzepts nach der VDA. Er ist nicht von der VDA autorisiert. Er kann nicht ohne weiteres als Ersatz für ein formelles Training zur 8D-Methode im Sinne des VDA verwendet werden.
+- Dieser Lernpfad ist **keine** vollständige Implementierung des 8D-Konzepts nach dem VDA. Er ist nicht vom VDA autorisiert. Er kann nicht ohne weiteres als Ersatz für ein formelles Training zur 8D-Methode im Sinne des VDA verwendet werden.
 - Die in diesem Lernpfad dargestellte Methode ist **eine** möglich Methode, Problemlösung strukturiert zu betreiben. Viele Probleme lassen sich auch über andere Methoden lösen, vielleicht sogar besser. Es bleibt dir überlassen, abzuschätzen, ob die hier dargestellte Methode für deine Problemstellung die richtige ist.
 
 ## Gedankenrahmen (Frameworks)
