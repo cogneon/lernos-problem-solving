@@ -242,3 +242,10 @@ Dokumentiert und kommuniziert euer Wissen aktiv, so dass es euch und anderen auc
 #### Weitermachen - Das Projekt abschließen und das Team würdigen (D8)
 
 In diesem letzten Schritt erkennt ihr eure gemeinsame Leistung als Team an. Die:der Sponsor:in sollte Teamleitung und Teammitglieder aus dem Projekt entlassen und die Leistung adäquat würdigen. Ob das ein wertschätzendes “Danke”, ein gemeinsames Kaffee-und-Kuchen oder ein großes Ereignis ist, hängt von euch und dem Problem ab.
+
+#### Der 8D-Prozess und die Double-Diamond-Methode
+
+Die Iterationen der Double-Diamond-Methode finden sich dreifach im 8D-Prozess wieder. Dies ist in der Graphik anbei schematisch dargestellt. Auch diese lineare Darstellung bleibt natürlich ein idealisiertes Bild, den das Lernen im Prozess führt immmer wieder zu Rück- und Quersprüngen. Aber dieser rote Faden zeigt, welche Herangehensweise (konvergent oder divergent) für welches Element der Problemlösung hilfreich ist.
+
+
+ ![8D und die Double-Diamond-MEthode](images/8D-vs-double-diamond.png)
