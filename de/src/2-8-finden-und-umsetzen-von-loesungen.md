@@ -64,13 +64,13 @@ Etwa 30 Minuten für dich und dein Problemlösungsteam.
     Schätzt Zeiträume vernünftig ab. Habt im Kopf, dass eigentlich immer noch Korrekturmaßnahmen laufen, diese können dann bald eingestellt werden. Geht sinnvoll mit Ressourcen um!
 2. Jetzt habt ihr einen Haufen Aufgaben. Eine Person kann immer nur eine Sache gleichzeitig tun.  Deswegen priorisiert die einzelnen Maßnahmen gemeinsam, zum Beispiel mit einem Dot-Voting oder indem jede und jeder für sich Arbeitsreihenfolgen festlegt, die dann “übereinandergelegt” werden.
 3. Vereinbart einen sinnvollen, regelmäßigen Termin, zu dem ihr euch zu den Fortschritten der Arbeiten gegenseitig informiert. Intervall und Dauer der Treffen sollten zu euren Lösungen passen.  
-Ihr bearbeitet ein komplexes Problem? Dann kommt es darauf an, Versuche zu definieren, die schnell Ergebnisse zeigen, daraus zu lernen und damit neue Versuche zu generieren, bis ihr einen Zustand erreicht, der einer Lösung nahe kommt. Die "Toyota Coaching Kata"-Methode kann Euch hier helfen. Arbeitet die folgenden Fragen kontinuierlich ab:  
-       1. Wie sieht der Zielzustand aus? (siehe die vorhergehende Kata)
-       2. Wie ist der Zustand des Systems (zu Beginn = [Deine Problembeschreibung](2-2-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich)
-       3. Welche Hindernisse stehen im Weg? Was wissen wir heute über das Problem? (zu Beginn = die Ergebnisse der Ursachenanalyse)
-       4. Was ist der nächste Schritt?
-       5. Welches Ergebnis erwarten wir?
-       6. Wann können wir die ersten Ergebnisse sinnvoll bewerten und wieder bei 1. beginnen?
+Ihr bearbeitet ein komplexes Problem? Dann kommt es darauf an, Versuche zu definieren, die schnell Ergebnisse zeigen, daraus zu lernen und damit neue Versuche zu generieren, bis ihr einen Zustand erreicht, der einer Lösung nahe kommt. Die "Toyota Coaching Kata"-Methode kann Euch hier helfen. Arbeitet die folgenden Fragen kontinuierlich ab:
+    1. Wie sieht der Zielzustand aus? (siehe die vorhergehende Kata)
+    2. Wie ist der Zustand des Systems (zu Beginn = [Deine Problembeschreibung](2-2-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich)
+    3. Welche Hindernisse stehen im Weg? Was wissen wir heute über das Problem? (zu Beginn = die Ergebnisse der Ursachenanalyse)
+    4. Was ist der nächste Schritt?
+    5. Welches Ergebnis erwarten wir?
+    6. Wann können wir die ersten Ergebnisse sinnvoll bewerten und wieder bei 1. beginnen?
 
 ### Kata 8.3 - Reflektion in der Lerngruppe
 
