@@ -4,19 +4,19 @@ In diesem Abschnitt erprobst du mit deinem Team zwei typische Ursachenanalysen. 
 
 (siehe auch [Das Problem verstehen - Ursachenanalyse (D4)](1-0-Grundlagen.md#das-problem-verstehen---ursachenanalyse-d4))
 
-## Kata 6.1 - Prozessanalyse
+### Kata 6.1 - Prozessanalyse
 
 Auch “Process Walk” oder “Gemba Walk” genannt.
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du die Prozessanalyse verwenden, um dem Problem vor Ort und beim Entstehen auf den Grund zu gehen. 
 
-### Dauer
+#### Dauer
 
-Etwa 45 Minuten für dich und dein Problemlösungsteam
+Etwa 45 Minuten für dich und dein Problemlösungsteam.
 
-### Ablauf
+#### Ablauf
 
 1. Nehmt euch Schreibmaterial und Stifte, um schnell Notizen anfertigen zu können.
 2. Geht da hin, wo das Problem entstanden ist, physisch, genau an den Ort.
@@ -29,28 +29,28 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
     3. Was ist heute anders als bei der Entstehung des Problems?
     4. Was war bei der Entstehung des Problems anders als vorher?
     5. Was beobachtet ihr? Wenn ihr unterschiedliche Rollen eingenommen habt, was sehen diese Rollen anders als andere?
-5. Wenn ihr experimentierfreudig seid (und noch mehr zeit habt): zeichnet eure Beobachtungen, hängt sie nebeneinander auf und lasst sie auf Euch wirken.
+5. Wenn ihr experimentierfreudig seid (und noch mehr Zeit habt): zeichnet eure Beobachtungen, hängt sie nebeneinander auf und lasst sie auf Euch wirken.
 
-### Quellen
+#### Quellen
 
 - VDA Band 4 “Sicherung der Qualität in der Prozesslandschaft”, Abschnitt 3: Methoden, Kapitel 10
 - Buch “[Creative Acts for Curious People](https://dschool.stanford.edu/book-collections/creative-acts-for-curious-people)” von Sarah Stein Greenberg, Abschnitt “Expert Eyes”, S. 70 f.
 
-## Kata 6.2 - 5-Why
+### Kata 6.2 - 5-Why
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du durch wiederholtes “Warum?”-Fragen versuchen, die Grundursache des Problems zu ermitteln. 
 
-### Dauer
+#### Dauer
 
-Etwa 45 Minuten für dich und dein Problemlösungsteam
+Etwa 45 Minuten für dich und dein Problemlösungsteam.
 
-### Ablauf
+#### Ablauf
 
 1. Nach der Prozessanalyse - und gerne noch oder wieder vor Ort - sammelt euch.
 2. Beantwortet jede und jeder für sich, die Frage “Warum ist das Problem aufgetreten?”. Formuliert die direkt dafür ursächliche Aktion/Tätigkeit. Schreibt es auf.
-    1. Schreibt als nächstes auf, was genau was das auslösende Ereignis bedingt hat. Und so weiter, bis ihr jeweils fünf mal “Warum?” gefragt habt.
+    1. Schreibt als nächstes auf, was genau das auslösende Ereignis bedingt hat. Und so weiter, bis ihr jeweils fünf mal “Warum?” gefragt habt.
 3. Macht den Rückwärtstest: Ist das fünfte Ereignis ein überzeugender Auslöser für das vierte, und so weiter? Könnt Ihr formulieren “XYZ passiert, deshalb passiert STU, deshalb passiert MNP, …”? Und klingt die Ereignisabfolge logisch?
 4. Stellt Euch gegenseitig eure Ursachenketten vor. Wo seid ihr zu gleichen Ergebnissen gekommen? Wo habt ihr Unterschiede gefunden?
 5. Wenn ihr ganz ausführlich arbeiten wollt (oder in der Automobilindustrie für den Kunden einen 8D-Bericht anfertigen sollt) , erstellt vier Schritte:
@@ -59,22 +59,22 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
     3. Warum wurde das Problem nicht oder zu spät erkannt? (”Technische Grundursache für das Nicht-Entdecken”)
     4. Warum wurde die technische Grundursache für das Nicht-Entdecken von der Organisation zugelassen? (”Systemische Grundursache für das Nicht-Entdecken”)
 
-### Quellen
+#### Quellen
 
 - VDA Band 4 “Sicherung der Qualität in der Prozesslandschaft”, Abschnitt 3: Methoden, Kapitel 10
 - “Nine Whys**”** [https://liberatingstructures.de/liberating-structures-menue/nine-whys/](https://liberatingstructures.de/liberating-structures-menue/nine-whys/)
 
-## Kata 6.3 - Reflektion in der Lerngruppe
+### Kata 6.3 - Reflektion in der Lerngruppe
 
-### Beschreibung
+#### Beschreibung
 
 In dieser Kata wirst du die ersten Ursachenanalysen reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer verstehen.
 
-### Dauer
+#### Dauer
 
-30 Minuten in deiner Lerngruppe.
+Etwa 30 Minuten in deiner Lerngruppe.
 
-### Ablauf
+#### Ablauf
 
 1. Beschreibt reihum, wie es euch bei der Ursachenanalyse gegangen ist.
     1. Was war leicht oder gut? Was war schwer oder schlecht?

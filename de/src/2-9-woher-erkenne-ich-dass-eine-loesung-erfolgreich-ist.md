@@ -2,17 +2,17 @@
 
 In diesem Abschnitt beschäftigst du dich noch einmal mit Kennzahlen und Beobachtungen. Woran kannst du festmachen, dass das Problem gelöst wurde? Was ist dein “Soll”, was das “Ist”? Kannst du dir sicher sein?
 
-## Kata 9.1 - Kennzahlen jonglieren
+### Kata 9.1 - Kennzahlen jonglieren
 
-### Beschreibung
+#### Beschreibung
 
-In dieser Kata werdet ihr Kennzahlen entwickeln, um die Wirksamkeit eurer Maßnahmen zu verfolgen 
+In dieser Kata werdet ihr Kennzahlen entwickeln, um die Wirksamkeit eurer Maßnahmen zu verfolgen-
 
-### Dauer
+#### Dauer
 
-Etwa 45 Minuten für dich und dein Problemlösungsteam
+Etwa 45 Minuten für dich und dein Problemlösungsteam.
 
-### Ablauf
+#### Ablauf
 
 1. Nehmt die Problembeschreibung und die Ursachenanalysen noch einmal zur Hand. Sucht gemeinsam nach Mustern, die die folgenden Fragen beantworten:
     1. Woran lässt sich erkennen, dass das Problem besteht? Woran lässt sich erkennen, dass das Problem nicht mehr besteht?
@@ -23,17 +23,17 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam
 (Achtung: das Messen kann sich, je nach Ablauf oder Prozess, in die Länge ziehen und ist nicht sicher in 30 Minuten erledigt!)
 3. Wenn ihr euch dank dieser Beobachtungen begründet sicher seid, das Problem gelöst zu haben, hebt die [Sofort- und Korrekturmaßnahmen](2-5-korrekturmassnahmen.md#5---korrekturma%C3%9Fnahmen) gerne wieder auf. Informiert alle betroffenen Personen darüber umgehend.
 
-## **Kata 9.2 - Reflektion in der Lerngruppe**
+### Kata 9.2 - Reflektion in der Lerngruppe
 
-### **Beschreibung**
+#### Beschreibung
 
 In dieser Kata wirst du die Kennzahlenverfolgung in deiner Lerngruppe reflektieren.
 
-### **Dauer**
+#### Dauer
 
-30 Minuten in deiner Lerngruppe.
+Etwa 30 Minuten in deiner Lerngruppe.
 
-### **Ablauf**
+#### Ablauf
 
 1. Beschreibt reihum, wie es euch bei der Kennzahlenfindung und -verfolgung gegangen ist.
 2. Sind die Kennzahlen klar messbar und liegen ihnen nachgewiesene Ursache-Wirkungs-Zusammenhänge zugrunde? Oder sind es weiche, mittelbare, von Wertungen abhängige Kennzahlen? Was macht das mit der Problemlösung?
