@@ -14,7 +14,7 @@ Explizit gilt der Dank auch
 | Version | Bearbeitet von     | Beschreibung Änderung                            | Datum      |
 | ------- | ------------------ | ------------------------------------------------ | ---------- |
 | 0.1     | Jan Bretschneider  | Erste Version des "Problem-Solving"-Repositories | 07.05.2023 |
-| 0.2     | Jan Bretschneider  | Zweite Version mit ersten Fehlerkorrekturen      | 07.06.2023 |
+| 0.2     | Jan Bretschneider  | Zweite Version mit ersten Fehlerkorrekturen      | 12.09.2023 |
 
 ## Glossar
 
