@@ -3,7 +3,7 @@
 
 ## 0 - Ankommen und Zirkel definieren
 
-Im “Abschnitt 0” geht es darum, dass du dir und dein Lernzirkel sich darüber klar werden, wie ihr in der nächsten Zeit mit diesem “Lernpfad” arbeiten werdet.
+Im “Abschnitt 0” geht es darum, dass du dir und dein Lernzirkel sich darüber klar werden, wie ihr in der nächsten Zeit mit diesem “Lernpfad” arbeiten werdet. Lies gerne dazu auch die [Vorbemerkungen in den Grundlagen](1-0-Grundlagen.md#vorbemerkungen)
 
 ### Kata 0.1 - Deine persönliche Lernvoraussetzung
 
