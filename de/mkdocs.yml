@@ -49,13 +49,16 @@ repo_url: 'https://github.com/cogneon/lernos-problem-solving'
 
 extra:
     social:
+        - icon: fontawesome/brands/mastodon
+          link: 'https://colearn.social/@lernos'
         - icon: fontawesome/brands/linkedin
           link: 'https://www.linkedin.com/showcase/lern-os'
         - icon: fontawesome/brands/github
           link: 'https://github.com/cogneon'
-    disqus: lernos
-    analytics:
-       provider: custom
+    giscus: true
+    generator: false
+
+copyright: cogneon.de/impressum
 
 markdown_extensions:
   - pymdownx.superfences:
@@ -66,3 +69,5 @@ markdown_extensions:
 
 plugins:
   - search
+  - rss:
+      abstract_chars_count: -1  # -1 for full content
