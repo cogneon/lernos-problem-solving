@@ -66,7 +66,7 @@ Etwa 30 Minuten für dich und dein Problemlösungsteam.
 3. Vereinbart einen sinnvollen, regelmäßigen Termin, zu dem ihr euch zu den Fortschritten der Arbeiten gegenseitig informiert. Intervall und Dauer der Treffen sollten zu euren Lösungen passen.  
 Ihr bearbeitet ein komplexes Problem? Dann kommt es darauf an, Versuche zu definieren, die schnell Ergebnisse zeigen, daraus zu lernen und damit neue Versuche zu generieren, bis ihr einen Zustand erreicht, der einer Lösung nahe kommt. Die "Toyota Coaching Kata"-Methode kann Euch hier helfen. Arbeitet die folgenden Fragen kontinuierlich ab:
     1. Wie sieht der Zielzustand aus? (siehe die vorhergehende Kata)
-    2. Wie ist der Zustand des Systems (zu Beginn = [Deine Problembeschreibung](2-2-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich)
+    2. Wie ist der Zustand des Systems (zu Beginn = [Deine Problembeschreibung](2-02-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich)
     3. Welche Hindernisse stehen im Weg? Was wissen wir heute über das Problem? (zu Beginn = die Ergebnisse der Ursachenanalyse)
     4. Was ist der nächste Schritt?
     5. Welches Ergebnis erwarten wir?
