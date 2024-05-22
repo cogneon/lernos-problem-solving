@@ -22,7 +22,7 @@ Etwa 25 Minuten für dich und deine Lerngruppe.
     3. Was habe ich über andere beteiligte gelernt?
     4. Wie bewerte ich, was ich gelernt habe?
 4. Teilt eure Gedanken untereinander, wenn ihr mögt.
-5. Holt den LernOS-Canvas aus der [Kata 0.1](2-0-Lernpfad.md#kata-01---deine-pers%C3%B6nliche-lernvoraussetzung) noch einmal hervor. Vergleicht damals mit heute.
+5. Holt den LernOS-Canvas aus der [Kata 0.1](2-00-Lernpfad.md#kata-01---deine-pers%C3%B6nliche-lernvoraussetzung) noch einmal hervor. Vergleicht damals mit heute.
     1. Was fällt Euch auf?
     2. Was habt Ihr erreicht? Was nicht?
 
