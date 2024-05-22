@@ -30,7 +30,7 @@ Stelle dir folgende Fragen:
     1. Was euch aufgefallen ist
     2. Warum ist das wichtig? Wie berührt euch das? Was folgert ihr aus euren Beobachtungen?
     3. Welche Aktivität folgt für euch daraus? Was ist der nächste Schritt?
-6. Definiert für das Problemlösungsteam, wie ihr zusammenarbeiten wollt. Schaut auch, welche Aspekte aus der [Kata 0.2 - Du und Dein Lernzirkel](2-0-Lernpfad.md#kata-02---du-und-dein-lernzirkel) ihr verwenden wollt.
+6. Definiert für das Problemlösungsteam, wie ihr zusammenarbeiten wollt. Schaut auch, welche Aspekte aus der [Kata 0.2 - Du und Dein Lernzirkel](2-00-Lernpfad.md#kata-02---du-und-dein-lernzirkel) ihr verwenden wollt.
 
 #### Quellen
 
