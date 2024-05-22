@@ -11,7 +11,7 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/2-0-Lernpfad/</loc>
+         <loc>https://cogneon.github.io/2-00-Lernpfad/</loc>
          <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -31,6 +31,36 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://cogneon.github.io/2-04-problemloesung-im-team/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-05-korrekturmassnahmen/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-06-ursachenanalyse-methodenbaukasten-1/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-07-ursachenanalyse-methodenbaukasten-2/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-08-finden-und-umsetzen-von-loesungen/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-09-woher-erkenne-ich-dass-eine-loesung-erfolgreich-ist/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://cogneon.github.io/2-10-transfer/</loc>
          <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
@@ -42,36 +72,6 @@
     </url>
     <url>
          <loc>https://cogneon.github.io/2-12-retrospektive/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-4-problemloesung-im-team/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-5-korrekturmassnahmen/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-6-ursachenanalyse-methodenbaukasten-1/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-7-ursachenanalyse-methodenbaukasten-2/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-8-finden-und-umsetzen-von-loesungen/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-9-woher-erkenne-ich-dass-eine-loesung-erfolgreich-ist/</loc>
          <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
