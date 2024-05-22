@@ -1,8 +1,6 @@
 name: lernOS Produktionskette
 
-on:
-  milestone:
-    types: [closed]
+on: push
 
 jobs:
   convert_via_pandoc:
