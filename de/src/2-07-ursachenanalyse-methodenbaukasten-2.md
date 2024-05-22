@@ -45,7 +45,7 @@ Etwa 30 Minuten für dich und dein Problemlösungsteam.
 
 #### Ablauf
 
-1. Nehmt die Problembeschreibung aus dem [Abschnitt 2](2-2-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich) und beschreibt ausführlicher
+1. Nehmt die Problembeschreibung aus dem [Abschnitt 2](2-02-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich) und beschreibt ausführlicher
     1. **Was** ist das Problem?
     2. **Wo** trat es auf?
     3. **Wann** trat es auf?
