@@ -62,7 +62,7 @@ Etwa 45 Minuten für dich und dein Problemlösungsteam.
 #### Quellen
 
 - VDA Band 4 “Sicherung der Qualität in der Prozesslandschaft”, Abschnitt 3: Methoden, Kapitel 10
-- “Nine Whys**”** [https://liberatingstructures.de/liberating-structures-menue/nine-whys/](https://liberatingstructures.de/liberating-structures-menue/nine-whys/)
+- “Nine Whys” [https://liberatingstructures.de/liberating-structures-menue/nine-whys/](https://liberatingstructures.de/liberating-structures-menue/nine-whys/)
 
 ### Kata 6.3 - Reflektion in der Lerngruppe
 
