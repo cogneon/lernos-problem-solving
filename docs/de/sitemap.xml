@@ -16,7 +16,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://cogneon.github.io/2-1-was-bringt-dich-hierher/</loc>
+         <loc>https://cogneon.github.io/2-01-was-bringt-dich-hierher/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-02-beschreibe-dein-problem-ausfuehrlich/</loc>
+         <lastmod>2024-05-22</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://cogneon.github.io/2-03-probleme-lassen-sich-einteilen/</loc>
          <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -32,16 +42,6 @@
     </url>
     <url>
          <loc>https://cogneon.github.io/2-12-retrospektive/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-2-beschreibe-dein-problem-ausfuehrlich/</loc>
-         <lastmod>2024-05-22</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://cogneon.github.io/2-3-probleme-lassen-sich-einteilen/</loc>
          <lastmod>2024-05-22</lastmod>
          <changefreq>daily</changefreq>
     </url>
