@@ -1,1 +1,2448 @@
-
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-de" xml:lang="de-de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta name="author" content="Jan Bretschneider" />
+  <title>lernOS Probleme strukturiert lösen Leitfaden</title>
+  <style>
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">lernOS Probleme strukturiert lösen Leitfaden</h1>
+<p class="subtitle">Die 8D-Systematik ergänzt um Gedanken aus dem Design
+Thinking und dem Cynefin-Framework</p>
+<p class="author">Jan Bretschneider</p>
+<p class="date">Version 0.2 (22.05.2024)</p>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#über-lernos" id="toc-über-lernos"><span
+class="toc-section-number">1</span> Über lernOS</a></li>
+<li><a href="#grundlagen" id="toc-grundlagen"><span
+class="toc-section-number">2</span> Grundlagen</a>
+<ul>
+<li><a href="#vorbemerkungen" id="toc-vorbemerkungen"><span
+class="toc-section-number">2.1</span> Vorbemerkungen</a>
+<ul>
+<li><a href="#wie-dieser-lernpfad-verwendet-werden-kann"
+id="toc-wie-dieser-lernpfad-verwendet-werden-kann"><span
+class="toc-section-number">2.1.1</span> Wie dieser Lernpfad verwendet
+werden kann</a></li>
+<li><a href="#begriffsbestimmungen-definitionen"
+id="toc-begriffsbestimmungen-definitionen"><span
+class="toc-section-number">2.1.2</span> Begriffsbestimmungen,
+Definitionen</a></li>
+<li><a href="#fragen-zum-lernpfad" id="toc-fragen-zum-lernpfad"><span
+class="toc-section-number">2.1.3</span> Fragen zum Lernpfad</a></li>
+<li><a href="#hinweise" id="toc-hinweise"><span
+class="toc-section-number">2.1.4</span> Hinweise</a></li>
+</ul></li>
+<li><a href="#gedankenrahmen-frameworks"
+id="toc-gedankenrahmen-frameworks"><span
+class="toc-section-number">2.2</span> Gedankenrahmen (Frameworks)</a>
+<ul>
+<li><a href="#probleme-kategorisieren---das-cynefin-framework"
+id="toc-probleme-kategorisieren---das-cynefin-framework"><span
+class="toc-section-number">2.2.1</span> Probleme kategorisieren - Das
+“Cynefin-Framework”</a></li>
+<li><a href="#probleme-kategorisieren---weitere-unterscheidungen"
+id="toc-probleme-kategorisieren---weitere-unterscheidungen"><span
+class="toc-section-number">2.2.2</span> Probleme kategorisieren -
+weitere Unterscheidungen</a></li>
+<li><a href="#vom-problem-zur-lösung---die-double-diamond-methode"
+id="toc-vom-problem-zur-lösung---die-double-diamond-methode"><span
+class="toc-section-number">2.2.3</span> Vom Problem zur Lösung - Die
+“Double-Diamond”-Methode</a></li>
+<li><a href="#problemlösung-in-der-automobil-industrie---der-8d-prozess"
+id="toc-problemlösung-in-der-automobil-industrie---der-8d-prozess"><span
+class="toc-section-number">2.2.4</span> Problemlösung in der
+(Automobil)-Industrie - der 8D-Prozess</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#lernpfad" id="toc-lernpfad"><span
+class="toc-section-number">3</span> Lernpfad</a>
+<ul>
+<li><a href="#ankommen-und-zirkel-definieren"
+id="toc-ankommen-und-zirkel-definieren"><span
+class="toc-section-number">3.1</span> 0 - Ankommen und Zirkel
+definieren</a>
+<ul>
+<li><a href="#kata-0.1---deine-persönliche-lernvoraussetzung"
+id="toc-kata-0.1---deine-persönliche-lernvoraussetzung"><span
+class="toc-section-number">3.1.1</span> Kata 0.1 - Deine persönliche
+Lernvoraussetzung</a></li>
+<li><a href="#kata-0.2---du-und-dein-lernzirkel"
+id="toc-kata-0.2---du-und-dein-lernzirkel"><span
+class="toc-section-number">3.1.2</span> Kata 0.2 - Du und Dein
+Lernzirkel</a></li>
+</ul></li>
+<li><a href="#was-bringt-dich-hierher"
+id="toc-was-bringt-dich-hierher"><span
+class="toc-section-number">3.2</span> 1 - Was bringt Dich hierher?</a>
+<ul>
+<li><a href="#kata-1.1---dein-startpunkt"
+id="toc-kata-1.1---dein-startpunkt"><span
+class="toc-section-number">3.2.1</span> Kata 1.1 - Dein
+Startpunkt</a></li>
+<li><a href="#kata-1.2---update-der-ergebnisse-von-letzter-woche"
+id="toc-kata-1.2---update-der-ergebnisse-von-letzter-woche"><span
+class="toc-section-number">3.2.2</span> Kata 1.2 - Update der Ergebnisse
+von letzter Woche</a></li>
+</ul></li>
+<li><a href="#transfer" id="toc-transfer"><span
+class="toc-section-number">3.3</span> 10 - Transfer</a>
+<ul>
+<li><a href="#kata-10.1---gleiches-und-ähnliches-erkennen"
+id="toc-kata-10.1---gleiches-und-ähnliches-erkennen"><span
+class="toc-section-number">3.3.1</span> Kata 10.1 - Gleiches und
+ähnliches erkennen</a></li>
+<li><a href="#kata-10.2---reflektion-in-der-lerngruppe"
+id="toc-kata-10.2---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.3.2</span> Kata 10.2 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+<li><a href="#feiern-wie-kann-ein-erfolg-adäquat-gefeiert-werden"
+id="toc-feiern-wie-kann-ein-erfolg-adäquat-gefeiert-werden"><span
+class="toc-section-number">3.4</span> 11 - Feiern: Wie kann ein Erfolg
+adäquat gefeiert werden?</a>
+<ul>
+<li><a href="#kata-11.1---die-retrospektive"
+id="toc-kata-11.1---die-retrospektive"><span
+class="toc-section-number">3.4.1</span> Kata 11.1 - Die
+Retrospektive</a></li>
+<li><a href="#kata-11.2---reflektion-in-der-lerngruppe"
+id="toc-kata-11.2---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.4.2</span> Kata 11.2 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+<li><a href="#retrospektive" id="toc-retrospektive"><span
+class="toc-section-number">3.5</span> 12 - Retrospektive</a>
+<ul>
+<li><a href="#kata-12.1---reflektion"
+id="toc-kata-12.1---reflektion"><span
+class="toc-section-number">3.5.1</span> Kata 12.1 - Reflektion</a></li>
+<li><a href="#kata-12.2---abschluss"
+id="toc-kata-12.2---abschluss"><span
+class="toc-section-number">3.5.2</span> Kata 12.2 - Abschluss</a></li>
+</ul></li>
+<li><a href="#beschreibe-dein-problem-ausführlich"
+id="toc-beschreibe-dein-problem-ausführlich"><span
+class="toc-section-number">3.6</span> 2 - Beschreibe Dein Problem
+ausführlich</a>
+<ul>
+<li><a href="#kata-2.1---das-problem-beleuchten"
+id="toc-kata-2.1---das-problem-beleuchten"><span
+class="toc-section-number">3.6.1</span> Kata 2.1 - Das Problem
+beleuchten</a></li>
+</ul></li>
+<li><a href="#probleme-lassen-sich-einteilen"
+id="toc-probleme-lassen-sich-einteilen"><span
+class="toc-section-number">3.7</span> 3 - Probleme lassen sich
+einteilen</a>
+<ul>
+<li><a href="#kata-3.1---das-problem-einfach-kategorisieren"
+id="toc-kata-3.1---das-problem-einfach-kategorisieren"><span
+class="toc-section-number">3.7.1</span> Kata 3.1 - Das Problem einfach
+kategorisieren</a></li>
+<li><a href="#kata-3.2---dein-problem-und-das-cynefin-framework"
+id="toc-kata-3.2---dein-problem-und-das-cynefin-framework"><span
+class="toc-section-number">3.7.2</span> Kata 3.2 - Dein Problem und das
+Cynefin-Framework</a></li>
+<li><a
+href="#kata-3.3---deine-kategorisierung-des-problems-in-der-gruppe"
+id="toc-kata-3.3---deine-kategorisierung-des-problems-in-der-gruppe"><span
+class="toc-section-number">3.7.3</span> Kata 3.3 - Deine Kategorisierung
+des Problems in der Gruppe</a></li>
+</ul></li>
+<li><a href="#problemlösung-im-team---finde-das-richtige-team"
+id="toc-problemlösung-im-team---finde-das-richtige-team"><span
+class="toc-section-number">3.8</span> 4 - Problemlösung im Team - Finde
+das richtige Team</a>
+<ul>
+<li><a href="#kata-4.1---mein-team-und-ich"
+id="toc-kata-4.1---mein-team-und-ich"><span
+class="toc-section-number">3.8.1</span> Kata 4.1 - Mein Team und
+Ich</a></li>
+<li><a
+href="#kata-4.2---das-team-aufstellen---reflektion-in-der-lerngruppe"
+id="toc-kata-4.2---das-team-aufstellen---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.8.2</span> Kata 4.2 - Das Team aufstellen -
+Reflektion in der Lerngruppe</a></li>
+</ul></li>
+<li><a href="#korrekturmaßnahmen." id="toc-korrekturmaßnahmen."><span
+class="toc-section-number">3.9</span> 5 - Korrekturmaßnahmen.</a>
+<ul>
+<li><a href="#kata-5.1---korrekturmaßnahmen"
+id="toc-kata-5.1---korrekturmaßnahmen"><span
+class="toc-section-number">3.9.1</span> Kata 5.1 -
+Korrekturmaßnahmen</a></li>
+<li><a href="#kata-5.2---reflektion-in-der-lerngruppe"
+id="toc-kata-5.2---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.9.2</span> Kata 5.2 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+<li><a href="#ursachenanalyse-methodenbaukasten-1"
+id="toc-ursachenanalyse-methodenbaukasten-1"><span
+class="toc-section-number">3.10</span> 6 - Ursachenanalyse
+Methodenbaukasten 1</a>
+<ul>
+<li><a href="#kata-6.1---prozessanalyse"
+id="toc-kata-6.1---prozessanalyse"><span
+class="toc-section-number">3.10.1</span> Kata 6.1 -
+Prozessanalyse</a></li>
+<li><a href="#kata-6.2---5-why" id="toc-kata-6.2---5-why"><span
+class="toc-section-number">3.10.2</span> Kata 6.2 - 5-Why</a></li>
+<li><a href="#kata-6.3---reflektion-in-der-lerngruppe"
+id="toc-kata-6.3---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.10.3</span> Kata 6.3 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+<li><a href="#ursachenanalyse-methodenbaukasten-2"
+id="toc-ursachenanalyse-methodenbaukasten-2"><span
+class="toc-section-number">3.11</span> 7 - Ursachenanalyse
+Methodenbaukasten 2</a>
+<ul>
+<li><a href="#kata-7.1---ursache-wirkungs-diagramm"
+id="toc-kata-7.1---ursache-wirkungs-diagramm"><span
+class="toc-section-number">3.11.1</span> Kata 7.1 -
+Ursache-Wirkungs-Diagramm</a></li>
+<li><a href="#kata-7.2---isis-not" id="toc-kata-7.2---isis-not"><span
+class="toc-section-number">3.11.2</span> Kata 7.2 - Is/Is-Not</a></li>
+<li><a href="#kata-7.3---reflektion-in-der-lerngruppe"
+id="toc-kata-7.3---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.11.3</span> Kata 7.3 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+<li><a href="#finden-und-umsetzen-von-lösungen"
+id="toc-finden-und-umsetzen-von-lösungen"><span
+class="toc-section-number">3.12</span> 8 - Finden und Umsetzen von
+Lösungen</a>
+<ul>
+<li><a href="#kata-8.1---lösungen-entwickeln"
+id="toc-kata-8.1---lösungen-entwickeln"><span
+class="toc-section-number">3.12.1</span> Kata 8.1 - Lösungen
+entwickeln</a></li>
+<li><a href="#kata-8.2---die-maßnahmen-zur-lösung-umsetzen"
+id="toc-kata-8.2---die-maßnahmen-zur-lösung-umsetzen"><span
+class="toc-section-number">3.12.2</span> Kata 8.2 - Die Maßnahmen zur
+Lösung umsetzen</a></li>
+<li><a href="#kata-8.3---reflektion-in-der-lerngruppe"
+id="toc-kata-8.3---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.12.3</span> Kata 8.3 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+<li><a
+href="#woher-erkenne-ich-dass-eine-lösung-erfolgreich-ist-oder-bestand-hat"
+id="toc-woher-erkenne-ich-dass-eine-lösung-erfolgreich-ist-oder-bestand-hat"><span
+class="toc-section-number">3.13</span> 9 - Woher erkenne ich, dass eine
+Lösung erfolgreich ist oder Bestand hat?</a>
+<ul>
+<li><a href="#kata-9.1---kennzahlen-jonglieren"
+id="toc-kata-9.1---kennzahlen-jonglieren"><span
+class="toc-section-number">3.13.1</span> Kata 9.1 - Kennzahlen
+jonglieren</a></li>
+<li><a href="#kata-9.2---reflektion-in-der-lerngruppe"
+id="toc-kata-9.2---reflektion-in-der-lerngruppe"><span
+class="toc-section-number">3.13.2</span> Kata 9.2 - Reflektion in der
+Lerngruppe</a></li>
+</ul></li>
+</ul></li>
+<li><a href="#anhang" id="toc-anhang"><span
+class="toc-section-number">4</span> Anhang</a>
+<ul>
+<li><a href="#danksagungen" id="toc-danksagungen"><span
+class="toc-section-number">4.1</span> Danksagungen</a></li>
+<li><a href="#änderungshistorie" id="toc-änderungshistorie"><span
+class="toc-section-number">4.2</span> Änderungshistorie</a></li>
+<li><a href="#glossar" id="toc-glossar"><span
+class="toc-section-number">4.3</span> Glossar</a></li>
+</ul></li>
+</ul>
+</nav>
+<h1 data-number="1" id="über-lernos"><span
+class="header-section-number">1</span> Über lernOS</h1>
+<p>lernOS ist eine Methode zur Selbstorganisation für Menschen, die im
+21. Jahrhundert leben und arbeiten. Um heute erfolgreich zu sein, muss
+man ständig lernen, sich organisieren und weiterentwickeln. Niemand
+sonst ist für diesen Prozess verantwortlich. Man muss sich selber darum
+kümmern (selbstgesteuertes, lebenslanges Lernen).</p>
+<p>lernOS Leitfäden stehen unter der Lizenz <a
+href="https://creativecommons.org/licenses/by/4.0/deed.de">Creative
+Commons Namensnennung 4.0 International</a> (CC BY 4.0):</p>
+<p><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></p>
+<p><strong>Du darfst:</strong></p>
+<ul>
+<li><strong>Teilen</strong> - das Material in jedwedem Format oder
+Medium vervielfältigen und weiterverbreiten.</li>
+<li><strong>Bearbeiten</strong> - das Material remixen, verändern und
+darauf aufbauen und zwar für beliebige Zwecke, sogar kommerziell.</li>
+</ul>
+<p><strong>Unter folgenden Bedingungen:</strong></p>
+<ul>
+<li><strong>Namensnennung</strong> - Du musst angemessene Urheber- und
+Rechteangaben machen, einen Link zur Lizenz beifügen und angeben, ob
+Änderungen vorgenommen wurden. Diese Angaben dürfen in jeder
+angemessenen Art und Weise gemacht werden, allerdings nicht so, dass der
+Eindruck entsteht, der Lizenzgeber unterstütze gerade Sie oder Ihre
+Nutzung besonders.</li>
+<li><strong>Keine weiteren Einschränkungen</strong> - Du darst keine
+zusätzlichen Klauseln oder technische Verfahren einsetzen, die anderen
+rechtlich irgendetwas untersagen, was die Lizenz erlaubt.</li>
+</ul>
+<h1 data-number="2" id="grundlagen"><span
+class="header-section-number">2</span> Grundlagen</h1>
+<p>Das Kapitel “Grundlagen” enthält theoretische Hintergründe und
+Informationen, die für das Verständnis des Leitfaden-Themas relevant
+sind. In diesem Kapitel wird auf andere verfügbare Quellen und Literatur
+verwiesen (Hub- oder Kurationsfunktion).</p>
+<h2 data-number="2.1" id="vorbemerkungen"><span
+class="header-section-number">2.1</span> Vorbemerkungen</h2>
+<h3 data-number="2.1.1"
+id="wie-dieser-lernpfad-verwendet-werden-kann"><span
+class="header-section-number">2.1.1</span> Wie dieser Lernpfad verwendet
+werden kann</h3>
+<p>Es gibt viele Wege, diesen Lernpfad “Probleme strukturiert lösen”
+gewinnbringend zu nutzen. Finde gerne deinen eigenen. Zur Inspiration
+hier ein paar typische Möglichkeiten:</p>
+<ul>
+<li>“Klassisches” lernOS-Format:<br />
+In einer Gruppe von “Peers” in jeder Woche ein Stück weit in die
+strukturierte Bearbeitung von Probleme eintauchen. Dieses Format ist in
+den Formulierungen und den Katas angenommen.</li>
+<li>Learning-by-doing-Schnelldurchlauf:<br />
+Ihr habt eine harte Nuss zu knacken und wisst nicht wie. Nehmt diesen
+Leitfaden und arbeitet Euch Schritt für Schritt (und den gegebenenfalls
+notwendigen Schleifen…) durch den Lernpfad. Vermutlich dann
+kontinuierlich innerhalb einer kurzen Zeit. Die Kapitel sind dann nicht
+Wochen, sondern Abschnitte eurer “Workshops”, zwischen denen dann
+sinnvolle, von euch bestimmte, Pausen liegen (5 Minuten, um die Beine zu
+bewegen oder länger, wenn Ihr über Ideen nachdenken oder noch Daten
+sammeln wollt). Vermutlich wollt Ihr dann Katas zur Reflektion des
+Gelernten weglassen, um schneller zum Ziel zu kommen. Umso wichtiger
+wird dann die Retrospektive am Ende für Euch.</li>
+<li>Schmetterling-Methode:<br />
+Lest den Lernpfad, vertieft was Euch gefällt mit den angebotenen Quellen
+oder eigenen Recherchen. Wandert von Thema zu Thema, von Kata zu Kata,
+der Reihe nach oder zufällig. Lasst den Lernpfad liegen, kommt wieder
+darauf zurück, wenn Ihr Zeit dafür und das Bedürfnis danach habt.</li>
+</ul>
+<p>Keine dieser Methoden ist “richtig” oder “besser”. Vermutlich findet
+Ihr einen ganz anderen, eigenen Zugang. Euer Kontext wird bestimmen, was
+gut für euch ist und was für Euch möglich sein wird.</p>
+<h4 data-number="2.1.1.1" id="wie-gehe-ich-also-am-besten-vor"><span
+class="header-section-number">2.1.1.1</span> Wie gehe ich also am besten
+vor?</h4>
+<p>Finde eine Gruppe - in der Beschreibung wird von 4 Personen (mit Dir)
+ausgegangen. Wenn ihr mehr oder weniger seid, kann vieles verändert
+werden, so dass es auf eure Gruppe passt.</p>
+<p>Ihr könnt in der Gruppe zusammen ein gemeinsames Problem lösen, oder
+alle Gruppenmitglieder haben jeweils eigene Projekte, deren Fortgang sie
+in der Lerngruppe reflektieren. Letzteres wird im folgende angenommen.
+Wenn ihr gemeinsam an einem Problem arbeitet, oder ihr schneller sein
+wollt als beschrieben, passt die Katas euren Bedürfnissen an.</p>
+<p>Alleine den Lernpfad zu bearbeiten ist möglich, wird aber nicht
+empfohlen, da wesentliche Katas darauf beruhen, eigene Ergebnisse im
+Team vorzustellen, darüber zu reflektieren und so zu vertiefen. Wenn Du
+keine Gruppe findest, vielleicht hast Du eine:n Coach:in oder Mentor:in
+(Kolleg:innen, Chef:in, Freund:innen, Dritte, …), mit der oder dem Du
+reflektieren kannst?</p>
+<h4 data-number="2.1.1.2"
+id="wie-werde-ich-hier-angesprochen-welche-sprache-wird-verwendet"><span
+class="header-section-number">2.1.1.2</span> Wie werde ich hier
+angesprochen? Welche Sprache wird verwendet?</h4>
+<p>Du hast es schon gemerkt, hier wird geduzt. Dieser Lernpfad soll ein
+Angebot auf Augenhöhe sein.</p>
+<p>Personen werden neutral bezeichnet oder es wird “gegendert”, wenn
+sich keine neutrale Formulierung finden lies. Vermutlich finden sich
+auch Formulierungen, die unbewusst im generischen Maskulinum stehen -
+bunt, nicht perfekt.</p>
+<h3 data-number="2.1.2" id="begriffsbestimmungen-definitionen"><span
+class="header-section-number">2.1.2</span> Begriffsbestimmungen,
+Definitionen</h3>
+<ul>
+<li>Problem
+<ul>
+<li>Ein Problem zu haben ist ein Zustand, in dem ein zu erreichendes
+Ziel (noch) nicht erreicht wurde und in dem die Art und Weise der
+Zielerreichung (noch) nicht klar ist. Details siehe auch <a
+href="https://de.wikipedia.org/wiki/Problem">https://de.wikipedia.org/wiki/Problem</a>.</li>
+<li>Gerd Wohland: “<em>Ein Problem ist ein Zustand, den man nicht lassen
+kann wie er ist. Weil, wenn man in lassen würde, wie er ist, würde
+Schaden entstehen</em>” <a
+href="https://www.youtube.com/watch?v=ZEmrVtH3QCg">https://www.youtube.com/watch?v=ZEmrVtH3QCg</a></li>
+</ul></li>
+<li>8D-Report Mit dem “8D-Report” wird in der Automobilindustrie
+üblicherweise gegenüber den Kunden dokumentiert, wie bei der
+Problemlösung vorgegangen wurde. Es ist also eine Berichtsform über den
+Problemlösungsprozess. Meist verlangen Kunden diese Art der
+Dokumentation. Je nach Art des Problems und damit der Vorgehensweise bei
+der Problemlösung kann diese stark formalisierte Art der Dokumentation
+zu aufwendig oder einschränkend sein. Für eine wirksame und effiziente
+Problemlösung kann es wichtig sein, darauf zu achten, diese Berichtsform
+nicht zum “Framing” des Problems zu verwenden. Details finden sich im <a
+href="https://webshop.vda.de/QMC/de/8d-probleml%C3%B6sung-in-8-disziplinen">VDA
+Band “8D - Problemlösung in 8 Disziplinen”</a>.</li>
+</ul>
+<h3 data-number="2.1.3" id="fragen-zum-lernpfad"><span
+class="header-section-number">2.1.3</span> Fragen zum Lernpfad</h3>
+<ul>
+<li>Woran orientiert sich der Lernpfad?<br />
+Der Lernpfad orientiert sich am sogenannten Cynefin-Framework, dem
+“double diamond”-Ansatz aus dem “Design Thinking” und der 8D-Systematik
+der Automobilindustrie.</li>
+<li>Wie ist der Lernpfad aufgebaut?<br />
+Der Lernpfad gliedert sich grob in folgende sechs Abschnitte:
+<ul>
+<li>Sich für die Lösung aufstellen (Abschnitte 0 bis 2)</li>
+<li>Das Problem sinnvoll kategorisieren (Abschnitt 3)</li>
+<li>Eine für das Problem möglichst adäquate Lösungsstrategie erarbeiten
+(Abschnitte 4 bis 7)</li>
+<li>Lösungen aktiv suchen (Abschnitte 8 und 9)</li>
+<li>Lösungen überprüfen (Abschnitt 10)</li>
+<li>Erkenntnisse transferieren und zusammenfassen (Abschnitt 12)</li>
+</ul></li>
+<li>Brauche ich besondere Tools oder Werkzeuge?<br />
+Im Internet und in Unternehmen finden sich diverse Vorlagen zur
+8D-Methode (auch A3-Template). Es existieren auch Softwarelösungen, die
+euch durch den Prozess begleiten. All dies kann dich unterstützen, ist
+aber nicht zwingend nötig (außer ein Kunde will genau so etwas von euch
+sehen…). Vom (Erst-)Autor des Lernpfads existiert eine Vorlage für ein
+<a
+href="https://trello.com/b/QsUKpdwB/problem-solving-as-kanban-board">Kanban-Board
+zur 8D-Methode in Trello</a>. Probiere sie gerne aus und melde dich,
+wenn es gefällt.</li>
+</ul>
+<h3 data-number="2.1.4" id="hinweise"><span
+class="header-section-number">2.1.4</span> Hinweise</h3>
+<ul>
+<li>Dieser Lernpfad ist <strong>keine</strong> vollständige
+Implementierung des 8D-Konzepts nach dem VDA. Er ist nicht vom VDA
+autorisiert. Er kann nicht ohne weiteres als Ersatz für ein formelles
+Training zur 8D-Methode im Sinne des VDA verwendet werden.</li>
+<li>Die in diesem Lernpfad dargestellte Methode ist
+<strong>eine</strong> möglich Methode, Problemlösung strukturiert zu
+betreiben. Viele Probleme lassen sich auch über andere Methoden lösen,
+vielleicht sogar besser. Es bleibt dir überlassen, abzuschätzen, ob die
+hier dargestellte Methode für deine Problemstellung die richtige
+ist.</li>
+</ul>
+<h2 data-number="2.2" id="gedankenrahmen-frameworks"><span
+class="header-section-number">2.2</span> Gedankenrahmen
+(Frameworks)</h2>
+<h3 data-number="2.2.1"
+id="probleme-kategorisieren---das-cynefin-framework"><span
+class="header-section-number">2.2.1</span> Probleme kategorisieren - Das
+“Cynefin-Framework”</h3>
+<p>Probleme lassen sich mit Hilfe des “Cynefin” (sprich “ke-nä-win”,
+siehe und höre auch im Video unten)-Frameworks einteilen in die Domänen
+“einfach”, “kompliziert”, “komplex” und “chaotisch”. Je nachdem, über
+welche Domäne sich ein Problem beschreiben lässt, ergeben sich
+spezifische Herangehensweisen:</p>
+<ul>
+<li>Einfach: “Pack-an”-Probleme, deren Lösung auf der Hand liegt und die
+ohne Aufwand gelöst werden können. Herangehensweise: beobachten →
+kategorisieren → reagieren</li>
+<li>Kompliziert: Probleme, die sich analysieren lassen, deren Analyse
+Zusammenhänge von Ursache und Wirkung klar erkennen lassen und deren
+Lösung durch adäquate Manipulation des zu Grunde liegenden Mechanismus
+gelöst werden können. Herangehensweise: beobachten → analysieren →
+reagieren</li>
+<li>Komplex: Probleme, die keine klare Zusammenhänge von Ursache-Wirkung
+zeigen oder solche Zusammenhänge nicht erkennen lassen. Lösungen können
+sinnvoll durch zielgerichtetes und lernendes experimentieren gefunden
+werden. Herangehensweise: ausprobieren → beobachten → reagieren</li>
+<li>Chaotisch: Probleme, deren Dynamik keine Zeit für Analysen oder
+Experimentieren lässt sondern schnelles Handeln erfordert. Eine “Lösung”
+wird nur gefunden, wenn akute Maßnahmen die Dynamik so stark bremsen,
+dass das Problem komplex oder kompliziert wird. Herangehensweise:
+agieren → beobachten → reagieren</li>
+</ul>
+<p>Eine fünfte Domäne des Modells ist “verwirrt”. In dieser Situation
+lässt sich eine Lösung nicht finden. Die dringendste Aufgabe ist es
+dann, sich Klarheit über die Art des Problems (oder besser: der eigenen
+Sichtweise darauf) zu verschaffen, bevor die “Lösung” angegangen
+wird.</p>
+<p>Eine kurze Einführung findet sich auf den Seiten der (Er-)Finder <a
+href="https://thecynefin.co/">https://thecynefin.co/</a> oder in diesem
+Video: <a href="https://www.youtube.com/watch?v=N7oz366X0-8">The Cynefin
+Framework</a></p>
+<h3 data-number="2.2.2"
+id="probleme-kategorisieren---weitere-unterscheidungen"><span
+class="header-section-number">2.2.2</span> Probleme kategorisieren -
+weitere Unterscheidungen</h3>
+<p>Day Cynefin-Framework ist eine Möglichkeit, Probleme zu
+kategorisieren. Andere nützlich Unterteilungen sind im folgenden
+aufgeführt. Je nachdem, für welche Sichtweise ihr euch bei der
+Bearbeitung entscheidet(!), wird die Lösungsfindung eine andere
+sein:</p>
+<ul>
+<li>Mikro- und Makroebene<br />
+Ist das Problem eines, das nur lokal auftritt und eine klar abgegrenzte
+Ursache hat? Oder ist es das Problem eines, das aus dem System einer
+Organisation entspringt, so dass Ursachen schwerer zu fassen sind? Ein
+Beispiel sei ein Schlagloch auf einem Parkplatz: Ist einem Handwerker
+etwas schweres heruntergefallen, das den Bodenbelag zerstörte? Oder ist
+die Besitzerin des Parkplatzes überfordert damit, den Parkplatz adäquat
+zu warten und instand zu setzen?</li>
+<li>Entwicklungsstatus eines Produkts oder Regelhaftigkeit der
+Problemursache<br />
+Ist Produkt noch in der Entwicklung oder befindet es sich in
+Serienproduktion? Anders: Entstammt das Problem einem bisher einmaligen
+Vorgehen oder laufen die Prozesse, in denen das Problem auftrat, immer
+gleich oder ähnlich ab? Ein Beispiel sei ein Materialfehler bei der
+Herstellung eines Produkts: In einem Prototyp ist so etwas sogar
+typisch, in der Serienproduktion sollte es nicht (mehr) vorkommen.</li>
+<li>Domäne, in der das Problem auftritt<br />
+Ist das Problem ein technisches, ein organisationales oder ein
+zwischenmenschliches? Sicher fallen dir noch weitere Kategorisierungen
+ähnlicher Art ein.</li>
+<li>Quelle des Problems oder Referenz des Problems<br />
+Woher kommt der Druck, das Problem zu lösen? Will es jemand von
+“außerhalb” (externe Referenz) oder ist es ein Problem, das nur im
+Rahmen einer Organisation von Bedeutung ist (interne Referenz)?<br />
+Siehe dazu auch das <a
+href="https://www.youtube.com/watch?v=1YajZkgf7O0">Interview mit Gerhard
+Wohland über externe und interne Referenzen</a></li>
+</ul>
+<h3 data-number="2.2.3"
+id="vom-problem-zur-lösung---die-double-diamond-methode"><span
+class="header-section-number">2.2.3</span> Vom Problem zur Lösung - Die
+“Double-Diamond”-Methode</h3>
+<p>Das britische Design Council hat für Design-Prozesse die
+“Double-Diamond”-Methode entwickelt. Grundlage der Idee ist es, dass
+eine Lösung durch eine Folge von vier Schritten gefunden wird:</p>
+<ul>
+<li>Entdecken/Untersuchen - hier wird das Problem erforscht, entdeckt
+und analysiert. Einflussfaktoren, Sichtweisen und Ideen werden
+gesammelt.</li>
+<li>Definieren - hier wird aus der vorhergehenden Sammlung der Ansatz
+zur Lösung entwickelt. Aus der Erkenntnis, das nicht alles gleichzeitig
+angegangen werden kann, werden die wesentlichen Punkte für eine Lösung
+bestimmt.</li>
+<li>Entwickeln - hier werden vom bestimmten Ansatzpunkt aus Lösungen
+entwickelt und ausgedacht. Erste Prototypen oder Experimente werden
+gemacht, um Wirkungen und Erfolge abschätzen zu können.</li>
+<li>Liefern - hier erhält die Lösung aus den Erfahrungen der Prototypen
+oder Experimente ihren Feinschliff und die abschließende Form.</li>
+</ul>
+<p>Die Denkweise in den Schritten ist alternierend divergent (oder
+“ausschweifend”) und konvergent (oder “zusammenführend”). In einer
+graphischen Darstellung ergeben sich daraus zwei Rauten (englisch
+“diamond”), daher der Name.</p>
+<p>Wesentliche Prinzipien guter Lösungsprozesse sind laut Design
+Council</p>
+<ul>
+<li>(Mit-)Menschen zuerst - Lösungen von den Personen aus denken, die
+von der Lösung profitieren und davon betroffen sind.</li>
+<li>Kommunizieren - bevorzugt mit Bildern und so, dass alle beteiligten
+Personen ein gemeinsames Verständnis entwickeln.</li>
+<li>Zusammen arbeiten und gestalten - damit alle beteiligten voneinander
+lernen und sich gegenseitig befeuern können.</li>
+<li>Wiederholen, wiederholen, wiederholen - Durch Experimente und
+Prototypen Schwierigkeiten und (Denk-)Fehler rechtzeitig erkennen und
+vermeiden. Durch Wiederholungen Vertrauen und Sicherheit für eine gute
+Lösung gewinnen.</li>
+</ul>
+<p>Ein Vorteil dieses Rahmenwerks ist es, dass Kurzschlüsse durch zu
+frühe Festlegung während der Ideenfindung oder Verzögerungen durch
+Verzettelung beim Machen vermieden werden. Details beschreibt das Design
+Council auf seiner Webseite, unter anderem hier: <a
+href="https://www.designcouncil.org.uk/our-work/skills-learning/tools-frameworks/framework-for-innovation-design-councils-evolved-double-diamond/">https://www.designcouncil.org.uk/our-work/skills-learning/tools-frameworks/framework-for-innovation-design-councils-evolved-double-diamond/</a></p>
+<h3 data-number="2.2.4"
+id="problemlösung-in-der-automobil-industrie---der-8d-prozess"><span
+class="header-section-number">2.2.4</span> Problemlösung in der
+(Automobil)-Industrie - der 8D-Prozess</h3>
+<p>Die Automobilindustrie verwendet den “8D-Prozess” (auch bekannt als
+“A3”) um Probleme in der Lieferkette zu adressieren, die Lösungsfindung
+zu steuern und die Ergebnisse daraus zu dokumentieren.</p>
+<p>Der Prozess ist hochgradig formalisiert und wird in der Lieferkette
+aktiv eingefordert.</p>
+<p>Der Prozess basiert auf Erfahrungen und Modellen, wie Probleme
+aussehen und gelöst werden können. Das alles mit einem Fokus auf
+Produktion und Logistik.</p>
+<p>Auch wenn die sehr strukturierte Darstellung den Eindruck vermittelt:
+Auch die Industrie weiß: Problemlösung ist selten ein linearer Prozess.
+Rücksprünge in frühere Phasen sind immer möglich oder sogar
+erwartbar.</p>
+<p>Die mit dem 8D-Prozess einhergehenden Einschränkungen (besonders im
+Hinblick auf die oben erwähnten Rahmenwerke) sollen hier nicht
+beschrieben werden. Sie werden in diesem Lernpfad in den Katas
+“durchlebt”.</p>
+<p>Im folgenden werden die acht Schritte des 8D-Prozesses kurz
+beschrieben. Alle Details finden sich in der Veröffentlichung “8D -
+Problemlösung in 8 Disziplinen” des VDA unter <a
+href="https://webshop.vda.de/QMC/de/8d-probleml%C3%B6sung-in-8-disziplinen">https://webshop.vda.de/QMC/de/8d-problemlösung-in-8-disziplinen</a>.</p>
+<h4 data-number="2.2.4.1"
+id="die-beteiligten-funktionen-und-personen-finden-d1"><span
+class="header-section-number">2.2.4.1</span> Die beteiligten Funktionen
+und Personen finden (D1)</h4>
+<p>Ein Problem ist nicht einfach “da”, sondern wird an eine Organisation
+herangetragen, üblicherweise von “außen”. Wie oben in der Definition
+beschrieben, gibt es ein Ziel, im besten Fall spezifisch, messbar,
+erreichbar und terminiert beschrieben (”SMART”, etwa über im Vorfeld
+vereinbarte Produktspezifikationen und Liefertermine), das nicht
+erreicht wurde oder nicht erreicht werden wird. Es gibt also <em>ein:e
+Entdecker:in</em> des Problems, die:der eine Lösung nachfragt.</p>
+<p>In der Organisation muss es nun eine Funktion geben, die ein
+Interesse daran oder die Aufgabe hat, das Problem zu lösen und die Macht
+hat, Ressourcen (Zeit von Personen, Gelder, Maschinenzeit, …)
+freizustellen, um an der Lösung des Problems zu arbeiten - <em>der:die
+Sponsor:in</em>.</p>
+<p>Der:die Sponsor:in kann, sollte oder muss eine Person benennen, die
+die Problemlösung aktiv vorantreibt. Diese <em>Teamleitung</em> sollte
+Kenntnisse in strukturierter Problemlösung haben (oder gewillt sein,
+sich diese zu erarbeiten ;-) ) und fähig sein, ein Team zu leiten.
+Der:die Sponsor:in kann die Teamleitung auch selbst übernehmen.</p>
+<p>Je nach Art des Problem kann, sollten oder müssen weitere Personen
+hinzugezogen werden, die spezifische Kompetenzen oder Sichtweisen
+mitbringen, die bei der Problemlösung benötigt werden.
+<em>Teammitglieder</em> können dauerhaft oder spontan dazugeholt werden.
+Ob ein Teammitglied geeignet ist, kann auch intuitiv bestimmt werden.
+Bei Bedarf und neuen Erkenntnissen darf die Teamleitung sich nicht
+scheuen, das Team anders zusammenzusetzen. Manche setzen auch auf
+Teammitglieder, die sich freiwillig melden, um mitzuwirken. Es kann
+helfen, die Rollen und Aufgaben im Team im Vorfeld zu klären.</p>
+<p>Je nach Größe des Teams und der Zusammensetzung kann es hilfreich
+sein <em>ein:e Moderator:in</em> (auch: <em>Fazilitator:in)</em>
+hinzuzuziehen oder einem Teammitglied diese Rolle zuzuschreiben, ähnlich
+wie “Agile Coaches” oder “Scrum Master” in Entwicklungsprojekten
+eingesetzt werden. Diese Person kann helfen, die Arbeit zu
+strukturieren, besonders, wenn sie über entsprechende Methodenkompetenz
+verfügen.</p>
+<h4 data-number="2.2.4.2" id="das-problem-beschreiben-d2"><span
+class="header-section-number">2.2.4.2</span> Das Problem beschreiben
+(D2)</h4>
+<p>Eine konkrete Beschreibung eines Problems hilft dabei, eine Lösung zu
+erarbeiten, die wirksam ist und sich im Rahmen der Beschäftigung mit dem
+Problem sich nicht von anderen Auffälligkeiten ablenken zu lassen.</p>
+<p>Eine gute Beschreibung eines Problems beschreibt zuerst konkret die
+Abweichung - bestenfalls über messbare Merkmale, wie Ort, Zeitpunkt,
+Abmessungen, Farben, Gerüche, … Es hilft, sich anhand der Fragewörter
+wer, wann, wo, wie viel, wie häufig dem Problem zu nähern. Wenn Personen
+betroffen sind, sind aber Gefühle und Meinungen ebenso wichtige Elemente
+der Beschreibung. Achtet darauf, in diesem Schritt vorschnelle Schlüsse
+auf die <em>Ursache</em> des Problems (noch) zu unterlassen.</p>
+<p>Im Anschluss lassen sich, je nach Problem und Umfeld, noch weitere
+Daten und Fakten rund um das Problem sammeln. Achtet auch darauf, euch
+anzuschauen, in welchem Kontext das Problem nicht auftrat oder entdeckt
+wurde (sogenannte “Is/Is-Not”-Analyse). Aber Achtung: Eine hinreichend
+gute Beschreibung reicht, um weiter zu arbeiten. Andere Daten können
+meistens später noch mit eingebracht werden.</p>
+<h5 data-number="2.2.4.2.1"
+id="der-cynefin-ansatz-und-der-8d-prozess"><span
+class="header-section-number">2.2.4.2.1</span> Der Cynefin-Ansatz und
+der 8D-Prozess</h5>
+<p>Die hier präsentierte D8-Herangehensweise ist entwickelt und
+prädestiniert für “komplizierte” Probleme, zum Beispiel in der
+industriellen Serienfertigung.</p>
+<p>Bei “einfachen” Problemen helfen Euch erprobte Standardlösungen (auch
+bekannt als ”Best Practices”). Wenn ihr sicher seid, ein solches Problem
+zu haben, ist das D8-Verfahren zu viel des guten und überflüssig.
+Anders: “Nich lang schnacken, maken!”</p>
+<p>Für “komplexe” Probleme ist das D8-Verfahren zu langsam und leitet
+fehl. “Komplexe” Zusammenhänge können nicht vollständig begriffen werden
+und Maßnahmen, die in einem Kontext helfen, können unter veränderten
+Bedingungen schädlich sein. Solltet ihr “komplexe” Probleme lösen
+müssen, macht euch klar,</p>
+<ul>
+<li>dass das Problem nicht vollständig verstanden werden kann (→ <a
+href="#das-problem-verstehen---ursachenanalyse-d4">Das Problem verstehen
+- Ursachenanalyse (D4)</a>),</li>
+<li>dass die Lösung (→ <a
+href="#eine-l%C3%B6sung-planen---abstellma%C3%9Fnahmen-d5">Eine Lösung
+planen - Abstellmaßnahmen (D5)</a>) nur die beste Vermutung sein
+kann,</li>
+<li>dass auch nach der Umsetzung (→ <a
+href="#die-l%C3%B6sung-umsetzen---ma%C3%9Fnahmen-umsetzen-d6">Die Lösung
+umsetzen - Maßnahmen umsetzen (D6)</a>) das System ständig weiter
+beobachtet werden muss und</li>
+<li>dass eine Absicherung für alle Eventualitäten (→ <a
+href="#sich-absichern---fehler-in-der-zukunft-vermeiden-d7">Sich
+absichern - Fehler in der Zukunft vermeiden (D7)</a>) schlicht unmöglich
+ist.</li>
+</ul>
+<p>“Komplexe” Problemlösung verlangt von euch, Risiken einzuschätzen
+(analog “D4”), abwägend die beste nächste mögliche Aktion anzugehen
+(”D5”), die Reaktion des Systems zu beobachten (”D6”) und aus der
+Beobachtung zu lernen (”D7”). Das geschieht typischerweise in schneller,
+wiederholter Schrittfolge von “Experimenten”. Das gelingt am besten mit
+erfahrenen Experten, die das Problem in vielen Dimensionen adäquat
+erfassen können. Irgendwann werdet ihr durch eure Versuche die
+Reaktionen des Systems hinreichend verstanden haben, um eine
+akzeptierte, stabile Situation ansteuern zu können - und das wird eure
+“Problemlösung” (für den Moment) sein.</p>
+<p>“Chaotische” Probleme verlangen eine Feuerwehr, die dafür sorgt, dass
+das System in einen behandelbaren Zustand gewandelt wird. Hier hilft nur
+ein trainiertes Team, das gut aufeinander abgestimmt sinnvolle Maßnahmen
+schnell umsetzt.</p>
+<h4 data-number="2.2.4.3"
+id="das-problem-begrenzen---sofortmaßnahmen-d3"><span
+class="header-section-number">2.2.4.3</span> Das Problem begrenzen -
+Sofortmaßnahmen (D3)</h4>
+<p>Als nächstes ist es meistens sinnvoll, die Auswirkung des Problems zu
+begrenzen oder zu beseitigen. Typische Beispiele sind: Das Beseitigen
+von ausgetretenen Flüssigkeiten, die Versorgung von Verletzten nach
+einem Unfall oder das Sortieren von teilweise fehlerhaften
+Produkten.</p>
+<p>Hier handelt es sich um kurzfristige, “einfache” Maßnahmen, die
+schnell umgesetzt werden können. Diese Maßnahmen sind gekennzeichnet
+durch einen kurzfristigen starken Kraftakt. Zweck ist es, sich dadurch
+Zeit für die Ursachenanalyse oder die Stabilisierung des Systems zu
+verschaffen.</p>
+<p>Natürlich muss die Maßnahme sinnvoll und wirksam sein. Mit Rückgriff
+auf die Problembeschreibung (<a href="#das-problem-beschreiben-d2">Das
+Problem beschreiben (D2)</a>) sollte eine wirksame Beseitigung der
+Folgen des Problems möglich sein. Je nach Bedeutung der Folgen, solltet
+ihr die Wirksamkeit der Maßnahme darlegen oder mit Daten nachweisen
+können. Die Aufwände für die Sofortmaßnahme kann hoch sein oder andere
+Funktionen eines System stören. Bedenkt auch das bei der Auswahl der
+Maßnahmen.</p>
+<p>Gegebenenfalls ist es zusätzlich nötig, ein “problematisches” System
+dauerhaft zu beobachten. Beispiele sind: 100-Prozent-Kontrolle der
+Produktion einer zweifelhaften Maschine, Videoüberwachung eines
+gefährdeten Orts.</p>
+<h4 data-number="2.2.4.4"
+id="das-problem-verstehen---ursachenanalyse-d4"><span
+class="header-section-number">2.2.4.4</span> Das Problem verstehen -
+Ursachenanalyse (D4)</h4>
+<p>In der Ursachenanalyse geht ihr dem Problem auf den Grund. Sinnvolle
+Fragen dazu sind</p>
+<ul>
+<li>Warum trat das Problem technisch auf (Abfolge der Ereignisse)?</li>
+<li>Warum wurde das Problem erst spät oder gar nicht entdeckt (Messungen
+und Beobachtungen der Ereignisse)?</li>
+</ul>
+<p>Über die lokale oder “technische” Analyse hinaus, lässt sich der
+Kreis der Ursachenanalyse auch weiter ziehen. Das wird auch
+“systemische” Analyse genannt. Mögliche Fragen sind dann:</p>
+<ul>
+<li>Warum wurde zugelassen, dass das technische Problem auftrat?</li>
+<li>Warum wurde zugelassen, dass das System nicht adäquat beobachtet
+wurde?</li>
+</ul>
+<p>Typische Methoden für eine strukturierte Ursachenanalyse sind die
+folgenden:</p>
+<ul>
+<li>Prozessprüfung/Re-enactment:<br />
+Dort, wo das Problem aufgetreten ist wird Schritt für Schritt
+nachvollzogen, wie es zu dem Problem kam. Das ist besonders in der
+Produktion möglich und sinnvoll, kann aber auch für Interaktionen (etwa
+bei Dienstleistungen) nachvollzogen werden. Wichtig ist es immer,
+wirklich <strong>vor Ort</strong> zu arbeiten.</li>
+<li>5-Why - Frage fünf mal “Warum?”:<br />
+Durch konsequentes, ergebnisoffenes Hinterfragen der spontan genannten
+Ursache kann ein Problem bis zu seiner Wurzel verfolgt werden. Ihr seid
+erfolgreich, wenn ihr die Antworten umkehrt und eine plausible
+“5-Therefor”-Kette aufbaut: “Dieses geschah, deswegen passierte jenes,
+deswegen passierte… , deswegen kam es zu dem Problem”</li>
+<li>Ursache-Wirkungs-, Fischgräten- oder Ishikawa-Diagramm:<br />
+Die Beiträge von (klassisch) sechs Dimensionen auf das Problem werden
+mit einer schematischen Fischgrätendarstellung erfasst. Durch die
+Struktur werden die Haupteinflussparameter erkennbar. Es handelt sich um
+eine stark formalisierte Mind-Map Die üblichen Dimensionen sind (sie
+werden auch als “6M” bezeichnet)
+<ul>
+<li>Management/Methoden</li>
+<li>Messung</li>
+<li>Maschinen</li>
+<li>Materialien</li>
+<li>Menschen</li>
+<li>Umwelteinflüsse (oder Milieu)</li>
+</ul></li>
+<li>Fehlerbaumanalyse:<br />
+Ein umfangreiches Verfahren, das vor allem bei hochkomplizierten Anlagen
+sinnvoll verwendet werden kann. Typische Beispiele sind Raketen,
+Atomkraftwerke oder sicherheitsrelevante Systeme. Details siehe zum
+Beispiel auf Wikipedia: <a
+href="https://de.wikipedia.org/wiki/Fehlerbaumanalyse">https://de.wikipedia.org/wiki/Fehlerbaumanalyse</a>
+und die Verweise dort.</li>
+<li>Ist/Ist-Nicht-Analyse:<br />
+Es wird mit Rückgriff auf die Problembeschreibung dargestellt, wann das
+Problem auftrat und wann nicht und so geklärt, wo relevante Abweichungen
+zum Soll-Zustand auftraten.</li>
+<li>Datenanalyse:<br />
+Wenn Maschinen- und Produktdaten vorliegen, ist ein Rückgriff auf diese
+und deren Entwicklung sinnvoll. Analysen können einfache statistische
+Folgen sein. Auch komplexe Ansätze mit Hilfe von trainierter Software
+(”künstliche Intelligenz”) sind möglich.</li>
+</ul>
+<p>Mehr Methoden, die für die Automobilindustrie typisch sind, finden
+sich im <a
+href="https://webshop.vda.de/QMC/de/band-04-bundle-der-abschnitte-1-4-082020">VDA
+Band 4</a>.</p>
+<h4 data-number="2.2.4.5"
+id="eine-lösung-planen---abstellmaßnahmen-d5"><span
+class="header-section-number">2.2.4.5</span> Eine Lösung planen -
+Abstellmaßnahmen (D5)</h4>
+<p>Ziel dieses Schrittes ist es, wirksame, effiziente und dauerhafte
+Maßnahmen zu definieren, die das Problem lösen. Ein typisches Beispiel
+ist die Reparatur des Teils einer Maschine, das für eine Fehlfunktion
+verantwortlich ist. Die Maßnahmen müssen auf Basis der Ursachenanalyse
+getroffen werden und es muss erkennbar (besser: nachweisbar) sein, dass
+die Problemursache damit bekämpft wird.</p>
+<p>Hier ist Kreativität gefragt, um mögliche Maßnahmen zu erkennen. Jede
+mögliche Maßnahme muss anhand der Ursachenanalyse auf ihre Wirksamkeit
+geprüft werden. Nur wirksame Maßnahmen sollen umgesetzt werden.</p>
+<p>“Technische” und “Systemische” Fehlerursachen werden meistens mit
+jeweils unterschiedlichen Maßnahmen angegangen.</p>
+<p>Am Ende dieses Schritts steht ein Maßnahmenplan, in dem durchführende
+Personen und Plantermine genannt sind. Außerdem werden die Parameter
+festgelegt, mit denen die Wirksamkeit festgestellt wird. Im besten Fall
+sind es messbare Werte (oder “Kennzahlen”), für die festgelegt ist, wann
+sie gut, und wann sie schlecht sind.</p>
+<h4 data-number="2.2.4.6"
+id="die-lösung-umsetzen---maßnahmen-umsetzen-d6"><span
+class="header-section-number">2.2.4.6</span> Die Lösung umsetzen -
+Maßnahmen umsetzen (D6)</h4>
+<p>In diesem Schritt werden die Maßnahmen umgesetzt und das Ergebnis
+beobachtet. Wenn die beobachteten Parameter oder Kennzahlen im
+Erwartungsbereich liegen (also “gut” oder “o.k.” sind), können die
+Sofortmaßnahmen (<a
+href="#das-problem-begrenzen---sofortma%C3%9Fnahmen-d3">Das Problem
+begrenzen - Sofortmaßnahmen (D3)</a>) aufgehoben werden.</p>
+<p>Im besten Fall bestätigt Euch Eure:r Sponsor:in oder die:der
+Entdecker:in, dass das Problem gelöst ist (siehe <a
+href="#die-beteiligten-funktionen-und-personen-finden-d1">Die
+beteiligten Funktionen und Personen finden (D1)</a>)</p>
+<h4 data-number="2.2.4.7"
+id="sich-absichern---fehler-in-der-zukunft-vermeiden-d7"><span
+class="header-section-number">2.2.4.7</span> Sich absichern - Fehler in
+der Zukunft vermeiden (D7)</h4>
+<p>Zweck dieses Schrittes ist es, die Bearbeitung des vorliegenden
+Problems zu reflektieren. Ihr habt in den Schritten bis hier euer System
+besser kennengelernt und verstanden. Zum Beispiel habt ihr</p>
+<ul>
+<li>neue Dimensionen eurer Produktion erkannt,</li>
+<li>mögliche Fehlerursachen neu kennengelernt,</li>
+<li>kritische Parameter identifiziert und</li>
+<li>neue Messwerte oder Kennzahlen definiert.</li>
+</ul>
+<p>Reflektiert das, was ihr gelernt habt und überlegt, ob es andere Orte
+oder Prozesse in eurem System oder in eurer Organisation gibt, auf die
+das neue Wissen angewendet werden kann.</p>
+<p>Dokumentiert und kommuniziert euer Wissen aktiv, so dass es euch und
+anderen auch in Zukunft zur Verfügung steht.</p>
+<h4 data-number="2.2.4.8"
+id="weitermachen---das-projekt-abschließen-und-das-team-würdigen-d8"><span
+class="header-section-number">2.2.4.8</span> Weitermachen - Das Projekt
+abschließen und das Team würdigen (D8)</h4>
+<p>In diesem letzten Schritt erkennt ihr eure gemeinsame Leistung als
+Team an. Die:der Sponsor:in sollte Teamleitung und Teammitglieder aus
+dem Projekt entlassen und die Leistung adäquat würdigen. Ob das ein
+wertschätzendes “Danke”, ein gemeinsames Kaffee-und-Kuchen oder ein
+großes Ereignis ist, hängt von euch und dem Problem ab.</p>
+<h4 data-number="2.2.4.9"
+id="der-8d-prozess-und-die-double-diamond-methode"><span
+class="header-section-number">2.2.4.9</span> Der 8D-Prozess und die
+Double-Diamond-Methode</h4>
+<p>Die Iterationen der Double-Diamond-Methode finden sich dreifach im
+8D-Prozess wieder. Dies ist in der Graphik anbei schematisch
+dargestellt. Auch diese lineare Darstellung bleibt natürlich ein
+idealisiertes Bild, den das Lernen im Prozess führt immmer wieder zu
+Rück- und Quersprüngen. Aber dieser rote Faden zeigt, welche
+Herangehensweise (konvergent oder divergent) für welches Element der
+Problemlösung hilfreich ist.</p>
+<figure>
+<img src="images/8D-vs-double-diamond.png"
+alt="8D und die Double-Diamond-MEthode" />
+<figcaption aria-hidden="true">8D und die
+Double-Diamond-MEthode</figcaption>
+</figure>
+<h1 data-number="3" id="lernpfad"><span
+class="header-section-number">3</span> Lernpfad</h1>
+<h2 data-number="3.1" id="ankommen-und-zirkel-definieren"><span
+class="header-section-number">3.1</span> 0 - Ankommen und Zirkel
+definieren</h2>
+<p>Im “Abschnitt 0” geht es darum, dass du dir und dein Lernzirkel sich
+darüber klar werden, wie ihr in der nächsten Zeit mit diesem “Lernpfad”
+arbeiten werdet. Lies gerne dazu auch die <a
+href="1-0-Grundlagen.md#vorbemerkungen">Vorbemerkungen in den
+Grundlagen</a></p>
+<h3 data-number="3.1.1"
+id="kata-0.1---deine-persönliche-lernvoraussetzung"><span
+class="header-section-number">3.1.1</span> Kata 0.1 - Deine persönliche
+Lernvoraussetzung</h3>
+<h4 data-number="3.1.1.1" id="beschreibung"><span
+class="header-section-number">3.1.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du in dich gehen, um deine persönliche
+Lernumgebung und -voraussetzung zu beschreiben.</p>
+<h4 data-number="3.1.1.2" id="dauer"><span
+class="header-section-number">3.1.1.2</span> Dauer</h4>
+<p>Etwa 25 Minuten nur für dich.</p>
+<h4 data-number="3.1.1.3" id="ablauf"><span
+class="header-section-number">3.1.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Besorge dir den <a
+href="https://cogneon.github.io/lernos-for-you/de/1-2-lernOS-Canvas/">lernOS-Canvas</a>.
+(Du kannst das png in ein pdf konvertieren oder ausdrucken. Es gibt auch
+<a
+href="https://www.notion.so/lernOS-Canvas-79aea800a86a449cbacf99ffcf2398ac">diese
+Umsetzung in Notion</a>. Oder übertrage den Canvas in das Medium deiner
+Wahl…)</li>
+<li>Nimm dir die Vorlage, ermittle anhand der Leitfragen (siehe auch
+unten), wie deine persönliche Lernumgebung für diesen Lernpfad aussieht
+und trage es in den Canvas ein.
+<ol type="1">
+<li><strong>Zweck &amp; Purpose:</strong> Wofür mache ich diesen
+Lernpfad? Welche Probleme möchte ich in Zukunft besser lösen können? Was
+ist das Ziel hinter dem Ziel?</li>
+<li><strong>Ziele &amp; Schlüsselergebnisse:</strong> Welche Ziele habe
+ich in den nächsten 12 Wochen? Welche messbaren Ergebnisse gibt es zu
+den Zielen?
+<ol type="1">
+<li>Hinweis: Möchtest Du mehr über den Umgang mit messbaren Ergebnissen
+wissen? Es gibt den Lernpfad <a
+href="https://cogneon.github.io/lernos-for-you/de/2-2-0-Lernpfad-ZF/">Zielorientierung
+&amp; Fokussierung</a>.</li>
+</ol></li>
+<li><strong>Meine Rollen:</strong> Was sind meine aktuellen Rollen?
+Welche Ziele ergeben sich aus diesen?</li>
+<li><strong>Meine Aufgaben:</strong> Was sind meine aktuellen Aufgaben?
+Welche Ziele ergeben sich daraus?</li>
+<li><strong>Meine Projekte:</strong> Was sind meine aktuellen Projekte?
+Welche Ziele ergeben sich aus diesen?</li>
+<li><strong>Meine Beziehungen</strong>: Wer kann mir helfen, meine
+Ergebnisse zu erreichen?</li>
+<li><strong>Meine Sozialen Netzwerke:</strong> Welche internen und
+externen sozialen Netzwerke (digital und analog) helfen mir bei der
+Vernetzung?</li>
+<li><strong>Meine Lern- und Arbeitsumgebung:</strong> Wie sieht meine
+Lern- und Arbeitsumgebung aus (Infrastruktur, Inhalte, Tools, Methoden
+etc.)?</li>
+<li><strong>Mein Wissen &amp; Meine Fähigkeiten:</strong> Welche
+Wissensgebiete und Fähigkeiten sind für meine Ziele, Rollen, Aufgaben
+und Projekte wichtig? Was muss ich noch lernen?</li>
+<li><strong>Meine Wissenswerte:</strong> Welche relevanten Wissenswerte
+(Dokumente, Checklisten, Videos etc.) habe ich? Welche davon kann ich
+meinem Netzwerk anbieten?</li>
+</ol></li>
+<li>Gehe die Punkte noch einmal durch. Möchtest du noch ergänzen oder
+ändern?</li>
+<li>Was fällt dir auf? Was hat dich überrascht?</li>
+<li>Überlege dir, wie du deine Ergebnisse notierst. Ein Poster an der
+Wand mit Post-Its? Eine elektronische Mappe oder Datei? Eine Kladde oder
+ein Notizbuch? Eine Vorlage für einen 8D-Report?</li>
+</ol>
+<h3 data-number="3.1.2" id="kata-0.2---du-und-dein-lernzirkel"><span
+class="header-section-number">3.1.2</span> Kata 0.2 - Du und Dein
+Lernzirkel</h3>
+<h4 data-number="3.1.2.1" id="beschreibung-1"><span
+class="header-section-number">3.1.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du festlegen, mit wem du wie und wann deine
+Ergebnisse zusammenträgst und diskutierst.</p>
+<p>Absolvierst du diesen Lernpfad ohne Lernzirkel? Plane dir einen
+Termin zur Reflektion “nur für dich” in jeder Woche ein. Nutze dazu die
+Fragen dieser Kata.</p>
+<h4 data-number="3.1.2.2" id="dauer-1"><span
+class="header-section-number">3.1.2.2</span> Dauer</h4>
+<p>Etwa 45 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.1.2.3" id="ablauf-1"><span
+class="header-section-number">3.1.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Wer befindet sich im Lernzirkel? Stellt euch gegenseitig vor und
+tauscht Kontaktdaten aus. Gründet eine Mailing-Liste oder Chat-Gruppe im
+Medium Eurer Wahl.</li>
+<li>Wann wird gearbeitet? Legt fest, an welchen Tagen und zu welcher
+Zeit Ihr euch wie lange treffen wollt, um eure Ergebnisse zu diskutieren
+oder gemeinsam zu entwickeln.
+<ol type="1">
+<li>45 Minuten solltet Ihr je Abschnitt mindestens einplanen, mehr als
+90 Minuten dürfte nicht sinnvoll sein.</li>
+<li>Ob ihr euch wöchentlich, täglich oder in einem Workshop
+zusammenfindet, entscheidet ihr!</li>
+</ol></li>
+<li>Wo und wie wollt ihr euch treffen? An einem Ort oder Online? In
+welchem Raum oder mit welcher Software-Ausstattung?</li>
+<li>Was benötigt ihr? Braucht ihr Getränke und Snacks, Whiteboard,
+Flipcharts, Post-Its, Stifte, eine gemeinsame Datenablage oder andere
+Kollaborationswerkzeuge? Wenn ja, wer besorgt das jeweils?</li>
+<li>Wer führt oder leitet die Treffen? Bestimmt jemanden, die oder der
+die Treffen leitet und auf Dinge wie Zeit, Ausstattung (siehe oben),
+Dokumentation und Disziplin achtet. Ihr könnt die “Leitung” abwechselnd
+wahrnehmen, Aufgaben gleichmäßig verteilen, eine dritte Person als
+“Coach” haben, …</li>
+<li>Schreibt Eure Ergebnisse auf und verteilt Sie untereinander.</li>
+</ol>
+<h2 data-number="3.2" id="was-bringt-dich-hierher"><span
+class="header-section-number">3.2</span> 1 - Was bringt Dich
+hierher?</h2>
+<p>Im ersten Abschnitt geht es inhaltlich los. Startpunkt ist eine
+kritische Reflektion des status quo. Die erste Bestandsaufnahme aus dem
+“Abschnitt 0” wird hier aufgenommen und im Hinblick auf das Thema
+Problemlösung noch einmal konkretisiert.</p>
+<h3 data-number="3.2.1" id="kata-1.1---dein-startpunkt"><span
+class="header-section-number">3.2.1</span> Kata 1.1 - Dein
+Startpunkt</h3>
+<h4 data-number="3.2.1.1" id="beschreibung-2"><span
+class="header-section-number">3.2.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du um und in dich blicken, um deinen Startpunkt
+für diesen Lernpfad zu beschreiben.</p>
+<h4 data-number="3.2.1.2" id="dauer-2"><span
+class="header-section-number">3.2.1.2</span> Dauer</h4>
+<p>Etwa 25 Minuten nur für dich, 25 Minuten in deiner Lerngruppe (bei 4
+Personen in der Gruppe).</p>
+<h4 data-number="3.2.1.3" id="ablauf-2"><span
+class="header-section-number">3.2.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Wähle ein Problem, das du in den nächsten Wochen bearbeiten
+möchtest. Ein gutes Problem sollte…
+<ol type="1">
+<li>… schwierig genug sein.<br />
+Der Aufwand, den du betreiben wirst, sollte sich lohnen und sich nicht
+künstlich aufgeblasen anfühlen.</li>
+<li>… nicht zu komplex sein.<br />
+Probleme, die sich über mehrere Organisationseinheiten erstrecken, oder
+an den Grundpfeilern der Organisation rütteln, gehen über das hinaus,
+was in diesem Lernpfad vernünftig abbildbar ist. Auch
+zwischenmenschliche Probleme stehen nicht im Fokus dieses
+Lernpfads.</li>
+<li>… bedeutsam sein.<br />
+Wenn das Problem nicht bedeutsam genug ist, wird sich die Zeit, die du
+während des Lernpfads damit verbringst, wie Verschwendung anfühlen.
+Also, nimm etwas, bei dem es darum geht, Probleme für die Kund:innen
+(oder “externe Partner”) zu lösen, das wesentliche Abläufe betrifft,
+oder das dir besonders am Herzen liegt.</li>
+</ol></li>
+<li>Beantworte die folgenden Fragen und mache dir dazu Notizen:
+<ol type="1">
+<li>Welche/-s Problem/-e beschäftigt/-en dich gerade, das/die du lösen
+möchtest?</li>
+<li>Wann weißt du, dass du eine Lösung gefunden hast? Wie ist es, wenn
+das Problem gelöst wurde? Wie fühlt sich das an? Woran machst du es
+fest, dass das Problem gelöst wurde?</li>
+<li>Gibt es gerade/gab es in der Vergangenheit ein Problem, das du nicht
+lösen kannst/konntest? Eine Nuss, die du nicht knacken kannst/konntest?
+Was denkst du darüber? Wie fühlt/-e sich das an?</li>
+<li>Wie bist du bisher Probleme angegangen? Wie sieht deine übliche
+Strategie aus?</li>
+<li>Wann warst du mit Deinen Strategien erfolgreich und wann nicht? Was
+davon kann dir auch jetzt helfen? Was steht dir gerade im Weg?</li>
+</ol></li>
+<li>Tauscht euch in der Lerngruppe über eure vergangenen Erfahrungen
+aus.
+<ol type="1">
+<li>Erst jeweils zu zweit. Macht euch Notizen zu dem, was euer Gegenüber
+erzählt. Fragt nach, wenn ihr etwas besser verstehen wollt. Versucht die
+Gedanken des Gegenübers nicht zu kommentieren. (Vorgeschlagene Dauer: 2
+x 4 = 8 Minuten)</li>
+<li>Lasst Eure Gedanken jeweils von Eurem Gegenüber der Gruppe
+vorstellen. (Vorgeschlagene Dauer: jeweils 4 Minuten pro Person)</li>
+</ol></li>
+</ol>
+<h4 data-number="3.2.1.4" id="quellen"><span
+class="header-section-number">3.2.1.4</span> Quellen</h4>
+<ul>
+<li>Transformative learning phases according to Mezirow, Phasen 1-4, <a
+href="https://www.valamis.com/hub/transformative-learning#transformative-learning-phases">https://www.valamis.com/hub/transformative-learning#transformative-learning-phases</a></li>
+<li>Appreciative Interview <a
+href="https://liberatingstructures.de/liberating-structures-menue/appreciative-interviews-ai/">https://liberatingstructures.de/liberating-structures-menue/appreciative-interviews-ai/</a></li>
+</ul>
+<h3 data-number="3.2.2"
+id="kata-1.2---update-der-ergebnisse-von-letzter-woche"><span
+class="header-section-number">3.2.2</span> Kata 1.2 - Update der
+Ergebnisse von letzter Woche</h3>
+<h4 data-number="3.2.2.1" id="beschreibung-3"><span
+class="header-section-number">3.2.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst Du reflektieren, um die Ergebnisse der letzten
+Woche zu verfeinern.</p>
+<h4 data-number="3.2.2.2" id="dauer-3"><span
+class="header-section-number">3.2.2.2</span> Dauer</h4>
+<p>Etwa 10 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.2.2.3" id="ablauf-3"><span
+class="header-section-number">3.2.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Schau dir deine Notizen zu deiner persönlichen Lernvoraussetzung aus
+der letzten Woche an. Stimmt alles noch? Möchtest du etwas ändern oder
+ergänzen?</li>
+<li>Schaut Euch in Eurem Lernzirkel in die Augen und Eure Notizen an.
+<ol type="1">
+<li>Was war nicht gut und soll weg?</li>
+<li>Was war gut, könnte aber weniger sein?</li>
+<li>Was war gut und soll wieder so gemacht werden?</li>
+<li>Was war gut und könnte mehr sein?</li>
+<li>Was fehlte?</li>
+</ol></li>
+</ol>
+<h4 data-number="3.2.2.4" id="quelle"><span
+class="header-section-number">3.2.2.4</span> Quelle</h4>
+<ul>
+<li>Starfish Review, <a
+href="https://retromat.org/en/?id=49">https://retromat.org/en/?id=49</a></li>
+</ul>
+<h2 data-number="3.3" id="transfer"><span
+class="header-section-number">3.3</span> 10 - Transfer</h2>
+<p>In diesem Abschnitt beschäftigst du dich damit, ob das Problem auch
+in anderen, ähnlichen Zusammenhängen ebenfalls auftreten kann. Das ist
+zum Beispiel der Fall, wenn ähnliche Maschinen oder Abläufe anderen
+Orten ähnlich funktionieren. Je nach Ähnlichkeit könnt ihr direkt einen
+Plan aufstellen, die Lösung auch anderswo anzubringen - oder ihr nutzt
+dieses Element als Startschuss für eine neue Initiative zur
+Verbesserung.</p>
+<p>(vergleiche auch <a
+href="1-0-Grundlagen.md#sich-absichern---fehler-in-der-zukunft-vermeiden-d7">Sich
+absichern - Fehler in der Zukunft vermeiden (D7)</a>)</p>
+<h3 data-number="3.3.1"
+id="kata-10.1---gleiches-und-ähnliches-erkennen"><span
+class="header-section-number">3.3.1</span> Kata 10.1 - Gleiches und
+ähnliches erkennen</h3>
+<h4 data-number="3.3.1.1" id="beschreibung-4"><span
+class="header-section-number">3.3.1.1</span> Beschreibung</h4>
+<p>In dieser Kata werdet gedanklich ihr über das Problem hinausgehen, um
+andere Bereiche zu entdecken, die von eurer Lösung ebenso profitieren
+können.</p>
+<h4 data-number="3.3.1.2" id="dauer-4"><span
+class="header-section-number">3.3.1.2</span> Dauer</h4>
+<p>Etwa 45 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.3.1.3" id="ablauf-4"><span
+class="header-section-number">3.3.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Vervollständigt nacheinander die folgenden vier Satzanfänge, um die
+Kraft eurer Lösung in Worte zu fassen. Zuerst jede:r für sich allein, am
+besten auf einem Papier schreibend. Dann tragt ihr eure Sätze
+nacheinander vor. Was beobachtet ihr? Was empfindet ihr? Was schließt
+ihr daraus?
+<ol type="1">
+<li>“Ja, es ist wahr, dass …”</li>
+<li>“Es ist erfolgreich, weil …”</li>
+<li>“Ich werde mich immer erinnern und nie vergessen …”</li>
+<li>“Es begeistert mich, dass …”</li>
+</ol></li>
+<li>Stellt Euch nacheinander folgende Fragen. Jede und jeder soll sich
+dazu äußern:
+<ol type="1">
+<li>Woher wissen wir, dass an anderer Stelle das gleiche oder ein
+ähnliches Problem besteht?</li>
+<li>Wie können wir dieses neue, ähnliche oder gleiche Problem wirksam
+lösen?</li>
+<li>Was hält uns davon ab, diese Lösung anzugehen?</li>
+<li>Wer kann uns helfen, unsere Lösung breiter anzuwenden?</li>
+<li>Wen sonst müssen wir involvieren?</li>
+</ol></li>
+</ol>
+<h4 data-number="3.3.1.4" id="quellen-1"><span
+class="header-section-number">3.3.1.4</span> Quellen</h4>
+<ul>
+<li><a
+href="https://liberatingstructures.de/liberating-structures-menue/discovery-action-dialogue-dad/">https://liberatingstructures.de/liberating-structures-menue/discovery-action-dialogue-dad/</a></li>
+</ul>
+<h3 data-number="3.3.2"
+id="kata-10.2---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.3.2</span> Kata 10.2 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.3.2.1" id="beschreibung-5"><span
+class="header-section-number">3.3.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die Transferarbeit in deiner Lerngruppe
+reflektieren.</p>
+<h4 data-number="3.3.2.2" id="dauer-5"><span
+class="header-section-number">3.3.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.3.2.3" id="ablauf-5"><span
+class="header-section-number">3.3.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch bei der Transferarbeit gegangen
+ist.</li>
+<li>War der Transfer offensichtlich? Oder fühlte es sich “weit
+hergeholt” an? Wann ist es sinnvoll, einen Transfer der “Lösung” zu
+unternehmen, und wann nicht?</li>
+<li>Habt ihr an anderen Stellen identische Lösungen eingeführt? Wenn ja,
+mit welcher Begründung? Habt ihr “die Lösung” auf die anderen Bereiche
+“angepasst”? Wenn ja, warum und wie?</li>
+<li>Lässt sich die Verbesserung nach dem Transfer auch messen? Gibt es
+gleiche oder ähnliche Kennzahlen?</li>
+<li>Was nehmt ihr von den anderen mit? Bekommt ihr Tipps? Was könnt ihr
+anderen wertvolles mitgeben?</li>
+</ol>
+<h2 data-number="3.4"
+id="feiern-wie-kann-ein-erfolg-adäquat-gefeiert-werden"><span
+class="header-section-number">3.4</span> 11 - Feiern: Wie kann ein
+Erfolg adäquat gefeiert werden?</h2>
+<p>In diesem Abschnitt geht es darum, das Team und eure gemeinsame
+Leistung zu würdigen. Macht euch klar, dass ihr etwas geleistet habt.
+Erzählt euch davon und verfestigt so diese (meistens) gute
+Erfahrung.</p>
+<p>(vergleich auch <a
+href="1-0-Grundlagen.md#weitermachen---das-projekt-abschlie%C3%9Fen-und-das-team-w%C3%BCrdigen-d8">Weitermachen
+- Das Projekt abschließen und das Team würdigen (D8)</a>)</p>
+<h3 data-number="3.4.1" id="kata-11.1---die-retrospektive"><span
+class="header-section-number">3.4.1</span> Kata 11.1 - Die
+Retrospektive</h3>
+<h4 data-number="3.4.1.1" id="beschreibung-6"><span
+class="header-section-number">3.4.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du im Problemlösungsteam eine Retrospektive
+abhalten, um das Erreichte gebührend zu feiern.</p>
+<h4 data-number="3.4.1.2" id="dauer-6"><span
+class="header-section-number">3.4.1.2</span> Dauer</h4>
+<p>Etwa 30 Minuten nur für dich zur Vorbereitung und etwa 30 Minuten für
+dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.4.1.3" id="ablauf-6"><span
+class="header-section-number">3.4.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Wähle eine für dein Team passende Retrospektive aus. Dazu gibt es im
+Internet reichlich Quellen. Recherchiere dort gern. Wichtig für die
+Auswahl ist: Wie gut war die Laune im Team? Wie verspielt darf es für
+Euch sein? Wie offen und persönlich kann und darf es werden? Geht es
+darum zu feiern (Retrospektive) oder ist vieles schief gegangen und
+Bedarf noch der Aussprache (”post mortem”)? Ein paar mögliche Beispiele
+für Aktivitäten in einer Retrospektive sind:
+<ol type="1">
+<li>Das klassische “Starfish”-Review <a
+href="https://retromat.org/en/?id=49">https://retromat.org/en/?id=49</a></li>
+<li>Eine “Oscar-Verleihung” für Dein Team: <a
+href="https://www.youtube.com/watch?v=Ykyy2XyCuBQ">https://www.youtube.com/watch?v=Ykyy2XyCuBQ</a></li>
+<li>Nutzt Bilder, um über das Projekt zu sprechen (”Toffifee”,
+“Segelboot”, “Wassermelone”, zum Beispiel hier: <a
+href="https://www.claudiathonet.de/was-ist-eine-retrospektive/">https://www.claudiathonet.de/was-ist-eine-retrospektive/</a>)</li>
+<li>Trefft euch an einem sinnbildlichen Lagerfeuer in der Zukunft und
+erzählt euch, wie eure Erfolge in der Zukunft ihre Wirkung entfalten,
+und was ihr heute dafür getan habt (”Future Present” unter <a
+href="https://www.liberatingstructures.com/ls-in-development/">https://www.liberatingstructures.com/ls-in-development/</a>)</li>
+</ol></li>
+<li>Führe die Retrospektive mit deinem Team durch.</li>
+<li>Feiert euch als Team. Ihr habt ein wichtiges, vermutlich
+kompliziertes, Problem gelöst.</li>
+<li>Löst das Team offiziell auf und widmet euch in der Folge wieder voll
+euren eigentlichen Tätigkeiten.</li>
+</ol>
+<h3 data-number="3.4.2"
+id="kata-11.2---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.4.2</span> Kata 11.2 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.4.2.1" id="beschreibung-7"><span
+class="header-section-number">3.4.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die Team-Retrospektive reflektieren und durch
+Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit tiefer
+verstehen.</p>
+<h4 data-number="3.4.2.2" id="dauer-7"><span
+class="header-section-number">3.4.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.4.2.3" id="ablauf-7"><span
+class="header-section-number">3.4.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch bei der Retrospektive gegangen ist.
+<ol type="1">
+<li>Welche Retrospektive habt ihr gewählt? Warum?</li>
+<li>Was war leicht oder gut? Was war schwer oder schlecht?</li>
+<li>Was habt ihr gelernt? Über euch? Über die anderen?</li>
+<li>Was nehmt ihr von den anderen mit? Bekommt ihr Tipps? Was könnt ihr
+anderen wertvolles mitgeben?</li>
+</ol></li>
+</ol>
+<h2 data-number="3.5" id="retrospektive"><span
+class="header-section-number">3.5</span> 12 - Retrospektive</h2>
+<p>In diesem Abschnitt wirst du mit deiner Lerngruppe einen Abschluss
+feiern. Reflektiert und festigt eure Erfahrungen - und feiert!</p>
+<h3 data-number="3.5.1" id="kata-12.1---reflektion"><span
+class="header-section-number">3.5.1</span> Kata 12.1 - Reflektion</h3>
+<h4 data-number="3.5.1.1" id="beschreibung-8"><span
+class="header-section-number">3.5.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du den Lernpfad reflektieren, um deinen
+Lernerfolg für dich zu bewerten.</p>
+<h4 data-number="3.5.1.2" id="dauer-8"><span
+class="header-section-number">3.5.1.2</span> Dauer</h4>
+<p>Etwa 25 Minuten für dich und deine Lerngruppe.</p>
+<h4 data-number="3.5.1.3" id="ablauf-8"><span
+class="header-section-number">3.5.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Faltet jeweils ein DIN A4-Blatt Papier zweimal in der Hälfte. Faltet
+es wieder auseinander. Ihr solltet jetzt vier “Felder” auf dem Papier
+haben.</li>
+<li>Nehmt einen Stift und zeichnet für eine Minute (Timer) eine
+möglichst kleine, enge Spirale, die aus der Mitte des Papier
+entspringt.</li>
+<li>Schreibe in jeweils ein Feld antworten zu den folgenden Fragen.
+Nehmt euch jeweils eine Minute Zeit
+<ol type="1">
+<li>Was habe ich bei der Problemlösung über den Gegenstand/die Situation
+gelernt?</li>
+<li>Was habe ich über mich gelernt?</li>
+<li>Was habe ich über andere beteiligte gelernt?</li>
+<li>Wie bewerte ich, was ich gelernt habe?</li>
+</ol></li>
+<li>Teilt eure Gedanken untereinander, wenn ihr mögt.</li>
+<li>Holt den LernOS-Canvas aus der <a
+href="2-0-Lernpfad.md#kata-01---deine-pers%C3%B6nliche-lernvoraussetzung">Kata
+0.1</a> noch einmal hervor. Vergleicht damals mit heute.
+<ol type="1">
+<li>Was fällt Euch auf?</li>
+<li>Was habt Ihr erreicht? Was nicht?</li>
+</ol></li>
+</ol>
+<h4 data-number="3.5.1.4" id="quelle-1"><span
+class="header-section-number">3.5.1.4</span> Quelle</h4>
+<ul>
+<li>Spiral Journal <a
+href="https://liberatingstructures.de/spiral-journal/">https://liberatingstructures.de/spiral-journal/</a></li>
+</ul>
+<h3 data-number="3.5.2" id="kata-12.2---abschluss"><span
+class="header-section-number">3.5.2</span> Kata 12.2 - Abschluss</h3>
+<p>Und jetzt: feiert Euch!</p>
+<h2 data-number="3.6" id="beschreibe-dein-problem-ausführlich"><span
+class="header-section-number">3.6</span> 2 - Beschreibe Dein Problem
+ausführlich</h2>
+<p>In diesem Abschnitt wirst du dein Problem in einer Vielzahl von
+Aspekten beschreiben. Je besser die Beschreibung des Problems, desto
+tiefer kannst du bei der Lösung vordringen und desto höher die Chance,
+ein Problem dauerhaft zu lösen.</p>
+<p>(siehe auch <a
+href="1-0-Grundlagen.md#das-problem-beschreiben-d2">Das Problem
+beschreiben (D2)</a>)</p>
+<h3 data-number="3.6.1" id="kata-2.1---das-problem-beleuchten"><span
+class="header-section-number">3.6.1</span> Kata 2.1 - Das Problem
+beleuchten</h3>
+<h4 data-number="3.6.1.1" id="beschreibung-9"><span
+class="header-section-number">3.6.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du das Problem von vielen Seiten aus
+beleuchten.</p>
+<h4 data-number="3.6.1.2" id="dauer-9"><span
+class="header-section-number">3.6.1.2</span> Dauer</h4>
+<p>Etwa 25 Minuten nur für Dich, 35 Minuten in deiner Lerngruppe (bei 4
+Personen in der Gruppe).</p>
+<h4 data-number="3.6.1.3" id="ablauf-9"><span
+class="header-section-number">3.6.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Stelle dir folgende Fragen
+<ol type="1">
+<li><strong>Was</strong> ist das Problem?</li>
+<li><strong>Wer</strong> hat das Problem zuerst bemerkt?</li>
+<li><strong>Wann</strong> trat es zuerst auf/wurde es zuerst
+bemerkt?</li>
+<li><strong>Wo</strong> trat es auf/wurde es bemerkt?</li>
+<li><strong>Welche</strong> Produkte, Anlagen oder Bereiche sind
+betroffen? (intern wie extern)</li>
+<li><strong>Wer</strong> ist betroffen?</li>
+<li><strong>Wie viele</strong> Produkte, Teile, Konflikte gibt es</li>
+<li><strong>Wie</strong> wurde es bemerkt?</li>
+<li><strong>Warum</strong> wurde das Problem aufgezeigt?</li>
+<li><strong>Wie groß</strong> ist die Wirkung des Problems?</li>
+<li><strong>Was</strong> passiert wenn das Problem fortbesteht?</li>
+</ol></li>
+<li>Schreibe deine Antworten auf. Linear oder auch als Mind-Map.</li>
+<li>Tauscht euch in der Lerngruppe über eure vergangenen Erfahrungen
+aus.
+<ol type="1">
+<li>Erst jeweils zu zweit. Macht euch Notizen zu dem, was euer Gegenüber
+erzählt. Fragt nach, wenn ihr etwas besser verstehen wollt. Versucht die
+Gedanken des Gegenübers nicht zu kommentieren. (Vorgeschlagene Dauer: 2
+x 4 = 8 Minuten)</li>
+<li>Lasst eure Gedanken jeweils von eurem Gegenüber der Gruppe
+vorstellen. (Vorgeschlagene Dauer: jeweils 4 Minuten pro Person)</li>
+<li>Tauscht euch aus über folgendes
+<ol type="1">
+<li>Haben die anderen euer Problem verstanden?</li>
+<li>Hast du durch Nachfragen der anderen eine neue Sichtweise gesehen
+oder etwas entdeckt, was du vorher übersehen hattest?</li>
+</ol></li>
+</ol></li>
+</ol>
+<h2 data-number="3.7" id="probleme-lassen-sich-einteilen"><span
+class="header-section-number">3.7</span> 3 - Probleme lassen sich
+einteilen</h2>
+<p>In diesem Abschnitt wirst du dein Problem kategorisieren und
+erkennen, welche Vorgehensweise vermutlich zum besten Ergebnis
+führt.</p>
+<p>Achtung, je nachdem, welches Problem du gewählt hast, kann es sein,
+dass der Lernpfad zu kompliziert oder zu zielorientiert ist. Kläre die
+Konsequenzen für dich in der <a
+href="#kata-33---deine-kategorisierung-des-problems-in-der-gruppe">Kata
+3.3 - Deine Kategorisierung des Problems in der Gruppe</a></p>
+<p>(siehe auch <a
+href="1-0-Grundlagen.md#der-cynefin-ansatz-und-der-8d-prozess">Der
+Cynefin-Ansatz und der 8D-Prozess</a>)</p>
+<h3 data-number="3.7.1"
+id="kata-3.1---das-problem-einfach-kategorisieren"><span
+class="header-section-number">3.7.1</span> Kata 3.1 - Das Problem
+einfach kategorisieren</h3>
+<h4 data-number="3.7.1.1" id="beschreibung-10"><span
+class="header-section-number">3.7.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du dein Problem schnell kategorisieren, um deine
+Herangehensweise und Motivation weiter zu klären</p>
+<h4 data-number="3.7.1.2" id="dauer-10"><span
+class="header-section-number">3.7.1.2</span> Dauer</h4>
+<p>Etwa 10 Minuten nur für dich.</p>
+<h4 data-number="3.7.1.3" id="ablauf-10"><span
+class="header-section-number">3.7.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Schreibe auf, ob das Problem dem Anschein nach technischer,
+organisationaler oder zwischenmenschlicher Natur ist.
+<ol type="1">
+<li>Woran machst du deine Beobachtung fest?</li>
+<li>Was bedeutet das für deine Sicht auf das Problem?</li>
+</ol></li>
+<li>Schreibe auf, ob das Problem intern oder extern referenziert ist.
+<ol type="1">
+<li>Hat ein Kunde oder eine andere interessierte externe Partei ein
+Problem oder ist (nur) jemand innerhalb deiner Organisation an der
+Lösung interessiert?</li>
+<li>Woran machst du deine Beobachtung fest?</li>
+<li>Was bedeutet das für deine Sicht auf das Problem?</li>
+</ol></li>
+</ol>
+<h4 data-number="3.7.1.4" id="quellen-2"><span
+class="header-section-number">3.7.1.4</span> Quellen</h4>
+<ul>
+<li>Interview mit Gerhard Wohland über externe und interne Referenzen <a
+href="https://www.youtube.com/watch?v=1YajZkgf7O0">https://www.youtube.com/watch?v=1YajZkgf7O0</a></li>
+</ul>
+<h3 data-number="3.7.2"
+id="kata-3.2---dein-problem-und-das-cynefin-framework"><span
+class="header-section-number">3.7.2</span> Kata 3.2 - Dein Problem und
+das Cynefin-Framework</h3>
+<h4 data-number="3.7.2.1" id="beschreibung-11"><span
+class="header-section-number">3.7.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du das Cynefin-Framework auf Dein Problem
+anwenden, um das vermutlich beste Vorgehen zur Lösung zu ermitteln.</p>
+<h4 data-number="3.7.2.2" id="dauer-11"><span
+class="header-section-number">3.7.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten (oder mehr) nur für dich.</p>
+<h4 data-number="3.7.2.3" id="ablauf-11"><span
+class="header-section-number">3.7.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Recherchiere zum Cynefin-Framework. Empfohlene Quellen:
+<ol type="1">
+<li>Leader’s Framework for Decision Making, D. J. Snowden, M. E. Boone,
+<em>Harvard Business Review</em> <strong>2007</strong>. <a
+href="https://hbr.org/2007/11/a-leaders-framework-for-decision-making">https://hbr.org/2007/11/a-leaders-framework-for-decision-making</a></li>
+<li>Ein Video von D. J. Snowden zum Cynefin-Framework <a
+href="https://www.youtube.com/watch?v=N7oz366X0-8">https://www.youtube.com/watch?v=N7oz366X0-8</a>
+(ca. 9 Minuten, bei Bedarf Untertitel einschalten [auch automatisch
+übersetzt])</li>
+<li>Der Wikipedia-Eintrag zum Cynefin-Framework <a
+href="https://de.wikipedia.org/wiki/Cynefin-Framework">https://de.wikipedia.org/wiki/Cynefin-Framework</a></li>
+</ol></li>
+<li>Überlege, in welche Domäne dein Problem liegt. Begründe deine
+Entscheidung und notiere sie - es wird dir helfen in den nächsten
+Abschnitten die richtigen Schwerpunkte zu setzen oder Methoden
+auszuwählen. Die fünf Domänen noch einmal knapp zusammengefasst:
+<ol type="1">
+<li>Einfach - Ursache-Wirkung ist offensichtlich und für alle direkt
+verständlich. Lösungen können einfach und schnell umgesetzt werden.</li>
+<li>Kompliziert - Es braucht Experten, um Ursache und Wirkung zu
+erkennen und zu beschreiben. Lösungen können erst nach einer
+angemessenen Analyse gefunden werden.</li>
+<li>Komplex - Es existieren Rückkopplungsmechanismen, die die
+analytische Suche nach Ursache und Wirkung sinnlos lang machen. Die
+Einzelteile sind zusammen mehr als ihre einfache Summe. Lösungen können
+zum Beispiel durch adäquates experimentieren oder unter Einbeziehung
+verschiedener, diverser Sichtweise gefunden werden.</li>
+<li>Chaotisch - Die Zeitspanne, in der sich Impulse von außen und die
+Reaktionen darauf ändern, ist so klein, dass sich Ursache und Wirkung
+nicht mehr erkennen lassen. Lösungen können nur gefunden werden, wenn es
+geling durch direktes Handeln das Geschehen mindestens in die “komplexe”
+Domäne zu “verlagern”.</li>
+<li>Unordnung - Du kannst dein Problem nicht einer Domäne zuordnen.</li>
+</ol></li>
+</ol>
+<h4 data-number="3.7.2.4" id="quellen-3"><span
+class="header-section-number">3.7.2.4</span> Quellen</h4>
+<ul>
+<li>Leader’s Framework for Decision Making, D. J. Snowden, M. E. Boone,
+<em>Harvard Business Review</em> <strong>2007</strong>. <a
+href="https://hbr.org/2007/11/a-leaders-framework-for-decision-making">https://hbr.org/2007/11/a-leaders-framework-for-decision-making</a></li>
+<li>Ein Video von D. J. Snowden zum Cynefin-Framework <a
+href="https://www.youtube.com/watch?v=N7oz366X0-8">https://www.youtube.com/watch?v=N7oz366X0-8</a>
+(ca. 9 Minuten, bei Bedarf Untertitel einschalten [auch automatisch
+übersetzt])</li>
+<li>Der Wikipedia-Eintrag zum Cynefin-Framework <a
+href="https://de.wikipedia.org/wiki/Cynefin-Framework">https://de.wikipedia.org/wiki/Cynefin-Framework</a></li>
+</ul>
+<h3 data-number="3.7.3"
+id="kata-3.3---deine-kategorisierung-des-problems-in-der-gruppe"><span
+class="header-section-number">3.7.3</span> Kata 3.3 - Deine
+Kategorisierung des Problems in der Gruppe</h3>
+<h4 data-number="3.7.3.1" id="beschreibung-12"><span
+class="header-section-number">3.7.3.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du mit deiner Lerngruppe deine Kategorisierung
+besprechen, um mögliche Lösungswege aufzuzeigen.</p>
+<h4 data-number="3.7.3.2" id="dauer-12"><span
+class="header-section-number">3.7.3.2</span> Dauer</h4>
+<p>ca. 45 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.7.3.3" id="ablauf-12"><span
+class="header-section-number">3.7.3.3</span> Ablauf</h4>
+<ol type="1">
+<li>Tauscht Euch in der Lerngruppe darüber aus, welchen Domänen ihr die
+Probleme jeweils zugeordnet habt. Stimmen die anderen deiner
+Einschätzung zu? Gibt es Kontroversen? Diskutiert wie folgt (achtet auf
+die Zeit, nutzt gerne einen Gegenstand, der als <em>talking stick</em>
+von Person zu Person wandert und so anzeigt, wer gearde spricht):
+<ol type="1">
+<li>Alle erklären nacheinander, jeweils in einer Minute, in welcher
+Domäne das Problem liegt (und warum).</li>
+<li>Alle teilen nacheinander, jeweils in einer Minute, mit, was sie
+denken und fühlen nachdem sie alle Beiträge gehört haben.</li>
+<li>Eine offene Diskussion, fragt nach, erklärt Details, erkundet
+gegebenenfalls Dissens. Nehmt euch 10 bis 15 Minuten dafür Zeit.</li>
+<li>Alle teilen nacheinander jeweils in einer Minute mit, was sie aus
+dem gesagten für ihre Aufgabe mitnehmen.</li>
+</ol></li>
+<li>Diskutiert:
+<ol type="1">
+<li>Habt Ihr ein Problem gewählt, das “kompliziert” oder “komplex” ist?
+Was bedeutet das jeweils für den weiteren Verlauf bei der Bearbeitung
+dieses Lernpfads?</li>
+<li>Habt ihr ein “einfaches” Problem gewählt? Dann ist die hier
+präsentierte Herangehensweise nicht zielführend. Findet ihr noch ein
+“größeres” Problem? Oder ist euer “einfaches” Problem ein Symptom eines
+“größeren” Problems, wenn ihr eure Sichtweise ändert?</li>
+</ol></li>
+</ol>
+<h4 data-number="3.7.3.4" id="quellen-4"><span
+class="header-section-number">3.7.3.4</span> Quellen</h4>
+<ul>
+<li>Conversation Cafe zur Diskussion: <a
+href="https://liberatingstructures.de/liberating-structures-menue/conversation-cafe/">https://liberatingstructures.de/liberating-structures-menue/conversation-cafe/</a></li>
+<li>Buch “<a
+href="https://dschool.stanford.edu/book-collections/creative-acts-for-curious-people">Creative
+Acts for Curious People</a>” von Sarah Stein Greenberg, Abschnitt “The
+Feeling of Learning”, S. 160 ff.</li>
+</ul>
+<h2 data-number="3.8"
+id="problemlösung-im-team---finde-das-richtige-team"><span
+class="header-section-number">3.8</span> 4 - Problemlösung im Team -
+Finde das richtige Team</h2>
+<p>In diesem Abschnitt geht es für dich darum, dein Team zur
+Problemlösung zu finden. Wer ist dabei? Wen brauchst du? Was brauchst du
+von den Teammitgliedern?</p>
+<p>(siehe auch <a
+href="1-0-Grundlagen.md##die-beteiligten-funktionen-und-personen-finden-d1">Die
+beteiligten Funktionen und Personen finden (D1)</a>)</p>
+<h3 data-number="3.8.1" id="kata-4.1---mein-team-und-ich"><span
+class="header-section-number">3.8.1</span> Kata 4.1 - Mein Team und
+Ich</h3>
+<h4 data-number="3.8.1.1" id="beschreibung-13"><span
+class="header-section-number">3.8.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du dein Team zusammenstellen, um die Grundlage
+für eure Zusammenarbeit zu legen.</p>
+<h4 data-number="3.8.1.2" id="dauer-13"><span
+class="header-section-number">3.8.1.2</span> Dauer</h4>
+<p>Etwa 15 Minuten nur für dich, etwa 45 Minuten für dich und dein
+Problemlösungsteam.</p>
+<h4 data-number="3.8.1.3" id="ablauf-13"><span
+class="header-section-number">3.8.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Wähle aus deiner Organisation oder anderen verfügbaren Ressourcen
+echte “Könner” aus, die helfen können, das Problem zu lösen. Stelle dir
+folgende Fragen:
+<ol type="1">
+<li>Wer in der Organisation hat die Macht, um Raum für die Problemlösung
+zu machen?</li>
+<li>Wer führt die Problemlösung methodisch
+(Moderation/Fazilitation)?</li>
+<li>Wer bringt die Interessen der betroffenen Parteien ein?</li>
+<li>Wer bringt technische oder methodische Expertise ein?</li>
+<li>Wer bewertet das Ergebnis von unabhängiger Stelle?</li>
+</ol></li>
+<li>Überlege dir, welche <strong>wesentlichen</strong> Beiträge und
+Leistungen von deinen Teammitgliedern jeweils benötigst.</li>
+<li>Versammle dein Team. Trage allen jeweils deine wesentlichen Punkte
+vor. Nutze die Formel “Was ich von dir brauche ist …”. Deine
+Teammitglieder sollen sich still notieren, was du sagst, aber noch
+nichts antworten.</li>
+<li>Die Teammitglieder widerholen deine Anfragen und antworten mit
+folgenden Antworten (und nur mit diesen): “Ja!”, “Nein!”, “Ich werde es
+versuchen!”, “Habe ich nicht verstanden”</li>
+<li>Besprecht euch, indem ihr jeweils nacheinander mitteilt
+<ol type="1">
+<li>Was euch aufgefallen ist</li>
+<li>Warum ist das wichtig? Wie berührt euch das? Was folgert ihr aus
+euren Beobachtungen?</li>
+<li>Welche Aktivität folgt für euch daraus? Was ist der nächste
+Schritt?</li>
+</ol></li>
+<li>Definiert für das Problemlösungsteam, wie ihr zusammenarbeiten
+wollt. Schaut auch, welche Aspekte aus der <a
+href="2-0-Lernpfad.md#kata-02---du-und-dein-lernzirkel">Kata 0.2 - Du
+und Dein Lernzirkel</a> ihr verwenden wollt.</li>
+</ol>
+<h4 data-number="3.8.1.4" id="quellen-5"><span
+class="header-section-number">3.8.1.4</span> Quellen</h4>
+<ul>
+<li>“What I Need From You” <a
+href="https://liberatingstructures.de/liberating-structures-menue/what-i-need-from-you-winfy/">https://liberatingstructures.de/liberating-structures-menue/what-i-need-from-you-winfy/</a></li>
+</ul>
+<h3 data-number="3.8.2"
+id="kata-4.2---das-team-aufstellen---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.8.2</span> Kata 4.2 - Das Team
+aufstellen - Reflektion in der Lerngruppe</h3>
+<h4 data-number="3.8.2.1" id="beschreibung-14"><span
+class="header-section-number">3.8.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du mit deiner Lerngruppe deine
+Teamzusammensetzung diskutieren, um Erfahrungen und Sichtweisen
+auszutauschen.</p>
+<h4 data-number="3.8.2.2" id="dauer-14"><span
+class="header-section-number">3.8.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.8.2.3" id="ablauf-14"><span
+class="header-section-number">3.8.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Schaut euch die “Folgerungsleiter” unter <a
+href="https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/">https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/</a>
+an.</li>
+<li>Beschreibt euch wechselseitig eure Beobachtung bei der Aufstellung
+des Teams. Leitfragen: Was ist passiert? Was ist euch aufgefallen,
+welche Beobachtungen habt ihr gemacht?</li>
+<li>Beschreibt euch wechselseitig eure Meinungen, Annahmen,
+Schlussfolgerungen bei der Aufstellung des Teams. Leitfragen: Warum ist
+das wichtig? Welche Muster oder Schlussfolgerungen ergeben sich daraus?
+Welche Hypothesen kann ich aufstellen?</li>
+<li>Beschreibt euch wechselseitig, welche nächsten Schritte bei euch
+anstehen.</li>
+<li>Reflektiert die Übung. Was fällt euch im Vergleich untereinander
+auf? Wie fühlt ihr euch? Wie kommt ihr jetzt ins tun?</li>
+</ol>
+<h4 data-number="3.8.2.4" id="quellen-6"><span
+class="header-section-number">3.8.2.4</span> Quellen</h4>
+<ul>
+<li>What? So What? Now What? <a
+href="https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/">https://liberatingstructures.de/liberating-structures-menue/what-so-what-now-what/</a></li>
+</ul>
+<h2 data-number="3.9" id="korrekturmaßnahmen."><span
+class="header-section-number">3.9</span> 5 - Korrekturmaßnahmen.</h2>
+<p>In diesem Abschnitt geht es darum mit deinem Team Korrekturmaßnahmen
+zu finden. Was muss möglichst schnell “geradegebogen” werden? Womit
+gewinnt ihr Zeit, eine dauerhafte Lösung zu erarbeiten?</p>
+<h3 data-number="3.9.1" id="kata-5.1---korrekturmaßnahmen"><span
+class="header-section-number">3.9.1</span> Kata 5.1 -
+Korrekturmaßnahmen</h3>
+<h4 data-number="3.9.1.1" id="beschreibung-15"><span
+class="header-section-number">3.9.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du Sofortmaßnahmen definieren, um die Folgen des
+Problems zu beseitigen und Zeit für die Problemlösung zu erhalten.
+(siehe auch <a
+href="1-0-Grundlagen.md#das-problem-begrenzen---sofortma%C3%9Fnahmen-d3">Das
+Problem begrenzen - Sofortmaßnahmen (D3)</a>)</p>
+<h4 data-number="3.9.1.2" id="dauer-15"><span
+class="header-section-number">3.9.1.2</span> Dauer</h4>
+<p>Etwa 30 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.9.1.3" id="ablauf-15"><span
+class="header-section-number">3.9.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Macht euch im Team anhand der Problembeschreibung klar, welche
+Auswirkungen das Problem hat und beschreibt diese genau.</li>
+<li>Definiert Sofortmaßnahmen. Überlegt:
+<ol type="1">
+<li>Was müssen wir tun, um diese Auswirkungen wirksam zu entfernen?</li>
+<li>Typische Maßnahmen sind “prüfen und sortieren”, “entfernen”,
+“reparieren”, “nacharbeiten” oder “behandeln”. Was trifft auf euer
+Problem zu? Oder macht ihr noch was anderes?</li>
+<li>Wie könnt ihr sicher sein, dass die Auswirkungen nach eurer Maßnahme
+auch entfernt sind?</li>
+</ol></li>
+<li>Definiert Überwachungsmaßnahmen. Überlegt:
+<ol type="1">
+<li>Wie erkennen wir schnell, ob das Problem fortbesteht oder wenn das
+Problem wieder auftritt? Typische Maßnahmen sind “beobachten” oder
+“messen”.</li>
+<li>Anhand welchen Merkmals oder welcher Merkmale ist das Problem
+besonders früh zu erkennen?</li>
+<li>Welches Merkmal lässt sich gut und verlässlich überwachen?</li>
+</ol></li>
+<li>Weist eure Maßnahmen einer Person oder Personengruppe zu und setzt
+euch ambitionierte aber realistische Termine, an denen die Maßnahmen
+begonnen werden oder beendet sein sollen.</li>
+</ol>
+<h3 data-number="3.9.2"
+id="kata-5.2---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.9.2</span> Kata 5.2 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.9.2.1" id="beschreibung-16"><span
+class="header-section-number">3.9.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du das Finden der Korrekturmaßnahmen
+reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der
+Zusammenarbeit tiefer verstehen.</p>
+<h4 data-number="3.9.2.2" id="dauer-16"><span
+class="header-section-number">3.9.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.9.2.3" id="ablauf-16"><span
+class="header-section-number">3.9.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch beim Finden der Korrekturmaßnahme
+gegangen ist.
+<ol type="1">
+<li>Was war leicht oder gut? Was war schwer oder schlecht?</li>
+<li>Seid ihr noch zufrieden mit eurer Problembeschreibung und eurem
+Team? Wenn nein, was habt ihr geändert?</li>
+</ol></li>
+<li>Vergleicht, wie ihr eure Maßnahmen verteilt habt.
+<ol type="1">
+<li>Wie organisiert ihr euch in den Teams jeweils?</li>
+<li>Wie kommuniziert ihr in den Teams?</li>
+<li>Welche Werkzeuge verwendet ihr?</li>
+<li>Gibt es Tipps, die ihr teilen könnt?</li>
+</ol></li>
+</ol>
+<h2 data-number="3.10" id="ursachenanalyse-methodenbaukasten-1"><span
+class="header-section-number">3.10</span> 6 - Ursachenanalyse
+Methodenbaukasten 1</h2>
+<p>In diesem Abschnitt erprobst du mit deinem Team zwei typische
+Ursachenanalysen. Ihr arbeitet euch so strukturiert an den Ursprung des
+Problems heran.</p>
+<p>(siehe auch <a
+href="1-0-Grundlagen.md#das-problem-verstehen---ursachenanalyse-d4">Das
+Problem verstehen - Ursachenanalyse (D4)</a>)</p>
+<h3 data-number="3.10.1" id="kata-6.1---prozessanalyse"><span
+class="header-section-number">3.10.1</span> Kata 6.1 -
+Prozessanalyse</h3>
+<p>Auch “Process Walk” oder “Gemba Walk” genannt.</p>
+<h4 data-number="3.10.1.1" id="beschreibung-17"><span
+class="header-section-number">3.10.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die Prozessanalyse verwenden, um dem Problem
+vor Ort und beim Entstehen auf den Grund zu gehen.</p>
+<h4 data-number="3.10.1.2" id="dauer-17"><span
+class="header-section-number">3.10.1.2</span> Dauer</h4>
+<p>Etwa 45 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.10.1.3" id="ablauf-17"><span
+class="header-section-number">3.10.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Nehmt euch Schreibmaterial und Stifte, um schnell Notizen anfertigen
+zu können.</li>
+<li>Geht da hin, wo das Problem entstanden ist, physisch, genau an den
+Ort.</li>
+<li>Verfolge alle Schritte, die zu dem Ereignis geführt haben, das das
+Problem darstellt. Bringt Euch ein. Holt die Personen dazu, die anwesend
+waren oder gehandelt haben - oder stellt sie dar. (Im Fernsehen sind
+manchmal “Kommissare” zu sehen, die das so machen. Kein Witz.)
+<ol type="1">
+<li>Wenn ihr zu mehreren seid, verteilt Rollen: Beteiligte, Vorgesetzte,
+Zuschauende, ein “Adler”, …</li>
+</ol></li>
+<li>Notiert:
+<ol type="1">
+<li>Was genau ist passiert, Punkt für Punkt.</li>
+<li>Was fällt euch auf?</li>
+<li>Was ist heute anders als bei der Entstehung des Problems?</li>
+<li>Was war bei der Entstehung des Problems anders als vorher?</li>
+<li>Was beobachtet ihr? Wenn ihr unterschiedliche Rollen eingenommen
+habt, was sehen diese Rollen anders als andere?</li>
+</ol></li>
+<li>Wenn ihr experimentierfreudig seid (und noch mehr Zeit habt):
+zeichnet eure Beobachtungen, hängt sie nebeneinander auf und lasst sie
+auf Euch wirken.</li>
+</ol>
+<h4 data-number="3.10.1.4" id="quellen-7"><span
+class="header-section-number">3.10.1.4</span> Quellen</h4>
+<ul>
+<li>VDA Band 4 “Sicherung der Qualität in der Prozesslandschaft”,
+Abschnitt 3: Methoden, Kapitel 10</li>
+<li>Buch “<a
+href="https://dschool.stanford.edu/book-collections/creative-acts-for-curious-people">Creative
+Acts for Curious People</a>” von Sarah Stein Greenberg, Abschnitt
+“Expert Eyes”, S. 70 f.</li>
+</ul>
+<h3 data-number="3.10.2" id="kata-6.2---5-why"><span
+class="header-section-number">3.10.2</span> Kata 6.2 - 5-Why</h3>
+<h4 data-number="3.10.2.1" id="beschreibung-18"><span
+class="header-section-number">3.10.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du durch wiederholtes “Warum?”-Fragen versuchen,
+die Grundursache des Problems zu ermitteln.</p>
+<h4 data-number="3.10.2.2" id="dauer-18"><span
+class="header-section-number">3.10.2.2</span> Dauer</h4>
+<p>Etwa 45 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.10.2.3" id="ablauf-18"><span
+class="header-section-number">3.10.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Nach der Prozessanalyse - und gerne noch oder wieder vor Ort -
+sammelt euch.</li>
+<li>Beantwortet jede und jeder für sich, die Frage “Warum ist das
+Problem aufgetreten?”. Formuliert die direkt dafür ursächliche
+Aktion/Tätigkeit. Schreibt es auf.
+<ol type="1">
+<li>Schreibt als nächstes auf, was genau das auslösende Ereignis bedingt
+hat. Und so weiter, bis ihr jeweils fünf mal “Warum?” gefragt habt.</li>
+</ol></li>
+<li>Macht den Rückwärtstest: Ist das fünfte Ereignis ein überzeugender
+Auslöser für das vierte, und so weiter? Könnt Ihr formulieren “XYZ
+passiert, deshalb passiert STU, deshalb passiert MNP, …”? Und klingt die
+Ereignisabfolge logisch?</li>
+<li>Stellt Euch gegenseitig eure Ursachenketten vor. Wo seid ihr zu
+gleichen Ergebnissen gekommen? Wo habt ihr Unterschiede gefunden?</li>
+<li>Wenn ihr ganz ausführlich arbeiten wollt (oder in der
+Automobilindustrie für den Kunden einen 8D-Bericht anfertigen sollt) ,
+erstellt vier Schritte:
+<ol type="1">
+<li>Warum ist das Problem technisch aufgetreten? (”Technische
+Grundursache”)</li>
+<li>Warum wurde die technische Grundursache von der Organisation
+zugelassen? (”Systemische Grundursache”)</li>
+<li>Warum wurde das Problem nicht oder zu spät erkannt? (”Technische
+Grundursache für das Nicht-Entdecken”)</li>
+<li>Warum wurde die technische Grundursache für das Nicht-Entdecken von
+der Organisation zugelassen? (”Systemische Grundursache für das
+Nicht-Entdecken”)</li>
+</ol></li>
+</ol>
+<h4 data-number="3.10.2.4" id="quellen-8"><span
+class="header-section-number">3.10.2.4</span> Quellen</h4>
+<ul>
+<li>VDA Band 4 “Sicherung der Qualität in der Prozesslandschaft”,
+Abschnitt 3: Methoden, Kapitel 10</li>
+<li>“Nine Whys<strong>”</strong> <a
+href="https://liberatingstructures.de/liberating-structures-menue/nine-whys/">https://liberatingstructures.de/liberating-structures-menue/nine-whys/</a></li>
+</ul>
+<h3 data-number="3.10.3"
+id="kata-6.3---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.10.3</span> Kata 6.3 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.10.3.1" id="beschreibung-19"><span
+class="header-section-number">3.10.3.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die ersten Ursachenanalysen reflektieren und
+durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit
+tiefer verstehen.</p>
+<h4 data-number="3.10.3.2" id="dauer-19"><span
+class="header-section-number">3.10.3.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.10.3.3" id="ablauf-19"><span
+class="header-section-number">3.10.3.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch bei der Ursachenanalyse gegangen ist.
+<ol type="1">
+<li>Was war leicht oder gut? Was war schwer oder schlecht?</li>
+<li>Habt ihr den Eindruck, das Problem schon ausreichend zu verstehen?
+Woher stammt dieser Eindruck?</li>
+<li>Gibt es eine Ursache? Oder findet ihr viele Ursachen? Könnt ihr die
+Grundursache und Umstände, die das Problem ermöglicht haben, voneinander
+trennen?</li>
+</ol></li>
+<li>Reflektiert eure Teamarbeit
+<ol type="1">
+<li>Wie arbeitet das Team zusammen? Was funktioniert? Was nicht?</li>
+<li>Gab es Dissens oder Streit im Team? Konntet ihr damit umgehen? Wenn
+ja, wie?</li>
+<li>Fehlt jemand im Team? Beteiligen sich alle Teammitglieder wie
+erwartet?</li>
+</ol></li>
+</ol>
+<h2 data-number="3.11" id="ursachenanalyse-methodenbaukasten-2"><span
+class="header-section-number">3.11</span> 7 - Ursachenanalyse
+Methodenbaukasten 2</h2>
+<p>In diesem Abschnitt erprobst du mit deinem Team zwei weitere typische
+Ursachenanalysen. Ihr arbeitet euch also weiter an den Ursprung des
+Problems heran.</p>
+<p>(siehe auch <a
+href="1-0-Grundlagen.md#das-problem-verstehen---ursachenanalyse-d4">Das
+Problem verstehen - Ursachenanalyse (D4)</a>)</p>
+<h3 data-number="3.11.1" id="kata-7.1---ursache-wirkungs-diagramm"><span
+class="header-section-number">3.11.1</span> Kata 7.1 -
+Ursache-Wirkungs-Diagramm</h3>
+<p>(auch Fischgräten- oder Ishikawa-Diagramm, siehe auch den <a
+href="1-0-Grundlagen.md#das-problem-verstehen---ursachenanalyse-d4">Abschnitt
+in den Grundlagen</a>)</p>
+<h4 data-number="3.11.1.1" id="beschreibung-20"><span
+class="header-section-number">3.11.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du das Ursache-Wirkungs-Diagramm kennenlernen,
+ein weiters Werkzeug um den Ursachen eines Problems auf den Grund zu
+gehen. Auch wenn ihr im vorherigen Abschnitt schon eine Ursache gefunden
+habt, versucht hier frisch und unvoreingenommen zu arbeiten. Es geht in
+diesem Lernpfad auch darum, die Methoden kennenzulernen und
+einzuüben.</p>
+<h4 data-number="3.11.1.2" id="dauer-20"><span
+class="header-section-number">3.11.1.2</span> Dauer</h4>
+<p>Etwa 30 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.11.1.3" id="ablauf-20"><span
+class="header-section-number">3.11.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Bereite eine beschreibbare Wand (Metaplan-Wand, Whiteboard, Tafel,
+Packpapier auf einer Wand, …) vor und skizziere das
+Ursache-Wirkungs-Diagramm (siehe <a
+href="#vorlage-f%C3%BCr-ein-ursache-wirkungs-diagramm">Vorlage im Anhang
+dieses Abschnitts</a>).</li>
+<li>Alle im Team schreiben für sich auf einem Blatt Papier auf, welche
+Elemente auf die Entstehung des Problems einen Einfluss gehabt haben
+können.</li>
+<li>Sortiert das, was ihr gefunden habt, den Elementen des
+Ursache-Wirkungsdiagramm zu. Die Elemente des Diagramms helfen euch auf
+zwei Arten
+<ol type="1">
+<li>Dadurch, dass ihr zuordnet, wird eine mögliche Ursache besser
+fassbar. Die Art und Weise des Umgangs damit wird klarer.</li>
+<li>Wenn ein Element signifikant geringer besetzt ist als die anderen
+Elemente, überlegt konkret, welche Ursachen es noch geben könnte, die
+diesem Element zugeordnet werden können.</li>
+<li>Für sehr komplizierte Systeme lassen sich zu den Ursachen noch
+Unterelemente finden. Diese können dann wieder Unterelemente haben und
+so fort. Das Diagramm wird dann irgendwann wie ein Baum oder ein
+Flusssystem aussehen.</li>
+</ol></li>
+<li>Tretet zurück und lasst das Diagramm auf euch wirken. Was fällt euch
+auf? Ergibt sich ein Muster?</li>
+<li>Stimmt darüber ab, welche der Ursachen ihr für wesentlich haltet
+(zum Beispiel mit einem “Dot-Voting”). Überlegt, wie ihr deren Einflüsse
+nachweisen und in Folge abstellen könnt.</li>
+<li>Auch hier könnt ihr für das Auftreten und das Nicht-Entdecken eigene
+Diagramme aufbauen.</li>
+</ol>
+<h4 data-number="3.11.1.4"
+id="vorlage-für-ein-ursache-wirkungs-diagramm"><span
+class="header-section-number">3.11.1.4</span> Vorlage für ein
+Ursache-Wirkungs-Diagramm</h4>
+<figure>
+<img src="images/Ishikawa-2023-02-19.png"
+alt="Vorlage für ein Ursache-Wirkungs-Diagramm" />
+<figcaption aria-hidden="true">Vorlage für ein
+Ursache-Wirkungs-Diagramm</figcaption>
+</figure>
+<h3 data-number="3.11.2" id="kata-7.2---isis-not"><span
+class="header-section-number">3.11.2</span> Kata 7.2 - Is/Is-Not</h3>
+<h4 data-number="3.11.2.1" id="beschreibung-21"><span
+class="header-section-number">3.11.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die “Is/Is-Not” Methode anwenden, ein
+weiteres typisches Werkzeug zur Ursachenanalyse.</p>
+<h4 data-number="3.11.2.2" id="dauer-21"><span
+class="header-section-number">3.11.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.11.2.3" id="ablauf-21"><span
+class="header-section-number">3.11.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Nehmt die Problembeschreibung aus dem <a
+href="2-2-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich">Abschnitt
+2</a> und beschreibt ausführlicher
+<ol type="1">
+<li><strong>Was</strong> ist das Problem?</li>
+<li><strong>Wo</strong> trat es auf?</li>
+<li><strong>Wann</strong> trat es auf?</li>
+<li><strong>Wer</strong> ist beteiligt?</li>
+</ol></li>
+<li>Als nächstes schaut euch vergleichbare Situationen an und fragt
+<ol type="1">
+<li>Welche ähnlichen Situation zeigen nicht das Problem?</li>
+<li>Was ist an den Orten, Bereichen, an denen das Problem nicht auftritt
+anders?</li>
+<li>Was ist an dem Zeitpunkt, an denen das Problem nicht auftritt
+anders?</li>
+<li>Was machen die beteiligten Personen anders, bei denen das Problem
+nicht auftritt?</li>
+</ol></li>
+<li>Versucht weitere Aspekte zu finden, die für die problematische
+Situation einmalig ist, in ähnlichen Situationen aber nicht zum Problem
+führen.</li>
+<li>Tretet zurück und lasst eure Faktensammlung auf euch wirken. Was
+fällt euch auf? Ergibt sich ein Muster? Welche Ursachen legt diese
+Analyse nahe?</li>
+</ol>
+<h3 data-number="3.11.3"
+id="kata-7.3---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.11.3</span> Kata 7.3 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.11.3.1" id="beschreibung-22"><span
+class="header-section-number">3.11.3.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die ersten Ursachenanalysen reflektieren und
+durch Rückmeldungen aus deiner Lerngruppe die Art der Zusammenarbeit
+tiefer verstehen.</p>
+<h4 data-number="3.11.3.2" id="dauer-22"><span
+class="header-section-number">3.11.3.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.11.3.3" id="ablauf-22"><span
+class="header-section-number">3.11.3.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch bei der Ursachenanalyse gegangen ist.
+<ol type="1">
+<li>Was war leicht oder gut? Was war schwer oder schlecht?</li>
+<li>Habt ihr den Eindruck, das Problem schon ausreichend zu verstehen?
+Woher stammt dieser Eindruck?</li>
+</ol></li>
+<li>Reflektiert eure Teamarbeit
+<ol type="1">
+<li>Wie arbeitet das Team zusammen? Was funktioniert? Was nicht?</li>
+<li>Fehlt jemand im Team? Beteiligen sich alle Teammitglieder wie
+erwartet?</li>
+</ol></li>
+</ol>
+<h2 data-number="3.12" id="finden-und-umsetzen-von-lösungen"><span
+class="header-section-number">3.12</span> 8 - Finden und Umsetzen von
+Lösungen</h2>
+<p>In diesem Abschnitt wirst du mit deinem Team eine Lösung oder
+Lösungen für das Problem finden, auswählen und umsetzen.</p>
+<p>(siehe auch <a
+href="1-0-Grundlagen.md#eine-l%C3%B6sung-planen---abstellma%C3%9Fnahmen-d5">Eine
+Lösung planen - Abstellmaßnahmen (D5)</a> und <a
+href="1-0-Grundlagen.md#die-l%C3%B6sung-umsetzen---ma%C3%9Fnahmen-umsetzen-d6">Die
+Lösung umsetzen - Maßnahmen umsetzen (D6)</a></p>
+<h3 data-number="3.12.1" id="kata-8.1---lösungen-entwickeln"><span
+class="header-section-number">3.12.1</span> Kata 8.1 - Lösungen
+entwickeln</h3>
+<h4 data-number="3.12.1.1" id="beschreibung-23"><span
+class="header-section-number">3.12.1.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du Lösungen definieren, kategorisieren und für
+die Umsetzung vorbereiten. Macht euch im Team vorher klar, dass es viele
+Wege gibt, ein Problem zu lösen. Meistens ist es sinnvoll, mehrere
+Aktivitäten zu verfolgen. Wirksame Lösungen sind immer gut, egal welcher
+Kategorie sie angehören:</p>
+<ul>
+<li>Technische und systemische Lösungen - zum Beispiel Maschinen
+verbessern und Abläufe ändern</li>
+<li>Korrektur- und Vorbeugemaßnahmen - zum Beispiel Maschinen reparieren
+und Instandhaltungsinhalte ändern</li>
+<li>Ursachenbekämpfung, beim Entdecken besser werden und Auswirkungen
+kleiner werden lassen - zum Beispiel Flusshochwasser in Auen mehr Platz
+geben, ein Hochwasserfrühwarnsystem aufbauen und Infrastruktur weiter
+vom Fluss weg bauen.</li>
+</ul>
+<p>Jetzt macht sich eine gute Problembeschreibung und
+Ursachenbetrachtung bezahlt, denn ihr kennt euer System inzwischen sehr
+gut. Meistens liegen die Lösungen schon auf der Hand.</p>
+<p>Hier funktionieren natürlich auch andere Kreativitätstechniken, als
+der vorgestellte Ablauf. Wenn ihr andere Verfahren kennt oder
+ausprobieren wollt, tut das…</p>
+<h4 data-number="3.12.1.2" id="dauer-23"><span
+class="header-section-number">3.12.1.2</span> Dauer</h4>
+<p>Etwa 45 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.12.1.3" id="ablauf-23"><span
+class="header-section-number">3.12.1.3</span> Ablauf</h4>
+<ol type="1">
+<li><p>Nehmt euch im Team Karteikarten zur Hand. Jede und jeder schreibt
+für sich Lösungsideen auf, die wirksam sein können. Eine Lösungsidee pro
+Karte. Nehmt euch dafür 5 Minuten Zeit.</p></li>
+<li><p>Sammelt die Karten und mischt sie. Nehmt aus den unsortierten
+Karten eine heraus, lest die Ideen und legt sie wieder zurück. Alle
+gleichzeitig, bis ihr alle Ideen gelesen habt. Das sollte auch etwa 5
+Minuten dauern.</p></li>
+<li><p>Habt Ihr beim Lesen weitere Ideen? Schreibt sie auf neue Karten
+auf und lest sie laut vor.</p></li>
+<li><p>Sortiert gemeinsam die Lösungsideen. Sind es Vorbeuge- oder
+Korrekturmaßnahmen? Ursachenbekämpfung, Verbesserungen der Entdeckung
+oder Risiko-Verkleinerungen? (zum Beispiel wie in der Matrix
+unten)</p></li>
+<li><p>Tretet zurück und macht Euch ein Bild. Erkennt ihr
+Muster?</p></li>
+<li><p>Diskutiert und ergänzt die Karteikarten</p>
+<ol type="1">
+<li>Welche Lösungsidee wird am erfolgreichsten sein?</li>
+<li>Wie aufwendig sind die Umsetzungen der Lösungsideen?</li>
+<li>Wie wird der Erfolg gemessen? Wie weisen wir nach, dass die Lösung
+auch erfolgreich ist?</li>
+</ol></li>
+<li><p>Stimmt ab: Welche Lösungsideen wollt ihr umsetzen? Zum Beispiel
+mit einem “Dot-Voting”. Versucht, aus allen Kategorien eine Idee zur
+Umsetzung zu finden.</p>
+<figure>
+<img src="images/Massnahmenmatrix-2023-04-01.png"
+alt="Maßnahmenmatrix" />
+<figcaption aria-hidden="true">Maßnahmenmatrix</figcaption>
+</figure></li>
+</ol>
+<h4 data-number="3.12.1.4" id="quellen-9"><span
+class="header-section-number">3.12.1.4</span> Quellen</h4>
+<ul>
+<li>25/10 Crowdsourcing <a
+href="https://liberatingstructures.de/liberating-structures-menue/2510-crowdsourcing/">https://liberatingstructures.de/liberating-structures-menue/2510-crowdsourcing/</a></li>
+</ul>
+<h3 data-number="3.12.2"
+id="kata-8.2---die-maßnahmen-zur-lösung-umsetzen"><span
+class="header-section-number">3.12.2</span> Kata 8.2 - Die Maßnahmen zur
+Lösung umsetzen</h3>
+<h4 data-number="3.12.2.1" id="beschreibung-24"><span
+class="header-section-number">3.12.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du konkrete Maßnahmen beschreiben, um
+Lösungsideen umzusetzen.</p>
+<h4 data-number="3.12.2.2" id="dauer-24"><span
+class="header-section-number">3.12.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.12.2.3" id="ablauf-24"><span
+class="header-section-number">3.12.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Nehmt die Lösungsideen aus der vorherigen Kata und beantwortet für
+jede Idee konkret die folgende Fragen. Schreibt die Antworten, zum
+Beispiel in einer Liste oder einer Aufgaben-App auf.
+<ol type="1">
+<li>Was müssen wir ändern, um die Idee umzusetzen?<br />
+Technisch, organisatorisch oder auf zwischenmenschlicher Ebene. Hier
+können auch mehrere Einzelmaßnahmen notwendig sein!</li>
+<li>Wer ist verantwortlich für diese Umsetzung? Wer kümmert sich darum,
+dass es passiert?<br />
+Die Person sollte aus Eurem Team stammen - oder spätestens jetzt ins
+Team geholt werden. ”Sich kümmern” bedeutet nicht, dass diese Person das
+alleine machen muss!</li>
+<li>Bis wann ist die Idee realistisch und sinnvoll umsetzbar?<br />
+Schätzt Zeiträume vernünftig ab. Habt im Kopf, dass eigentlich immer
+noch Korrekturmaßnahmen laufen, diese können dann bald eingestellt
+werden. Geht sinnvoll mit Ressourcen um!</li>
+</ol></li>
+<li>Jetzt habt ihr einen Haufen Aufgaben. Eine Person kann immer nur
+eine Sache gleichzeitig tun. Deswegen priorisiert die einzelnen
+Maßnahmen gemeinsam, zum Beispiel mit einem Dot-Voting oder indem jede
+und jeder für sich Arbeitsreihenfolgen festlegt, die dann
+“übereinandergelegt” werden.</li>
+<li>Vereinbart einen sinnvollen, regelmäßigen Termin, zu dem ihr euch zu
+den Fortschritten der Arbeiten gegenseitig informiert. Intervall und
+Dauer der Treffen sollten zu euren Lösungen passen.<br />
+Ihr bearbeitet ein komplexes Problem? Dann kommt es darauf an, Versuche
+zu definieren, die schnell Ergebnisse zeigen, daraus zu lernen und damit
+neue Versuche zu generieren, bis ihr einen Zustand erreicht, der einer
+Lösung nahe kommt. Die “Toyota Coaching Kata”-Methode kann Euch hier
+helfen. Arbeitet die folgenden Fragen kontinuierlich ab:
+<ol type="1">
+<li>Wie sieht der Zielzustand aus? (siehe die vorhergehende Kata)</li>
+<li>Wie ist der Zustand des Systems (zu Beginn = <a
+href="2-2-beschreibe-dein-problem-ausfuehrlich.md#2---beschreibe-dein-problem-ausf%C3%BChrlich">Deine
+Problembeschreibung</a></li>
+<li>Welche Hindernisse stehen im Weg? Was wissen wir heute über das
+Problem? (zu Beginn = die Ergebnisse der Ursachenanalyse)</li>
+<li>Was ist der nächste Schritt?</li>
+<li>Welches Ergebnis erwarten wir?</li>
+<li>Wann können wir die ersten Ergebnisse sinnvoll bewerten und wieder
+bei 1. beginnen?</li>
+</ol></li>
+</ol>
+<h3 data-number="3.12.3"
+id="kata-8.3---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.12.3</span> Kata 8.3 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.12.3.1" id="beschreibung-25"><span
+class="header-section-number">3.12.3.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die Lösungsfindung und -umsetzung
+reflektieren und durch Rückmeldungen aus deiner Lerngruppe die Art der
+Zusammenarbeit tiefer verstehen.</p>
+<h4 data-number="3.12.3.2" id="dauer-25"><span
+class="header-section-number">3.12.3.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.12.3.3" id="ablauf-25"><span
+class="header-section-number">3.12.3.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch bei der Lösungsfindung und -umsetzung
+gegangen ist.
+<ol type="1">
+<li>Was war leicht oder gut? Was war schwer oder schlecht?</li>
+<li>Seid ihr schnell genug, oder braucht ihr länger als gedacht?
+Warum?</li>
+<li>Wie motiviert ist das Team bei der Umsetzung? Woran macht ihr eure
+Beobachtung fest?</li>
+<li>Was nehmt ihr von den anderen mit? Bekommt ihr Tipps? Was könnt ihr
+anderen wertvolles mitgeben?</li>
+</ol></li>
+</ol>
+<h2 data-number="3.13"
+id="woher-erkenne-ich-dass-eine-lösung-erfolgreich-ist-oder-bestand-hat"><span
+class="header-section-number">3.13</span> 9 - Woher erkenne ich, dass
+eine Lösung erfolgreich ist oder Bestand hat?</h2>
+<p>In diesem Abschnitt beschäftigst du dich noch einmal mit Kennzahlen
+und Beobachtungen. Woran kannst du festmachen, dass das Problem gelöst
+wurde? Was ist dein “Soll”, was das “Ist”? Kannst du dir sicher
+sein?</p>
+<h3 data-number="3.13.1" id="kata-9.1---kennzahlen-jonglieren"><span
+class="header-section-number">3.13.1</span> Kata 9.1 - Kennzahlen
+jonglieren</h3>
+<h4 data-number="3.13.1.1" id="beschreibung-26"><span
+class="header-section-number">3.13.1.1</span> Beschreibung</h4>
+<p>In dieser Kata werdet ihr Kennzahlen entwickeln, um die Wirksamkeit
+eurer Maßnahmen zu verfolgen-</p>
+<h4 data-number="3.13.1.2" id="dauer-26"><span
+class="header-section-number">3.13.1.2</span> Dauer</h4>
+<p>Etwa 45 Minuten für dich und dein Problemlösungsteam.</p>
+<h4 data-number="3.13.1.3" id="ablauf-26"><span
+class="header-section-number">3.13.1.3</span> Ablauf</h4>
+<ol type="1">
+<li>Nehmt die Problembeschreibung und die Ursachenanalysen noch einmal
+zur Hand. Sucht gemeinsam nach Mustern, die die folgenden Fragen
+beantworten:
+<ol type="1">
+<li>Woran lässt sich erkennen, dass das Problem besteht? Woran lässt
+sich erkennen, dass das Problem nicht mehr besteht?</li>
+<li>Sind die Phänomene messbar? Lässt sich die Beobachtung in Zahlen
+ausdrücken?
+<ol type="1">
+<li>Wenn ja, an welchen Grenzwerten legt ihr fest, ob etwas gut ist? Wie
+sichert ihr das “gut sein” statistisch ab?</li>
+<li>Wenn nein, woher nehmt ihr die Sicherheit, dass die Bewertung des
+aktuellen Zustands sicher ist?</li>
+</ol></li>
+</ol></li>
+<li>Verfolgt die Abläufe, bei denen das Problem aufgetreten ist für
+einige Zeit. Schreibt auf, was ihr beobachtet. Messt oder dokumentiert.
+Wertet statistisch aus. Vergleicht Soll- und Ist-Zustand. (Achtung: das
+Messen kann sich, je nach Ablauf oder Prozess, in die Länge ziehen und
+ist nicht sicher in 30 Minuten erledigt!)</li>
+<li>Wenn ihr euch dank dieser Beobachtungen begründet sicher seid, das
+Problem gelöst zu haben, hebt die <a
+href="2-5-korrekturmassnahmen.md#5---korrekturma%C3%9Fnahmen">Sofort-
+und Korrekturmaßnahmen</a> gerne wieder auf. Informiert alle betroffenen
+Personen darüber umgehend.</li>
+</ol>
+<h3 data-number="3.13.2"
+id="kata-9.2---reflektion-in-der-lerngruppe"><span
+class="header-section-number">3.13.2</span> Kata 9.2 - Reflektion in der
+Lerngruppe</h3>
+<h4 data-number="3.13.2.1" id="beschreibung-27"><span
+class="header-section-number">3.13.2.1</span> Beschreibung</h4>
+<p>In dieser Kata wirst du die Kennzahlenverfolgung in deiner Lerngruppe
+reflektieren.</p>
+<h4 data-number="3.13.2.2" id="dauer-27"><span
+class="header-section-number">3.13.2.2</span> Dauer</h4>
+<p>Etwa 30 Minuten in deiner Lerngruppe.</p>
+<h4 data-number="3.13.2.3" id="ablauf-27"><span
+class="header-section-number">3.13.2.3</span> Ablauf</h4>
+<ol type="1">
+<li>Beschreibt reihum, wie es euch bei der Kennzahlenfindung und
+-verfolgung gegangen ist.</li>
+<li>Sind die Kennzahlen klar messbar und liegen ihnen nachgewiesene
+Ursache-Wirkungs-Zusammenhänge zugrunde? Oder sind es weiche,
+mittelbare, von Wertungen abhängige Kennzahlen? Was macht das mit der
+Problemlösung?</li>
+<li>Wie sicher seid ihr, mit den Kennzahlen nachgewiesen zu haben, dass
+das Problem gelöst ist (gelöst werden kann)?</li>
+<li>Was bedeutet das für eure Einschätzung, ob ihr ein kompliziertes
+oder komplexes Problem bearbeitet?</li>
+<li>Was nehmt ihr von den anderen mit? Bekommt ihr Tipps? Was könnt ihr
+anderen wertvolles mitgeben?</li>
+</ol>
+<h1 data-number="4" id="anhang"><span
+class="header-section-number">4</span> Anhang</h1>
+<h2 data-number="4.1" id="danksagungen"><span
+class="header-section-number">4.1</span> Danksagungen</h2>
+<p>Ein großer Dank an die vielen Projekte und Vorarbeiten, die die
+Erstellung und Verwaltung von lernOS Leitfäden ermöglichen. Explizit
+gilt der Dank auch<br />
+- Gabriele Petrat für das Interesse und die Ermutigung - Simon Dückert
+für lernOS - Marianne Windelband, Marcel Kirchner und Ralph Bleckmann
+für die Anregungen und Kommentare</p>
+<h2 data-number="4.2" id="änderungshistorie"><span
+class="header-section-number">4.2</span> Änderungshistorie</h2>
+<table>
+<colgroup>
+<col style="width: 8%" />
+<col style="width: 21%" />
+<col style="width: 57%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Version</th>
+<th>Bearbeitet von</th>
+<th>Beschreibung Änderung</th>
+<th>Datum</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>0.1</td>
+<td>Jan Bretschneider</td>
+<td>Erste Version des “Problem-Solving”-Repositories</td>
+<td>07.05.2023</td>
+</tr>
+<tr class="even">
+<td>0.2</td>
+<td>Jan Bretschneider</td>
+<td>Zweite Version mit ersten Fehlerkorrekturen</td>
+<td>22.05.2024</td>
+</tr>
+</tbody>
+</table>
+<h2 data-number="4.3" id="glossar"><span
+class="header-section-number">4.3</span> Glossar</h2>
+<p><strong>L</strong></p>
+<dl>
+<dt>Lebenslanges Lernen</dt>
+<dd>
+Lebenslanges Lernen bezeichnet alles Lernen während des gesamten Lebens,
+das der Verbesserung von Wissen, Qualifikationen und Kompetenzen dient
+und im Rahmen einer persönlichen, bürgergesell- schaftlichen, sozialen,
+bzw. beschäftigungsbezogenen Perspektive erfolgt (Europäische
+Kommission, 2001).
+</dd>
+<dt>Lernen</dt>
+<dd>
+Lernen ist der absichtliche oder beiläufige Erwerb von Wissen und
+Fähigkeiten. Lernen führt zu einer Veränderung des Verhaltens, Denkens
+oder Fühlens auf Basis neuer Erfahrungen oder Einsichten.
+</dd>
+<dt>Lernende Organisation</dt>
+<dd>
+Eine Lernende Organisation ist eine Organisation, die die Fähigkeit
+besitzt, Wissen zu generieren, zu akquirieren und zu verteilen und ihr
+Verhalten auf Basis neuer Erkenntnisse und Einsichten zu verändern.
+</dd>
+<dt>lernOS</dt>
+<dd>
+lernOS ist ein offenes System für Lebenslanges Lernen und Lernende
+Organisationen. Es stellt auf den drei Ebenen Individuum, Team und
+Organisation offene Leitfäden für die kontinuierliche Verbesserung des
+Lern- und Wissensmanagements bereit.
+</dd>
+</dl>
+<p><strong>P</strong></p>
+<dl>
+<dt>Peer</dt>
+<dd>
+Aus dem Englischen “peer” = ebenbürtige, gleichartige Person. Eine
+Person, die zur gleichen Zeit das gleiche Lernziel wie Du verfolgt. Eine
+Person, mit der Du zusammen den Lernpfad beschreitest.
+</dd>
+<dt>Problem</dt>
+<dd>
+Ein Problem zu haben ist ein Zustand, in dem ein zu erreichendes Ziel
+(noch) nicht erreicht wurde und in dem die Art und Weise der
+Zielerreichung (noch) nicht klar ist.
+</dd>
+</dl>
+<p><strong>8</strong></p>
+<dl>
+<dt>8D-Report</dt>
+<dd>
+Mit dem “8D-Report” wird in der Automobilindustrie üblicherweise
+gegenüber den Kunden dokumentiert, wie bei der Problemlösung vorgegangen
+wurde. Es ist eine Berichtsform über den Problemlösungsprozess.
+</dd>
+</dl>
+</body>
+</html>
