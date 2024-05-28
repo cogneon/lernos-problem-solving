@@ -1,6 +1,7 @@
 name: lernOS Produktionskette
 
-on: push
+# 'Hash' in der nächsten Zeile entfernen, um Produktionskette 'on push' zu starten
+# on: push
 
 jobs:
   convert_via_pandoc:
